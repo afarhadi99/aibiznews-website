@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "covers:openai": "python scripts/generate_openai_covers.py",
-    "covers:openai:force": "python scripts/generate_openai_covers.py --force",
+    "covers:pixio": "python scripts/generate_pixio_covers.py",
+    "covers:pixio:force": "python scripts/generate_pixio_covers.py --force",
     "start": "next start",
     "lint": "next lint"
   },
