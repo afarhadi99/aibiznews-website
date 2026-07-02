@@ -9,7 +9,6 @@ tags: ["meta", "stock", "rallies", "reported", "plan", "cloud", "business", "cor
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/meta-stock-rallies-on-reported-plan-for-ai-cloud-business-coreweave-slides.wav"
-videoStatus: "pending"
 sourceCount: 1
 ---
 

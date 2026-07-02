@@ -17,7 +17,6 @@ export type ArticleMeta = {
   youtubeUrl?: string;
   tiktokUrl?: string;
   audioUrl?: string;
-  videoStatus?: string;
   sourceCount?: number;
   readingMinutes: number;
 };
@@ -53,7 +52,6 @@ function normalizeMeta(data: Record<string, unknown>, fallbackSlug: string, cont
     youtubeUrl: data.youtubeUrl ? String(data.youtubeUrl) : "",
     tiktokUrl: data.tiktokUrl ? String(data.tiktokUrl) : "",
     audioUrl: data.audioUrl ? String(data.audioUrl) : "",
-    videoStatus: data.videoStatus ? String(data.videoStatus) : "pending",
     sourceCount: Number(data.sourceCount ?? 0),
     readingMinutes: estimateReadingMinutes(content)
   };

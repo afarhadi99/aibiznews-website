@@ -9,7 +9,6 @@ tags: ["ai", "business", "markets", "strategy"]
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: ""
-videoStatus: "pending"
 sourceCount: 0
 ---
 

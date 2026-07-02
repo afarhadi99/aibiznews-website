@@ -16,6 +16,7 @@
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.468.0",
     "next": "^15.0.3",
+    "pg": "^8.22.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "remark": "^15.0.1",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
     "typescript": "^5.7.2"

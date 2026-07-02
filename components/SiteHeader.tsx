@@ -14,10 +14,10 @@ import {
 
 const navItems = [
   { href: "/#latest", label: "Top Stories" },
+  { href: "/categories/ai-markets", label: "Markets" },
   { href: "/categories/ai-infrastructure", label: "Infrastructure" },
   { href: "/categories/ai-platforms", label: "Platforms" },
-  { href: "/categories/ai-automation", label: "Automation" },
-  { href: "/categories/ai-markets", label: "Markets" }
+  { href: "/categories/ai-policy", label: "Policy" }
 ];
 
 export function SiteHeader() {

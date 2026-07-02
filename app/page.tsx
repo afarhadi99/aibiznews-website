@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { ArrowUpRight, Headphones, Newspaper, PlayCircle } from "lucide-react";
 import { ArticleCard } from "@/components/ArticleCard";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 import { StoryRail } from "@/components/StoryRail";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { formatDate, getAllArticleMeta, getCategories, slugify } from "@/lib/articles";
@@ -47,7 +47,7 @@ export default function HomePage() {
                   />
                   <div>
                     <p className="font-serif text-2xl font-bold">{siteConfig.title}</p>
-                    <p className="text-sm text-muted-foreground">Articles by category, with audio and video when available.</p>
+                    <p className="text-sm text-muted-foreground">Articles by category, with audio and related links when available.</p>
                   </div>
                 </div>
                 <Separator className="my-5" />
@@ -190,10 +190,7 @@ export default function HomePage() {
                 <p className="mt-3 text-sm leading-6 text-muted-foreground">
                   A concise list of the most important AI business stories by category.
                 </p>
-                <div className="mt-5 flex gap-2">
-                  <Input className="rounded-md" placeholder="email@company.com" type="email" />
-                  <button className={buttonVariants({ className: "rounded-md" })}>Join</button>
-                </div>
+                <NewsletterSignup />
               </CardContent>
             </Card>
             <Card className="rounded-md border-foreground/15 bg-[var(--brand-ink)] py-0 text-white shadow-none">
