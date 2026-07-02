@@ -102,11 +102,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="border-b border-foreground/15 bg-[var(--brand-newsprint)]">
+      <section className="border-b border-foreground/15 bg-[var(--brand-newsprint)] dark:border-white/10">
         <div className="site-shell grid gap-4 py-5 md:py-6 lg:grid-cols-[minmax(0,760px)_330px]">
           <div>
             <div className="flex flex-wrap items-center gap-2">
-              <Badge variant="outline" className="rounded-sm border-teal-700/30 text-teal-800">
+              <Badge variant="outline" className="rounded-sm border-teal-700/30 text-teal-800 dark:border-white/20 dark:text-[var(--brand-gold)]">
                 {article.category}
               </Badge>
               {article.audioUrl ? (
@@ -131,11 +131,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               <span>{article.sourceCount ?? 0} sources</span>
             </div>
           </div>
-          <Card className="overflow-hidden rounded-none border-foreground/15 bg-primary py-0 text-primary-foreground shadow-none">
+          <Card className="overflow-hidden rounded-none border-foreground/15 bg-[var(--brand-ink)] py-0 text-white shadow-none dark:border-white/10 dark:bg-white/5">
             <CardContent className="p-0">
               <img className="aspect-[16/9] w-full object-cover" src={article.cover} alt="" />
               <div className="p-4">
-                <p className="text-[10px] font-black uppercase tracking-[0.16em] text-primary-foreground/70">Listen & watch</p>
+                <p className="text-[10px] font-black uppercase tracking-[0.16em] text-white/70">Listen & watch</p>
                 <p className="mt-2 font-serif text-xl font-bold leading-tight">
                   {article.audioUrl ? "Play the narrated version or open the channel links for this story." : "Open the channel links and source-backed story context."}
                 </p>
@@ -151,7 +151,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                     </a>
                   ) : null}
                   {article.tiktokUrl ? (
-                    <a className={buttonVariants({ variant: "outline", className: "rounded-md border-white/40 text-white hover:bg-white/10" })} href={article.tiktokUrl}>
+                    <a className={buttonVariants({ variant: "outline", className: "rounded-md border-white/40 text-white hover:bg-white/10 dark:hover:bg-white/10" })} href={article.tiktokUrl}>
                       TikTok <Share2 aria-hidden />
                     </a>
                   ) : null}
@@ -165,7 +165,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <section className="site-shell grid gap-5 py-6 lg:grid-cols-[minmax(0,760px)_315px]">
         <div>
           {article.audioUrl ? (
-            <Card className="mb-5 rounded-none border-foreground/15 py-0 shadow-none">
+            <Card className="mb-5 rounded-none border-foreground/15 py-0 shadow-none dark:border-white/10">
               <CardContent className="p-4">
                 <div className="mb-3 flex items-center gap-2">
                   <Headphones size={18} className="text-[var(--brand-teal)]" aria-hidden />
@@ -180,7 +180,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <article className="article-prose" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
           <nav className="mt-8 grid gap-3 border-t pt-5 md:grid-cols-2" aria-label="Article navigation">
             {adjacent.previous ? (
-              <Link className="rounded-md border bg-card p-4 hover:border-foreground/35" href={`/articles/${adjacent.previous.slug}`}>
+              <Link className="rounded-md border bg-card p-4 hover:border-foreground/35 dark:border-white/10 dark:hover:border-white/25" href={`/articles/${adjacent.previous.slug}`}>
                 <span className="flex items-center gap-2 text-xs font-black uppercase tracking-[0.14em] text-muted-foreground">
                   <ArrowLeft size={14} aria-hidden /> Previous
                 </span>
@@ -188,7 +188,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               </Link>
             ) : <span />}
             {adjacent.next ? (
-              <Link className="rounded-md border bg-card p-4 text-right hover:border-foreground/35" href={`/articles/${adjacent.next.slug}`}>
+              <Link className="rounded-md border bg-card p-4 text-right hover:border-foreground/35 dark:border-white/10 dark:hover:border-white/25" href={`/articles/${adjacent.next.slug}`}>
                 <span className="flex items-center justify-end gap-2 text-xs font-black uppercase tracking-[0.14em] text-muted-foreground">
                   Next <ArrowRight size={14} aria-hidden />
                 </span>
@@ -198,7 +198,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </nav>
         </div>
         <aside className="space-y-4 lg:sticky lg:top-28 lg:self-start">
-          <Card className="rounded-none border-foreground/15 py-0 shadow-none">
+          <Card className="rounded-none border-foreground/15 py-0 shadow-none dark:border-white/10">
             <CardContent className="p-4">
               <p className="kicker">Filed under</p>
               <Separator className="my-4" />
@@ -206,7 +206,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                 <div>
                   <dt className="font-black uppercase tracking-[0.14em] text-muted-foreground">Category</dt>
                   <dd className="mt-1 font-semibold">
-                    <Link className="text-blue-800 underline underline-offset-4" href={`/categories/${article.category.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`}>
+                    <Link className="text-blue-800 underline underline-offset-4 dark:text-sky-300" href={`/categories/${article.category.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`}>
                       {article.category}
                     </Link>
                   </dd>
@@ -223,7 +223,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                   <div>
                     <dt className="font-black uppercase tracking-[0.14em] text-muted-foreground">Audio</dt>
                     <dd className="mt-1">
-                      <a className="font-semibold text-blue-800 underline underline-offset-4" href={article.audioUrl}>
+                      <a className="font-semibold text-blue-800 underline underline-offset-4 dark:text-sky-300" href={article.audioUrl}>
                         Listen <Headphones size={13} className="inline" aria-hidden />
                       </a>
                     </dd>
@@ -233,7 +233,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             </CardContent>
           </Card>
 
-          <Card className="rounded-none border-foreground/15 py-0 shadow-none">
+          <Card className="rounded-none border-foreground/15 py-0 shadow-none dark:border-white/10">
             <CardContent className="p-4">
               <p className="kicker">Tags</p>
               <div className="mt-4 flex flex-wrap gap-2">
@@ -249,7 +249,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </section>
 
       {related.length > 0 ? (
-        <section className="border-t bg-card/55">
+        <section className="border-t bg-card/55 dark:border-white/10">
           <div className="site-shell py-7">
             <div className="mb-5 flex items-center justify-between gap-4">
               <div>

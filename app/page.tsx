@@ -25,16 +25,16 @@ export default function HomePage() {
   return (
     <main>
       {lead ? (
-        <section className="border-b border-white/10 bg-[var(--brand-ink)] text-white" id="latest">
-          <div className="site-shell py-4 md:py-5">
-            <div className="mb-3 grid gap-2 text-[10px] font-black uppercase tracking-[0.16em] text-white/58 md:grid-cols-[1fr_auto_1fr]">
+        <section className="border-b border-foreground/20 bg-[var(--brand-newsprint)] text-foreground dark:border-white/10 dark:bg-[var(--brand-ink)] dark:text-white" id="latest">
+          <div className="site-shell py-3 md:py-4">
+            <div className="mb-3 grid gap-2 border-y border-foreground/20 py-2 text-[10px] font-black uppercase tracking-[0.16em] text-muted-foreground dark:border-white/10 dark:text-white/58 md:grid-cols-[1fr_auto_1fr]">
               <p>AI markets / infrastructure / platforms / policy</p>
-              <p className="hidden text-center text-[var(--brand-gold)] md:block">Front page</p>
+              <p className="hidden text-center text-[var(--brand-vermilion)] dark:text-[var(--brand-gold)] md:block">Front page</p>
               <p className="hidden text-right md:block">Source-linked AI business coverage</p>
             </div>
 
-            <div className="grid gap-3 lg:grid-cols-[minmax(0,1.08fr)_minmax(260px,0.58fr)_315px]">
-              <article className="overflow-hidden border border-white/12 bg-[var(--brand-newsprint)] text-[var(--brand-ink)]">
+            <div className="grid gap-3 lg:grid-cols-[minmax(0,1.08fr)_minmax(250px,0.58fr)_300px]">
+              <article className="editorial-panel overflow-hidden border-t-4 border-t-[var(--brand-ink)] dark:border-t-[var(--brand-gold)]">
                 <Link className="thumb-frame block aspect-[16/9]" href={`/articles/${lead.slug}`} aria-label={lead.title}>
                   <img className="h-full w-full object-cover transition-transform duration-300 hover:scale-[1.02]" src={lead.cover} alt="" />
                 </Link>
@@ -57,7 +57,7 @@ export default function HomePage() {
                     ))}
                   </div>
                   <div className="mt-auto flex flex-wrap gap-2 pt-4">
-                    <Link className={buttonVariants({ className: "rounded-md bg-[var(--brand-ink)] text-white hover:bg-[var(--brand-ink)]/86" })} href={`/articles/${lead.slug}`}>
+                    <Link className={buttonVariants({ className: "rounded-md bg-[var(--brand-ink)] text-white hover:bg-[var(--brand-ink)]/86 dark:bg-white dark:text-[var(--brand-ink)] dark:hover:bg-white/90" })} href={`/articles/${lead.slug}`}>
                       Read <ArrowUpRight aria-hidden />
                     </Link>
                     {lead.audioUrl ? (
@@ -69,10 +69,10 @@ export default function HomePage() {
                 </div>
               </article>
 
-              <div className="grid gap-3 border border-white/12 bg-white/[0.035] p-3">
-                <div className="flex items-center justify-between border-b border-white/12 pb-2">
-                  <p className="text-[10px] font-black uppercase tracking-[0.16em] text-[var(--brand-gold)]">Watchlist</p>
-                  <span className="text-[10px] font-black uppercase tracking-[0.14em] text-white/50">Companies</span>
+              <div className="editorial-panel grid gap-3 border-t-4 border-t-[var(--brand-cobalt)] p-3 dark:border-t-[var(--brand-teal)]">
+                <div className="flex items-center justify-between border-b border-foreground/20 pb-2 dark:border-white/12">
+                  <p className="text-[10px] font-black uppercase tracking-[0.16em] text-[var(--brand-cobalt)] dark:text-[var(--brand-gold)]">Watchlist</p>
+                  <span className="text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground dark:text-white/50">Companies</span>
                 </div>
                 {secondary.map((article) => (
                   <MiniStory article={article} key={article.slug} />
@@ -83,13 +83,13 @@ export default function HomePage() {
               </div>
 
               <aside className="grid gap-3">
-                <StoryRail title="Latest" articles={latestRail} dark />
-                <div className="border border-white/12 bg-white/[0.04] p-4 text-white">
-                  <div className="flex items-center gap-2 text-[var(--brand-gold)]">
+                <StoryRail title="Latest" articles={latestRail} />
+                <div className="border-2 border-[var(--brand-ink)] bg-[var(--brand-gold)] p-4 text-[var(--brand-ink)] dark:border-white/10 dark:bg-[var(--brand-cobalt)] dark:text-white">
+                  <div className="flex items-center gap-2 text-[var(--brand-vermilion)] dark:text-[var(--brand-gold)]">
                     <Newspaper size={16} />
                     <p className="text-[10px] font-black uppercase tracking-[0.16em]">Briefing</p>
                   </div>
-                  <Separator className="my-3 bg-white/15" />
+                  <Separator className="my-3 bg-[var(--brand-ink)]/20 dark:bg-white/15" />
                   <p className="font-serif text-xl font-bold leading-tight">
                     Track the companies turning model capability into revenue, distribution, and scarce compute.
                   </p>
@@ -104,7 +104,7 @@ export default function HomePage() {
         </section>
       )}
 
-      <section className="border-y border-foreground/15 bg-[var(--brand-cobalt)] text-white">
+      <section className="border-y-2 border-[var(--brand-ink)] bg-[var(--brand-cobalt)] text-white dark:border-white/10">
         <div className="site-shell grid gap-0 py-0 sm:grid-cols-2 lg:grid-cols-4">
           <Signal label="Companies" value="OpenAI, Nvidia, Microsoft, Google, Anthropic" />
           <Signal label="Markets" value="Cloud spend, chip supply, funding, earnings" />
@@ -114,7 +114,7 @@ export default function HomePage() {
       </section>
 
       <section className="site-shell py-6 md:py-8">
-        <div className="mb-4 flex flex-wrap items-end justify-between gap-3 border-b border-foreground/20 pb-3">
+        <div className="mb-4 flex flex-wrap items-end justify-between gap-3 border-b-2 border-foreground/25 pb-3 dark:border-white/12">
           <div>
             <p className="kicker">Sections</p>
             <h2 className="mt-1 font-serif text-3xl font-bold md:text-4xl">Browse by category</h2>
@@ -153,7 +153,7 @@ export default function HomePage() {
       <section className="site-shell pb-9 md:pb-12" id="all-stories">
         <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_315px]">
           <div>
-            <div className="mb-1 border-b border-foreground/20 pb-3">
+            <div className="mb-1 border-b-2 border-foreground/25 pb-3 dark:border-white/12">
               <p className="kicker">Index</p>
               <h2 className="mt-1 font-serif text-3xl font-bold md:text-4xl">All articles</h2>
             </div>
@@ -194,18 +194,18 @@ export default function HomePage() {
 
 function MiniStory({ article, accent = false }: { article: ArticleMeta; accent?: boolean }) {
   return (
-    <article className={accent ? "group border-t border-white/12 pt-3" : "group"}>
+    <article className={accent ? "group border-t border-foreground/15 pt-3 dark:border-white/12" : "group"}>
       <Link className="thumb-frame mb-2 block aspect-[16/9]" href={`/articles/${article.slug}`} aria-label={article.title}>
         <img className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" src={article.cover} alt="" />
       </Link>
       <div className="flex flex-wrap items-center gap-2">
         <span className="section-chip">{article.category}</span>
-        {article.audioUrl ? <Headphones size={12} className="text-[var(--brand-gold)]" aria-hidden /> : null}
+        {article.audioUrl ? <Headphones size={12} className="text-[var(--brand-teal)] dark:text-[var(--brand-gold)]" aria-hidden /> : null}
       </div>
-      <h2 className="mt-2 line-clamp-2 font-serif text-xl font-bold leading-tight text-white group-hover:underline">
+      <h2 className="mt-2 line-clamp-2 font-serif text-xl font-bold leading-tight text-foreground group-hover:underline dark:text-white">
         <Link href={`/articles/${article.slug}`}>{article.title}</Link>
       </h2>
-      <p className="mt-1 line-clamp-2 text-xs leading-5 text-white/58">{article.description}</p>
+      <p className="mt-1 line-clamp-2 text-xs leading-5 text-muted-foreground dark:text-white/58">{article.description}</p>
     </article>
   );
 }

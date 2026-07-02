@@ -49,15 +49,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <SiteHeader />
         {children}
-        <footer className="border-t bg-primary text-primary-foreground">
+        <footer className="border-t border-foreground/15 bg-[var(--brand-ink)] text-white dark:border-white/10">
           <div className="site-shell grid gap-6 py-10 md:grid-cols-[1.2fr_0.8fr]">
             <div>
               <p className="font-serif text-2xl font-bold">{siteConfig.name}</p>
-              <p className="mt-2 max-w-2xl text-sm text-primary-foreground/75">
+              <p className="mt-2 max-w-2xl text-sm text-white/70">
                 Articles and market context on the companies, infrastructure, products, and policies shaping AI business.
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-4 text-sm text-primary-foreground/75">
+            <div className="grid grid-cols-2 gap-4 text-sm text-white/70">
               <a href="/#latest">Latest</a>
               <a href="/categories/ai-infrastructure">Infrastructure</a>
               <a href="/categories/ai-platforms">Platforms</a>

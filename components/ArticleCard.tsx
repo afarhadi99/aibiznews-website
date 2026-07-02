@@ -12,7 +12,7 @@ type ArticleCardProps = {
 export function ArticleCard({ article, compact = false }: ArticleCardProps) {
   if (compact) {
     return (
-      <article className="group grid grid-cols-[86px_minmax(0,1fr)] gap-3 border-b border-foreground/15 py-3 sm:grid-cols-[120px_minmax(0,1fr)]">
+      <article className="group grid grid-cols-[86px_minmax(0,1fr)] gap-3 border-b border-foreground/15 py-3 dark:border-white/10 sm:grid-cols-[120px_minmax(0,1fr)]">
         <Link className="thumb-frame aspect-[16/9] self-start" href={`/articles/${article.slug}`} aria-label={article.title}>
           <img className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" src={article.cover} alt="" />
         </Link>
@@ -25,7 +25,7 @@ export function ArticleCard({ article, compact = false }: ArticleCardProps) {
             <Link href={`/articles/${article.slug}`}>{article.title}</Link>
           </h3>
           <p className="mt-1 line-clamp-2 text-xs leading-5 text-muted-foreground sm:text-sm sm:leading-6">{article.description}</p>
-          <p className="mt-2 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground">
+          <p className="mt-2 flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground dark:text-white/50">
             {formatDate(article.date)}
             <span className="inline-flex items-center gap-1">
               <Clock size={12} aria-hidden />
@@ -38,7 +38,7 @@ export function ArticleCard({ article, compact = false }: ArticleCardProps) {
   }
 
   return (
-    <article className="group flex h-full flex-col border border-foreground/15 bg-[var(--brand-newsprint)] shadow-[0_1px_0_rgba(16,19,24,0.04)] transition-colors hover:border-foreground/35">
+    <article className="group flex h-full flex-col border border-foreground/15 border-t-[3px] border-t-[var(--brand-ink)] bg-[var(--brand-newsprint)] shadow-[0_1px_0_rgba(16,19,24,0.04)] transition-colors hover:border-foreground/35 dark:border-white/10 dark:border-t-[var(--brand-teal)] dark:bg-white/5 dark:hover:border-white/25">
       <Link className="thumb-frame block aspect-[16/9]" href={`/articles/${article.slug}`} aria-label={article.title}>
         <img className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" src={article.cover} alt="" />
       </Link>
@@ -55,7 +55,7 @@ export function ArticleCard({ article, compact = false }: ArticleCardProps) {
           <Link href={`/articles/${article.slug}`}>{article.title}</Link>
         </h3>
         <p className="mt-2 line-clamp-3 text-sm leading-6 text-muted-foreground">{article.description}</p>
-        <div className="mt-auto flex items-center justify-between gap-3 border-t border-foreground/15 pt-2.5 text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground">
+        <div className="mt-auto flex items-center justify-between gap-3 border-t border-foreground/15 pt-2.5 text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground dark:border-white/10 dark:text-white/50">
           <span>{formatDate(article.date)}</span>
           <span className="inline-flex items-center gap-1">
             {article.readingMinutes} min <ArrowUpRight size={13} aria-hidden />

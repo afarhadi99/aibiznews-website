@@ -39,14 +39,14 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
   return (
     <main>
-      <section className="border-b border-white/10 bg-[var(--brand-ink)] text-white">
+      <section className="border-b-2 border-foreground/20 bg-[var(--brand-newsprint)] text-foreground dark:border-white/10 dark:bg-[var(--brand-ink)] dark:text-white">
         <div className="site-shell py-4 md:py-5">
-          <Link className={buttonVariants({ variant: "ghost", className: "mb-3 rounded-md px-0 text-white/70 hover:bg-white/5 hover:text-white" })} href="/">
+          <Link className={buttonVariants({ variant: "ghost", className: "mb-3 rounded-md px-0 text-muted-foreground hover:bg-transparent hover:text-foreground dark:text-white/70 dark:hover:text-white" })} href="/">
             <ArrowLeft aria-hidden /> Front page
           </Link>
           <div className="flex flex-wrap items-center gap-2">
             <Badge className="rounded-sm bg-[var(--brand-teal)] text-white">Section</Badge>
-            <Badge variant="outline" className="rounded-sm border-white/25 text-white">
+            <Badge variant="outline" className="rounded-sm border-foreground/20 text-foreground dark:border-white/25 dark:text-white">
               {articles.length} articles
             </Badge>
           </div>
@@ -56,7 +56,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
       {lead ? (
         <section className="site-shell py-5 md:py-6">
-          <article className="grid gap-0 overflow-hidden border border-foreground/15 bg-[var(--brand-newsprint)] lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.85fr)]">
+          <article className="grid gap-0 overflow-hidden border border-foreground/15 border-t-4 border-t-[var(--brand-ink)] bg-[var(--brand-newsprint)] dark:border-white/10 dark:border-t-[var(--brand-gold)] dark:bg-white/5 lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.85fr)]">
             <Link className="thumb-frame aspect-[16/9]" href={`/articles/${lead.slug}`} aria-label={lead.title}>
               <img className="h-full w-full object-cover transition-transform duration-300 hover:scale-[1.02]" src={lead.cover} alt="" />
             </Link>
