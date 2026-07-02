@@ -17,7 +17,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES_DIR = ROOT / "content" / "articles"
 DEFAULT_BASE_URL = "https://beta.pixio.myapps.ai"
-DEFAULT_MODEL = "gpt-image-2"
+DEFAULT_MODEL = "nano banana 2"
 DEFAULT_ASPECT_RATIO = "16:9"
 DEFAULT_SIZE = "1536x1024"
 DEFAULT_QUALITY = "high"
@@ -217,14 +217,15 @@ def cover_output_path(article: Article) -> Path:
 def build_prompt(article: Article) -> str:
     source_context = "; ".join(article.sources)
     return (
-        "Photorealistic landscape cover image for a serious AI business news article. "
+        "Click-worthy photorealistic landscape cover image for an AI business news article, "
+        "with the punch and framing of a premium YouTube news thumbnail but no text overlay. "
         f"Title: {article.title}. Category: {article.category}. "
         f"Summary: {article.description} {article_excerpt(article.body)} "
         f"Source context: {source_context}. "
-        "Use a restrained premium news-magazine look, natural editorial lighting, and a strong 16:9 composition. "
-        "If public figures, real companies, products, or landmarks are named, depict them accurately and respectfully. "
+        "Use a strong central subject, expressive but credible lighting, high contrast, clean negative space, "
+        "and immediately recognizable AI/business stakes. If public figures, real companies, products, or landmarks are named, depict them accurately and respectfully. "
         "Real company logos or product marks are acceptable only when relevant and naturally visible. "
-        "No text overlay, no invented words, no fake UI, no fake logos, no watermarks, no collage borders, no poster graphics."
+        "No text overlay, no invented words, no fake UI, no fake logos, no watermarks, no cluttered collage borders, no dull stock-photo framing, no generic server-room imagery."
     )
 
 

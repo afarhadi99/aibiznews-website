@@ -1,16 +1,8 @@
 import Link from "next/link";
-import { ArrowUpRight, Clock, Headphones, PlayCircle } from "lucide-react";
+import { ArrowUpRight, Clock, Headphones } from "lucide-react";
 import type { ArticleMeta } from "@/lib/articles";
 import { formatDate } from "@/lib/articles";
 import { Badge } from "@/components/ui/badge";
-import { buttonVariants } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle
-} from "@/components/ui/card";
 
 type ArticleCardProps = {
   article: ArticleMeta;
@@ -18,74 +10,58 @@ type ArticleCardProps = {
 };
 
 export function ArticleCard({ article, compact = false }: ArticleCardProps) {
-  return (
-    <Card className="rounded-md border-foreground/15 bg-card py-0 shadow-none transition-colors hover:border-foreground/35">
-      {!compact ? (
-        <Link href={`/articles/${article.slug}`} aria-label={article.title}>
-          <img className="aspect-[16/9] w-full object-cover object-left" src={article.cover} alt="" />
+  if (compact) {
+    return (
+      <article className="group grid grid-cols-[96px_minmax(0,1fr)] gap-3 border-b border-foreground/15 py-4 sm:grid-cols-[128px_minmax(0,1fr)]">
+        <Link className="thumb-frame aspect-[16/9] self-start" href={`/articles/${article.slug}`} aria-label={article.title}>
+          <img className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" src={article.cover} alt="" />
         </Link>
-      ) : null}
-      <CardHeader className="px-4 pt-4">
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="section-chip">{article.category}</span>
+            {article.audioUrl ? <Headphones size={13} className="text-[var(--brand-teal)]" aria-hidden /> : null}
+          </div>
+          <h3 className="mt-2 line-clamp-2 font-serif text-xl font-bold leading-tight group-hover:underline">
+            <Link href={`/articles/${article.slug}`}>{article.title}</Link>
+          </h3>
+          <p className="mt-2 line-clamp-2 text-sm leading-6 text-muted-foreground">{article.description}</p>
+          <p className="mt-3 flex items-center gap-2 text-[11px] font-black uppercase tracking-[0.14em] text-muted-foreground">
+            {formatDate(article.date)}
+            <span className="inline-flex items-center gap-1">
+              <Clock size={12} aria-hidden />
+              {article.readingMinutes} min
+            </span>
+          </p>
+        </div>
+      </article>
+    );
+  }
+
+  return (
+    <article className="group flex h-full flex-col border border-foreground/15 bg-[var(--brand-newsprint)] transition-colors hover:border-foreground/35">
+      <Link className="thumb-frame block aspect-[16/9]" href={`/articles/${article.slug}`} aria-label={article.title}>
+        <img className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" src={article.cover} alt="" />
+      </Link>
+      <div className="flex flex-1 flex-col p-4">
         <div className="flex flex-wrap items-center gap-2">
-          <Badge variant="outline" className="rounded-sm border-teal-700/25 text-teal-800">
-            {article.category}
-          </Badge>
+          <span className="section-chip">{article.category}</span>
           {article.audioUrl ? (
             <Badge variant="secondary" className="rounded-sm">
               Audio
             </Badge>
           ) : null}
         </div>
-        <CardTitle className={compact ? "font-serif text-xl font-bold" : "font-serif text-2xl font-bold"}>
+        <h3 className="mt-3 line-clamp-3 font-serif text-2xl font-bold leading-tight group-hover:underline">
           <Link href={`/articles/${article.slug}`}>{article.title}</Link>
-        </CardTitle>
-      </CardHeader>
-      <CardContent className="px-4">
-        <p className="line-clamp-3 text-sm leading-6 text-muted-foreground">{article.description}</p>
-        <div className="mt-4 flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-[0.12em] text-muted-foreground">
+        </h3>
+        <p className="mt-3 line-clamp-3 text-sm leading-6 text-muted-foreground">{article.description}</p>
+        <div className="mt-auto flex items-center justify-between gap-3 border-t border-foreground/15 pt-3 text-[11px] font-black uppercase tracking-[0.14em] text-muted-foreground">
           <span>{formatDate(article.date)}</span>
-          <span className="flex items-center gap-1">
-            <Clock size={13} aria-hidden />
-            {article.readingMinutes} min
+          <span className="inline-flex items-center gap-1">
+            {article.readingMinutes} min <ArrowUpRight size={13} aria-hidden />
           </span>
         </div>
-      </CardContent>
-      <CardFooter className="border-t bg-transparent px-4 py-3">
-        <Link
-          className={buttonVariants({
-            variant: "ghost",
-            size: "sm",
-            className: "h-7 gap-1 px-0 text-xs font-black uppercase tracking-[0.14em]"
-          })}
-          href={`/articles/${article.slug}`}
-        >
-          Read brief <ArrowUpRight size={14} aria-hidden />
-        </Link>
-        {article.youtubeUrl ? (
-          <a
-            className={buttonVariants({
-              variant: "ghost",
-              size: "sm",
-              className: "ml-auto h-7 gap-1 px-0 text-xs font-black uppercase tracking-[0.14em]"
-            })}
-            href={article.youtubeUrl}
-          >
-            Watch <PlayCircle size={14} aria-hidden />
-          </a>
-        ) : null}
-        {article.audioUrl ? (
-          <a
-            className={buttonVariants({
-              variant: "ghost",
-              size: "sm",
-              className: "ml-auto h-7 gap-1 px-0 text-xs font-black uppercase tracking-[0.14em]"
-            })}
-            href={article.audioUrl}
-          >
-            Listen <Headphones size={14} aria-hidden />
-          </a>
-        ) : null}
-      </CardFooter>
-    </Card>
+      </div>
+    </article>
   );
 }

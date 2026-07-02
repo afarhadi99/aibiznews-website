@@ -2,28 +2,33 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import type { ArticleMeta } from "@/lib/articles";
 import { formatDate } from "@/lib/articles";
-import { Separator } from "@/components/ui/separator";
 
 export function StoryRail({ title, articles }: { title: string; articles: ArticleMeta[] }) {
   return (
-    <aside className="rounded-md border bg-card p-4">
-      <div className="flex items-center justify-between gap-3">
+    <aside className="border border-foreground/15 bg-[var(--brand-newsprint)] p-4">
+      <div className="flex items-center justify-between gap-3 border-b border-foreground/20 pb-3">
         <p className="kicker">{title}</p>
         <ArrowUpRight size={16} className="text-muted-foreground" aria-hidden />
       </div>
-      <div className="mt-4 space-y-4">
+      <div>
         {articles.map((article, index) => (
-          <div key={article.slug}>
-            {index > 0 ? <Separator className="mb-4" /> : null}
-            <Link href={`/articles/${article.slug}`} className="group block">
-              <p className="font-serif text-lg font-bold leading-snug group-hover:underline">
+          <Link
+            href={`/articles/${article.slug}`}
+            className="group grid grid-cols-[2rem_minmax(0,1fr)] gap-3 border-b border-foreground/15 py-4 last:border-b-0"
+            key={article.slug}
+          >
+            <span className="font-serif text-2xl font-bold text-[var(--brand-vermilion)]">
+              {String(index + 1).padStart(2, "0")}
+            </span>
+            <span>
+              <span className="block font-serif text-lg font-bold leading-snug group-hover:underline">
                 {article.title}
-              </p>
-              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.12em] text-muted-foreground">
-                {formatDate(article.date)} · {article.readingMinutes} min
-              </p>
-            </Link>
-          </div>
+              </span>
+              <span className="mt-2 block text-[11px] font-black uppercase tracking-[0.14em] text-muted-foreground">
+                {formatDate(article.date)} / {article.readingMinutes} min
+              </span>
+            </span>
+          </Link>
         ))}
       </div>
     </aside>

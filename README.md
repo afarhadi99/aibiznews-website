@@ -7,7 +7,7 @@ Markdown-powered news site for AI business articles, audio narration, newsletter
 - Articles live in `content/articles/*.md`.
 - Cover images live in `public/images/covers/`.
 - Each article uses frontmatter for category, tags, cover image, audio, and related channel links.
-- Pixio cover generation is available with `npm run covers:pixio` and targets `gpt-image-2` by default.
+- Pixio cover generation is available with `npm run covers:pixio` and targets Nano Banana 2 by default.
 
 ## Development
 

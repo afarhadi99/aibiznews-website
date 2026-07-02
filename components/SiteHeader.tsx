@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Menu, Search } from "lucide-react";
+import { Menu } from "lucide-react";
 import { siteConfig } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import {
@@ -22,23 +22,20 @@ const navItems = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-foreground/15 bg-[var(--brand-newsprint)]/95 backdrop-blur">
       <div className="site-shell">
-        <div className="grid min-h-20 grid-cols-[auto_1fr_auto] items-center gap-4 border-b border-foreground/10">
+        <div className="grid min-h-16 grid-cols-[auto_1fr_auto] items-center gap-4 border-b border-foreground/10 md:min-h-20">
           <Link href="/" className="flex items-center" aria-label={siteConfig.name}>
             <img
-              className="size-12 rounded-full border border-foreground/15 bg-white object-cover"
+              className="size-10 rounded-full border border-foreground/15 bg-white object-cover md:size-12"
               src={siteConfig.brandImage}
               alt=""
             />
           </Link>
-          <Link href="/" className="justify-self-center font-serif text-3xl font-bold tracking-tight md:text-5xl">
+          <Link href="/" className="justify-self-center font-serif text-2xl font-bold tracking-tight sm:text-3xl md:text-5xl">
             {siteConfig.name}
           </Link>
           <div className="flex items-center gap-2 justify-self-end">
-            <Button variant="ghost" size="icon" aria-label="Search">
-              <Search />
-            </Button>
             <Sheet>
               <SheetTrigger render={<Button className="lg:hidden" variant="outline" size="icon" aria-label="Open navigation" />}>
                 <Menu />

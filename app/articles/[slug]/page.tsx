@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight, ArrowUpRight, CalendarDays, Clock, ExternalLink, Headphones, Play, Share2 } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUpRight, CalendarDays, Clock, Headphones, Play, Share2 } from "lucide-react";
 import { ArticleCard } from "@/components/ArticleCard";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
@@ -113,7 +113,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                 <Badge variant="secondary" className="rounded-sm">Audio</Badge>
               ) : null}
             </div>
-            <h1 className="mt-4 max-w-4xl font-serif text-5xl font-bold leading-[1.02] md:text-6xl">
+            <h1 className="mt-4 max-w-4xl font-serif text-4xl font-bold leading-[1.04] md:text-6xl">
               {article.title}
             </h1>
             <p className="mt-5 max-w-3xl text-xl leading-8 text-muted-foreground">
@@ -132,27 +132,30 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             </div>
           </div>
           <Card className="rounded-md border-foreground/15 bg-primary py-0 text-primary-foreground shadow-none">
-            <CardContent className="p-5">
-              <p className="text-xs font-black uppercase tracking-[0.16em] text-primary-foreground/70">Article media</p>
-              <p className="mt-3 font-serif text-2xl font-bold leading-tight">
-                Read the story, listen to the narration, and open related channel links when available.
-              </p>
-              <div className="mt-5 flex flex-wrap gap-2">
-                {article.audioUrl ? (
-                  <a className={buttonVariants({ variant: "secondary", className: "rounded-md" })} href={article.audioUrl}>
-                    Audio <Headphones aria-hidden />
-                  </a>
-                ) : null}
-                {article.youtubeUrl ? (
-                  <a className={buttonVariants({ variant: "secondary", className: "rounded-md" })} href={article.youtubeUrl}>
-                    YouTube <Play aria-hidden />
-                  </a>
-                ) : null}
-                {article.tiktokUrl ? (
-                  <a className={buttonVariants({ variant: "outline", className: "rounded-md border-white/40 text-white hover:bg-white/10" })} href={article.tiktokUrl}>
-                    TikTok <Share2 aria-hidden />
-                  </a>
-                ) : null}
+            <CardContent className="p-0">
+              <img className="aspect-[16/9] w-full object-cover" src={article.cover} alt="" />
+              <div className="p-5">
+                <p className="text-xs font-black uppercase tracking-[0.16em] text-primary-foreground/70">Listen & watch</p>
+                <p className="mt-3 font-serif text-2xl font-bold leading-tight">
+                  {article.audioUrl ? "Play the narrated version or open the channel links for this story." : "Open the channel links and source-backed story context."}
+                </p>
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {article.audioUrl ? (
+                    <a className={buttonVariants({ variant: "secondary", className: "rounded-md" })} href={article.audioUrl}>
+                      Audio <Headphones aria-hidden />
+                    </a>
+                  ) : null}
+                  {article.youtubeUrl ? (
+                    <a className={buttonVariants({ variant: "secondary", className: "rounded-md" })} href={article.youtubeUrl}>
+                      YouTube <Play aria-hidden />
+                    </a>
+                  ) : null}
+                  {article.tiktokUrl ? (
+                    <a className={buttonVariants({ variant: "outline", className: "rounded-md border-white/40 text-white hover:bg-white/10" })} href={article.tiktokUrl}>
+                      TikTok <Share2 aria-hidden />
+                    </a>
+                  ) : null}
+                </div>
               </div>
             </CardContent>
           </Card>
@@ -160,7 +163,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </section>
 
       <section className="site-shell py-7">
-        <img className="aspect-[16/9] w-full rounded-md border object-cover" src={article.cover} alt="" />
+        <div className="thumb-frame aspect-[16/9] w-full">
+          <img className="h-full w-full object-cover" src={article.cover} alt="" />
+        </div>
       </section>
 
       <section className="site-shell grid gap-8 pb-12 lg:grid-cols-[minmax(0,760px)_340px]">
@@ -201,7 +206,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <aside className="space-y-4 lg:sticky lg:top-28 lg:self-start">
           <Card className="rounded-md border-foreground/15 py-0 shadow-none">
             <CardContent className="p-5">
-              <p className="kicker">Story metadata</p>
+              <p className="kicker">Filed under</p>
               <Separator className="my-4" />
               <dl className="space-y-4 text-sm">
                 <div>
@@ -213,16 +218,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                   </dd>
                 </div>
                 <div>
-                  <dt className="font-black uppercase tracking-[0.14em] text-muted-foreground">Featured image</dt>
-                  <dd className="mt-1 break-words text-muted-foreground">{article.cover}</dd>
+                  <dt className="font-black uppercase tracking-[0.14em] text-muted-foreground">Published</dt>
+                  <dd className="mt-1 font-semibold">{formatDate(article.date)}</dd>
                 </div>
                 <div>
-                  <dt className="font-black uppercase tracking-[0.14em] text-muted-foreground">Canonical</dt>
-                  <dd className="mt-1">
-                    <a className="font-semibold text-blue-800 underline underline-offset-4" href={canonical}>
-                      Article URL <ExternalLink size={13} className="inline" aria-hidden />
-                    </a>
-                  </dd>
+                  <dt className="font-black uppercase tracking-[0.14em] text-muted-foreground">Sources</dt>
+                  <dd className="mt-1 font-semibold">{article.sourceCount ?? 0} linked references</dd>
                 </div>
                 {article.audioUrl ? (
                   <div>
