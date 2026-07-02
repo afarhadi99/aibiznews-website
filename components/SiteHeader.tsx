@@ -41,21 +41,34 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-foreground/15 bg-[var(--brand-newsprint)]/95 text-foreground shadow-[0_1px_0_rgba(16,17,20,0.08)] backdrop-blur dark:border-white/10 dark:bg-[var(--brand-ink)]/95 dark:text-white dark:shadow-[0_1px_0_rgba(255,255,255,0.08)]">
+      <div className="hidden border-b border-foreground/15 dark:border-white/10 md:block">
+        <div className="site-shell flex min-h-7 items-center justify-between gap-4 text-[10px] font-black uppercase tracking-[0.18em] text-muted-foreground dark:text-white/52">
+          <span>AI business intelligence desk</span>
+          <span className="text-[var(--brand-vermilion)] dark:text-[var(--brand-gold)]">Markets / Models / Money / Power</span>
+          <span>Source-linked reporting</span>
+        </div>
+      </div>
       <div className="site-shell">
-        <div className="grid min-h-[3.25rem] grid-cols-[auto_1fr_auto] items-center gap-3 border-b border-foreground/15 py-1.5 dark:border-white/10 md:min-h-16">
-          <Link href="/" className="flex items-center" aria-label={siteConfig.name}>
-            <img
-              className="size-8 rounded-full border border-foreground/20 bg-white object-cover dark:border-white/20 md:size-10"
-              src={siteConfig.brandImage}
-              alt=""
-            />
-          </Link>
+        <div className="grid min-h-[3.25rem] grid-cols-[auto_1fr_auto] items-center gap-3 border-b border-foreground/15 py-1.5 dark:border-white/10 md:min-h-[4.8rem] md:grid-cols-[1fr_auto_1fr]">
+          <div className="flex min-w-0 items-center gap-2">
+            <Link href="/" className="flex items-center" aria-label={siteConfig.name}>
+              <img
+                className="size-8 rounded-full border border-foreground/20 bg-white object-cover dark:border-white/20 md:size-11"
+                src={siteConfig.brandImage}
+                alt=""
+              />
+            </Link>
+            <div className="hidden min-w-0 md:block">
+              <p className="text-[10px] font-black uppercase tracking-[0.16em] text-[var(--brand-teal)] dark:text-[var(--brand-gold)]">AI Biz News Network</p>
+              <p className="mt-0.5 max-w-[15rem] truncate text-xs text-muted-foreground dark:text-white/55">{siteConfig.description}</p>
+            </div>
+          </div>
           <Link href="/" className="justify-self-center font-serif text-2xl font-bold tracking-tight text-foreground dark:text-white sm:text-3xl md:text-4xl">
             {siteConfig.name}
           </Link>
           <div className="flex items-center gap-2 justify-self-end">
             <Button
-              aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+              aria-label={!mounted ? "Toggle color theme" : theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
               className="rounded-md border-foreground/20 bg-transparent text-foreground hover:bg-muted dark:border-white/25 dark:bg-white/5 dark:text-white dark:hover:bg-white/10"
               onClick={toggleTheme}
               size="icon"
@@ -92,6 +105,9 @@ export function SiteHeader() {
             ))}
           </nav>
         </div>
+      </div>
+      <div className="h-[3px] bg-foreground/10 dark:bg-white/10">
+        <div className="h-full w-[32%] bg-[var(--brand-vermilion)] dark:bg-[var(--brand-gold)]" />
       </div>
     </header>
   );

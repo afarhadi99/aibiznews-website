@@ -36,27 +36,33 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
   const articles = getArticlesByCategory(category);
   const [lead, ...rest] = articles;
   const label = articles[0]?.category ?? category.replace(/-/g, " ");
+  const sourceTotal = articles.reduce((sum, article) => sum + (article.sourceCount ?? 0), 0);
 
   return (
     <main>
-      <section className="border-b-2 border-foreground/20 bg-[var(--brand-newsprint)] text-foreground dark:border-white/10 dark:bg-[var(--brand-ink)] dark:text-white">
-        <div className="site-shell py-4 md:py-5">
-          <Link className={buttonVariants({ variant: "ghost", className: "mb-3 rounded-md px-0 text-muted-foreground hover:bg-transparent hover:text-foreground dark:text-white/70 dark:hover:text-white" })} href="/">
+      <section className="frontpage-bg border-b-2 border-foreground/20 text-foreground dark:border-white/10 dark:text-white">
+        <div className="site-shell py-4 md:py-6">
+          <Link className={buttonVariants({ variant: "ghost", className: "mb-3 rounded-none px-0 text-muted-foreground hover:bg-transparent hover:text-foreground dark:text-white/70 dark:hover:text-white" })} href="/">
             <ArrowLeft aria-hidden /> Front page
           </Link>
-          <div className="flex flex-wrap items-center gap-2">
-            <Badge className="rounded-sm bg-[var(--brand-teal)] text-white">Section</Badge>
-            <Badge variant="outline" className="rounded-sm border-foreground/20 text-foreground dark:border-white/25 dark:text-white">
-              {articles.length} articles
-            </Badge>
+          <div className="border-y-2 border-foreground/25 py-4 dark:border-white/10">
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge className="rounded-none bg-[var(--brand-teal)] text-white">Section</Badge>
+              <Badge variant="outline" className="rounded-none border-foreground/20 text-foreground dark:border-white/25 dark:text-white">
+                {articles.length} articles
+              </Badge>
+              <Badge variant="outline" className="rounded-none border-foreground/20 text-foreground dark:border-white/25 dark:text-white">
+                {sourceTotal} linked sources
+              </Badge>
+            </div>
+            <h1 className="mt-3 font-serif text-5xl font-bold leading-[0.98] md:text-6xl">{label}</h1>
           </div>
-          <h1 className="mt-3 font-serif text-4xl font-bold leading-tight md:text-5xl">{label}</h1>
         </div>
       </section>
 
       {lead ? (
         <section className="site-shell py-5 md:py-6">
-          <article className="grid gap-0 overflow-hidden border border-foreground/15 border-t-4 border-t-[var(--brand-ink)] bg-[var(--brand-newsprint)] dark:border-white/10 dark:border-t-[var(--brand-gold)] dark:bg-white/5 lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.85fr)]">
+          <article className="lead-package grid gap-0 lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.85fr)]">
             <Link className="thumb-frame aspect-[16/9]" href={`/articles/${lead.slug}`} aria-label={lead.title}>
               <img className="h-full w-full object-cover transition-transform duration-300 hover:scale-[1.02]" src={lead.cover} alt="" />
             </Link>
@@ -67,7 +73,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                   {formatDate(lead.date)}
                 </span>
               </div>
-              <h2 className="mt-3 font-serif text-3xl font-bold leading-tight md:text-4xl">
+              <h2 className="mt-3 font-serif text-4xl font-bold leading-[1.02] md:text-5xl">
                 <Link href={`/articles/${lead.slug}`}>{lead.title}</Link>
               </h2>
               <p className="mt-3 line-clamp-3 text-base leading-7 text-muted-foreground">{lead.description}</p>

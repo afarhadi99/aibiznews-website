@@ -163,6 +163,63 @@
     @apply border border-foreground/15 bg-[var(--brand-surface)] shadow-[0_1px_0_rgba(16,19,24,0.06)] dark:border-white/10 dark:bg-white/5;
   }
 
+  .frontpage-bg {
+    background:
+      linear-gradient(90deg, rgba(215, 71, 46, 0.035), transparent 24%),
+      linear-gradient(to bottom, var(--brand-newsprint), var(--brand-paper));
+  }
+
+  .dark .frontpage-bg {
+    background:
+      linear-gradient(90deg, rgba(243, 179, 61, 0.035), transparent 24%),
+      linear-gradient(to bottom, var(--brand-ink), var(--background));
+  }
+
+  .issue-strip {
+    @apply mb-3 grid gap-2 border-y-2 border-foreground/25 py-2 text-[10px] font-black uppercase tracking-[0.16em] text-muted-foreground dark:border-white/10 dark:text-white/58 md:grid-cols-[1fr_auto_1fr];
+  }
+
+  .issue-strip span:nth-child(2) {
+    @apply text-[var(--brand-vermilion)] dark:text-[var(--brand-gold)] md:text-center;
+  }
+
+  .issue-strip span:last-child {
+    @apply md:text-right;
+  }
+
+  .lead-package {
+    @apply overflow-hidden border border-foreground/20 bg-[var(--brand-surface)] shadow-[0_1px_0_rgba(16,17,20,0.08)] dark:border-white/10 dark:bg-white/[0.055] dark:shadow-none;
+  }
+
+  .headline-xl {
+    @apply font-serif text-[2.05rem] font-bold leading-[1.02] text-foreground dark:text-white sm:text-5xl;
+    text-wrap: balance;
+  }
+
+  .spotlight-card {
+    @apply border border-foreground/15 border-t-4 border-t-[var(--brand-cobalt)] bg-[var(--brand-newsprint)] dark:border-white/10 dark:border-t-[var(--brand-teal)] dark:bg-white/5;
+  }
+
+  .market-tape {
+    @apply border border-foreground/20 bg-[var(--brand-surface)] p-4 text-foreground dark:border-white/10 dark:bg-white/[0.055] dark:text-white;
+  }
+
+  .section-head {
+    @apply flex flex-wrap items-end justify-between gap-3 border-b-2 border-foreground/25 pb-3 dark:border-white/12;
+  }
+
+  .department-card {
+    @apply border border-foreground/15 border-t-4 border-t-[var(--brand-ink)] bg-[var(--brand-newsprint)] p-3 transition-colors hover:border-foreground/35 dark:border-white/10 dark:border-t-[var(--brand-gold)] dark:bg-white/5 dark:hover:border-white/25;
+  }
+
+  .newsletter-block {
+    @apply border border-[var(--brand-ink)] bg-[var(--brand-ink)] p-4 text-white dark:border-white/10;
+  }
+
+  .issue-index {
+    @apply border-t-2 border-foreground/25 dark:border-white/12;
+  }
+
   .thumb-frame {
     @apply relative overflow-hidden bg-[var(--brand-ink)];
   }

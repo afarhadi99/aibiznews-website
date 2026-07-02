@@ -5,12 +5,12 @@ import { formatDate } from "@/lib/articles";
 
 export function StoryRail({ title, articles }: { title: string; articles: ArticleMeta[] }) {
   return (
-    <aside className="editorial-panel border-t-4 border-t-[var(--brand-vermilion)] p-3 dark:border-t-[var(--brand-gold)]">
-      <div className="flex items-center justify-between gap-3 border-b border-foreground/20 pb-2 dark:border-white/12">
-        <p className="kicker dark:text-[var(--brand-gold)]">{title}</p>
-        <ArrowUpRight size={15} className="text-muted-foreground dark:text-white/45" aria-hidden />
+    <aside className="border-2 border-foreground/20 bg-[var(--brand-newsprint)] dark:border-white/10 dark:bg-white/5">
+      <div className="flex items-center justify-between gap-3 bg-[var(--brand-ink)] px-3 py-2 text-white dark:bg-white/10">
+        <p className="text-[10px] font-black uppercase tracking-[0.16em] text-[var(--brand-gold)]">{title}</p>
+        <ArrowUpRight size={15} className="text-white/55" aria-hidden />
       </div>
-      <div>
+      <div className="px-3">
         {articles.map((article, index) => (
           <Link
             href={`/articles/${article.slug}`}

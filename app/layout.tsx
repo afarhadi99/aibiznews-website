@@ -45,8 +45,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={cn(geist.variable, libre.variable)}>
+    <html lang="en" className={cn(geist.variable, libre.variable)} suppressHydrationWarning>
       <body>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{var t=localStorage.getItem("theme");document.documentElement.classList.toggle("dark",t==="dark")}catch(e){}`
+          }}
+        />
         <SiteHeader />
         {children}
         <footer className="border-t border-foreground/15 bg-[var(--brand-ink)] text-white dark:border-white/10">
