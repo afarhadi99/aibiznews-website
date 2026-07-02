@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Menu, Search } from "lucide-react";
+import { siteConfig } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -12,7 +13,7 @@ import {
 } from "@/components/ui/sheet";
 
 const navItems = [
-  { href: "/#latest", label: "Latest" },
+  { href: "/#latest", label: "Top Stories" },
   { href: "/categories/ai-infrastructure", label: "Infrastructure" },
   { href: "/categories/ai-platforms", label: "Platforms" },
   { href: "/categories/ai-automation", label: "Automation" },
@@ -23,23 +24,21 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur">
       <div className="site-shell">
-        <div className="flex min-h-16 items-center justify-between gap-4 border-b border-foreground/10">
+        <div className="grid min-h-20 grid-cols-[auto_1fr_auto] items-center gap-4 border-b border-foreground/10">
           <Link href="/" className="flex items-center gap-3">
-            <span className="flex size-9 items-center justify-center rounded-md bg-primary text-sm font-black text-primary-foreground">
-              AI
-            </span>
-            <span className="font-serif text-xl font-bold leading-none md:text-2xl">
-              AI Biz News
+            <img
+              className="size-12 rounded-full border border-foreground/15 bg-white object-cover"
+              src={siteConfig.brandImage}
+              alt="AI Biz News logo"
+            />
+            <span className="hidden font-serif text-2xl font-bold leading-none sm:inline">
+              {siteConfig.title}
             </span>
           </Link>
-          <nav className="hidden items-center gap-5 text-sm font-semibold text-muted-foreground lg:flex">
-            {navItems.map((item) => (
-              <Link className="hover:text-foreground" href={item.href} key={item.href}>
-                {item.label}
-              </Link>
-            ))}
-          </nav>
-          <div className="flex items-center gap-2">
+          <Link href="/" className="justify-self-center font-serif text-3xl font-bold tracking-tight md:text-5xl">
+            {siteConfig.name}
+          </Link>
+          <div className="flex items-center gap-2 justify-self-end">
             <Button variant="ghost" size="icon" aria-label="Search">
               <Search />
             </Button>
@@ -49,7 +48,7 @@ export function SiteHeader() {
               </SheetTrigger>
               <SheetContent className="w-[320px] rounded-none">
                 <SheetHeader>
-                  <SheetTitle>AI Biz News</SheetTitle>
+                  <SheetTitle>{siteConfig.title}</SheetTitle>
                 </SheetHeader>
                 <nav className="grid gap-1 px-4 pb-6">
                   {navItems.map((item) => (
@@ -62,9 +61,14 @@ export function SiteHeader() {
             </Sheet>
           </div>
         </div>
-        <div className="hidden items-center justify-between py-2 text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground md:flex">
-          <span>Business intelligence for the new AI economy</span>
-          <span>Video-linked articles every day</span>
+        <div className="flex min-h-10 items-center justify-center">
+          <nav className="hidden items-center gap-6 text-sm font-bold uppercase tracking-[0.12em] text-muted-foreground lg:flex">
+            {navItems.map((item) => (
+              <Link className="hover:text-foreground" href={item.href} key={item.href}>
+                {item.label}
+              </Link>
+            ))}
+          </nav>
         </div>
       </div>
     </header>

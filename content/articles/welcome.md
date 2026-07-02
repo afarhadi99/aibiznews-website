@@ -1,27 +1,28 @@
 ---
-title: "AI Biz News Network Launch Brief"
+title: "How To Read The AI Business Cycle"
 slug: "welcome"
 date: "2026-07-02"
 category: "AI Markets"
-description: "A launch note for the AI Biz News Network site, its Markdown publishing model, and its cross-linked short-form video workflow."
+description: "A short guide to the categories that matter most when tracking AI as a business cycle: chips, cloud, models, software, capital, and policy."
 cover: "/images/covers/default.svg"
-tags: ["ai", "business", "news", "automation"]
+tags: ["ai", "business", "markets", "strategy"]
 youtubeUrl: ""
 tiktokUrl: ""
+audioUrl: ""
 videoStatus: "pending"
 sourceCount: 0
 ---
 
-# AI Biz News Network Launch Brief
+# How To Read The AI Business Cycle
 
 ## What Happened
 
-AI Biz News Network is built as a Markdown-first newsroom for short-form AI business coverage. Each article can pair with scheduled YouTube Shorts and TikTok posts.
+AI is no longer one product category. It is a business cycle that cuts across chips, cloud platforms, model labs, enterprise software, consumer distribution, regulation, and capital markets.
 
 ## Why It Matters
 
-The site keeps articles, generated cover images, video metadata, and source material in one GitHub repository, making Vercel deployment straightforward and auditable.
+The biggest stories are often connected. A GPU supply deal can affect cloud margins. A model release can change software adoption. A regulation can shift deployment timelines. Reading each story by category makes the market easier to understand.
 
 ## What To Watch Next
 
-The daily automation will add fresh articles, Pixio-generated cover images, and cross-links for every video batch.
+Track who controls scarce infrastructure, who owns distribution, who can turn model capability into revenue, and which policies change the cost of deployment. Those signals matter more than demo hype.

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Clock, PlayCircle } from "lucide-react";
+import { ArrowUpRight, Clock, Headphones, PlayCircle } from "lucide-react";
 import type { ArticleMeta } from "@/lib/articles";
 import { formatDate } from "@/lib/articles";
 import { Badge } from "@/components/ui/badge";
@@ -22,7 +22,7 @@ export function ArticleCard({ article, compact = false }: ArticleCardProps) {
     <Card className="rounded-md border-foreground/15 bg-card py-0 shadow-none transition-colors hover:border-foreground/35">
       {!compact ? (
         <Link href={`/articles/${article.slug}`} aria-label={article.title}>
-          <img className="aspect-[16/9] w-full object-cover" src={article.cover} alt="" />
+          <img className="aspect-[16/9] w-full object-cover object-left" src={article.cover} alt="" />
         </Link>
       ) : null}
       <CardHeader className="px-4 pt-4">
@@ -30,9 +30,9 @@ export function ArticleCard({ article, compact = false }: ArticleCardProps) {
           <Badge variant="outline" className="rounded-sm border-teal-700/25 text-teal-800">
             {article.category}
           </Badge>
-          {article.videoStatus === "scheduled" || article.youtubeUrl ? (
+          {article.audioUrl ? (
             <Badge variant="secondary" className="rounded-sm">
-              Video linked
+              Audio
             </Badge>
           ) : null}
         </div>
@@ -71,6 +71,18 @@ export function ArticleCard({ article, compact = false }: ArticleCardProps) {
             href={article.youtubeUrl}
           >
             Watch <PlayCircle size={14} aria-hidden />
+          </a>
+        ) : null}
+        {article.audioUrl ? (
+          <a
+            className={buttonVariants({
+              variant: "ghost",
+              size: "sm",
+              className: "ml-auto h-7 gap-1 px-0 text-xs font-black uppercase tracking-[0.14em]"
+            })}
+            href={article.audioUrl}
+          >
+            Listen <Headphones size={14} aria-hidden />
           </a>
         ) : null}
       </CardFooter>

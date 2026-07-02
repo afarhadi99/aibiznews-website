@@ -16,6 +16,7 @@ export type ArticleMeta = {
   tags: string[];
   youtubeUrl?: string;
   tiktokUrl?: string;
+  audioUrl?: string;
   videoStatus?: string;
   sourceCount?: number;
   readingMinutes: number;
@@ -51,6 +52,7 @@ function normalizeMeta(data: Record<string, unknown>, fallbackSlug: string, cont
     tags: Array.isArray(data.tags) ? data.tags.map(String) : [slugify(category)],
     youtubeUrl: data.youtubeUrl ? String(data.youtubeUrl) : "",
     tiktokUrl: data.tiktokUrl ? String(data.tiktokUrl) : "",
+    audioUrl: data.audioUrl ? String(data.audioUrl) : "",
     videoStatus: data.videoStatus ? String(data.videoStatus) : "pending",
     sourceCount: Number(data.sourceCount ?? 0),
     readingMinutes: estimateReadingMinutes(content)
@@ -107,6 +109,15 @@ export function getRelatedArticles(article: ArticleMeta, limit = 3) {
   return getAllArticleMeta()
     .filter((item) => item.slug !== article.slug && item.category === article.category)
     .slice(0, limit);
+}
+
+export function getAdjacentArticles(article: ArticleMeta) {
+  const articles = getAllArticleMeta();
+  const index = articles.findIndex((item) => item.slug === article.slug);
+  return {
+    previous: index >= 0 ? articles[index + 1] : undefined,
+    next: index > 0 ? articles[index - 1] : undefined
+  };
 }
 
 export function formatDate(value: string) {

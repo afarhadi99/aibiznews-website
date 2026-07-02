@@ -51,7 +51,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
           </div>
           <h1 className="mt-4 font-serif text-5xl font-bold leading-tight md:text-6xl">{label}</h1>
           <p className="mt-4 max-w-2xl text-lg leading-8 text-muted-foreground">
-            A dedicated channel for tracking how this area of AI changes markets, products, strategy, and operations.
+            A dedicated section for tracking how this area of AI changes markets, products, strategy, and operations.
           </p>
         </div>
       </section>
@@ -68,7 +68,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
               <Rss className="text-muted-foreground" aria-hidden />
               <div>
                 <p className="font-serif text-2xl font-bold">No articles in this category yet.</p>
-                <p className="mt-1 text-muted-foreground">The next automation run can fill this channel.</p>
+                <p className="mt-1 text-muted-foreground">This section is ready for new coverage.</p>
               </div>
             </CardContent>
           </Card>
