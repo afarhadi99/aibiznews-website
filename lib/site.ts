@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: "AIBIZ.NEWS",
-  title: "AI Biz News",
+  title: "AIBIZ.NEWS",
   description: "AI business reporting, market context, and category-driven analysis.",
   youtubeUrl: "https://www.youtube.com/channel/UCw_IqppHVBdxVuwf-1CtIkA",
   tiktokUrl: "",
-  brandImage: "/brand/youtube-avatar.jpg",
-  youtubeAvatar: "/brand/youtube-avatar.jpg",
+  brandImage: "/brand/aibiz-icon.png",
+  youtubeAvatar: "/brand/aibiz-icon.png",
   tiktokAvatar: ""
 };
 

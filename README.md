@@ -7,12 +7,19 @@ Markdown-powered news site for AI business articles, audio narration, newsletter
 - Articles live in `content/articles/*.md`.
 - Cover images live in `public/images/covers/`.
 - Each article uses frontmatter for category, tags, cover image, audio, and related channel links.
+- GPT Image cover generation is available with `npm run covers:openai` and uses `gpt-image-2` by default.
 
 ## Development
 
 ```bash
 npm install
 npm run dev
+```
+
+To regenerate article covers, set `OPENAI_API_KEY` locally, then run:
+
+```bash
+npm run covers:openai:force
 ```
 
 ## Vercel

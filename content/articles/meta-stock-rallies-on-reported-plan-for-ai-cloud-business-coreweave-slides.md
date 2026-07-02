@@ -6,16 +6,9 @@ category: "AI Infrastructure"
 description: "Meta's reported AI cloud plans move the market conversation around infrastructure, model demand, and cloud capacity."
 cover: "/images/covers/meta-stock-rallies-on-reported-plan-for-ai-cloud-business-coreweave-slides.jpg"
 tags: ["meta", "stock", "rallies", "reported", "plan", "cloud", "business", "coreweave"]
-youtubeUrl: ""
-tiktokUrl: ""
 audioUrl: "/audio/meta-stock-rallies-on-reported-plan-for-ai-cloud-business-coreweave-slides.wav"
-sourceCount: 1
+sourceCount: 2
 ---
-
-# Meta Stock Rallies On Reported Plan For AI Cloud Business; CoreWeave Slides
-
-**Date:** July 02, 2026
-**Category:** AI Infrastructure
 
 ## What Happened
 
@@ -36,5 +29,5 @@ The near-term read is competitive pressure. Meta already spends heavily on AI sy
 Watch for customer commitments, pricing details, data center capacity plans, GPU supply agreements, and whether Meta positions the effort as an external cloud product or a narrower partner offering. Those details will determine whether this is a stock-market headline or a durable AI infrastructure shift.
 
 ## Sources
-
-- [Meta Stock Rallies On Reported Plan For AI Cloud Business; CoreWeave Slides - Investor's Business Daily](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN3pudFM0NkMtRFdyTlM5dU04RVdXa1JoN2lfSVdSdm1sYzBiODdvdDJzTWMwSDAyR1FlcEM0RW1qRjlfNllaOWV4dWZ1U2x0N3FUanZIX0YwYU9XOGRqNWpPVjJIdzQtY0Vvb2xQNmV6aHdxT1dzeXVuSkpLNGNvZV8zZ1FjQzg2VGk0?oc=5) - Investor's Business Daily
+- [Stock Market Rallies To New Highs; Apple, Google, Amazon, Sandisk, Powell In Focus: Weekly Review - Investor's Business Daily](https://news.google.com/rss/articles/CBMijgFBVV95cUxPaWZjR216QU5NQzNkX0RDTDZLLVdkUklIMFlmeXl5WEFOSU81QWZ4clRZVVJBYnlYMTY4WVRQZnhtY3dxcmR3OFhWaElYaDVCbWhDelUyWV9PdTktUXhXY2NVeUNFMmJWUFk1dkszVXg1aXByTVcyNEFIVUwxcDNmcUVkZXVtdzk0N3dxQ3p3?oc=5)
+- [Meta Platforms Jumps 10% on Potential Plans to Sell AI Compute, Challenging Amazon, Microsoft, Google - 24/7 Wall St.](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVEwYS1FYWx2U01weUp6cGdwcVo4QmtTckkwRXpNV2dlcnYzZjltdXkxa0NjR2YzVEMwbjh4LUg3Qi1sR09oNkdlaW5hMTJ2QTdJSnkwSFk4U0ozMUpmM0tmWWpXdUdhNjBzbWZ3WExLZ0FoeTZ1NnRRMldzX0RXQ3h0T1U0Qk1qM0pucGlEb0JvWlJRc0UtLUlrdUpGcThpSUpNQkZKVThERk5Bam45SV9wZ215NkQ1eEZmT09QSXppVWZ1SDlZWnJlclRidHFSbmJ6Qk9pdw?oc=5)

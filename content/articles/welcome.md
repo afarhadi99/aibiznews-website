@@ -6,8 +6,6 @@ category: "AI Markets"
 description: "A short guide to the categories that matter most when tracking AI as a business cycle: chips, cloud, models, software, capital, and policy."
 cover: "/images/covers/default.svg"
 tags: ["ai", "business", "markets", "strategy"]
-youtubeUrl: ""
-tiktokUrl: ""
 audioUrl: ""
 sourceCount: 0
 ---

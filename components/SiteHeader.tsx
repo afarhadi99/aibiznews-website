@@ -25,15 +25,12 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur">
       <div className="site-shell">
         <div className="grid min-h-20 grid-cols-[auto_1fr_auto] items-center gap-4 border-b border-foreground/10">
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center" aria-label={siteConfig.name}>
             <img
               className="size-12 rounded-full border border-foreground/15 bg-white object-cover"
               src={siteConfig.brandImage}
-              alt="AI Biz News logo"
+              alt=""
             />
-            <span className="hidden font-serif text-2xl font-bold leading-none sm:inline">
-              {siteConfig.title}
-            </span>
           </Link>
           <Link href="/" className="justify-self-center font-serif text-3xl font-bold tracking-tight md:text-5xl">
             {siteConfig.name}

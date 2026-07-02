@@ -36,6 +36,10 @@ export const metadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.description,
     images: [siteConfig.brandImage]
+  },
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png"
   }
 };
 
