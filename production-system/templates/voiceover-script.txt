@@ -1,0 +1,14 @@
+HOOK:
+One sentence that makes the business stakes clear.
+
+FACTS:
+Two to three short sentences explaining what happened.
+
+ANALYSIS:
+Two to three short sentences explaining who gains, who is pressured, and why this changes the market.
+
+CLOSE:
+One sentence pointing to what to watch next.
+
+TARGET:
+45-60 seconds. Plain text only. No markdown. No citations in the spoken script.

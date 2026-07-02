@@ -31,6 +31,20 @@ Import this repository in Vercel and use the default Next.js settings:
 
 Articles, cover images, and audio live in this repo with the site code.
 
+## Production System
+
+The full research-to-publishing workflow is documented in `production-system/`.
+
+Start with:
+
+```text
+production-system/README.md
+production-system/RUNBOOK.md
+production-system/QUALITY-GATES.md
+```
+
+That folder explains how the old automation at `C:\Users\alish\Desktop\youtube-automation` creates research, articles, Pixio images, ElevenLabs voiceovers, final videos, blog assets, and YouTube/TikTok publishing records.
+
 ## Newsletter
 
 Set one of these environment variables before deploying newsletter signups:
