@@ -151,18 +151,29 @@ def choose_model(client: PixioClient, preferred: str, model_id: str | None) -> d
 
     models = client.list_models()
     terms = _terms(preferred)
-    matches: list[dict[str, Any]] = []
+    preferred_phrase = _normalized(preferred)
+    matches: list[tuple[int, str, dict[str, Any]]] = []
     for model in models:
+        model_id_text = _normalized(str(model.get("id", "")))
+        model_name_text = _normalized(str(model.get("name", "")))
         haystack = _normalized(" ".join(str(model.get(key, "")) for key in ("id", "name", "description", "type")))
         haystack_terms = set(_terms(haystack))
         if "image" not in haystack_terms or "video" in haystack_terms:
             continue
         if terms and not all(term in haystack_terms for term in terms):
             continue
-        matches.append(model)
+        if preferred_phrase in {model_id_text, model_name_text}:
+            rank = 0
+        elif preferred_phrase and preferred_phrase in f"{model_id_text} {model_name_text}":
+            rank = 1
+        elif preferred_phrase and preferred_phrase in haystack:
+            rank = 2
+        else:
+            rank = 10
+        matches.append((rank, str(model.get("id", "")), model))
     if not matches:
         raise PixioApiError(f"No visible Pixio image model matched '{preferred}'")
-    return sorted(matches, key=lambda item: item.get("id", ""))[0]
+    return sorted(matches, key=lambda item: (item[0], item[1]))[0][2]
 
 
 def _strip_quotes(value: str) -> str:

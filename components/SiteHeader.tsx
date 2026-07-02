@@ -22,25 +22,25 @@ const navItems = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-foreground/15 bg-[var(--brand-newsprint)]/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-white/10 bg-[var(--brand-ink)] text-white shadow-[0_1px_0_rgba(255,255,255,0.08)]">
       <div className="site-shell">
-        <div className="grid min-h-16 grid-cols-[auto_1fr_auto] items-center gap-4 border-b border-foreground/10 md:min-h-20">
+        <div className="grid min-h-[3.25rem] grid-cols-[auto_1fr_auto] items-center gap-3 border-b border-white/10 py-1.5 md:min-h-16">
           <Link href="/" className="flex items-center" aria-label={siteConfig.name}>
             <img
-              className="size-10 rounded-full border border-foreground/15 bg-white object-cover md:size-12"
+              className="size-8 rounded-full border border-white/20 bg-white object-cover md:size-10"
               src={siteConfig.brandImage}
               alt=""
             />
           </Link>
-          <Link href="/" className="justify-self-center font-serif text-2xl font-bold tracking-tight sm:text-3xl md:text-5xl">
+          <Link href="/" className="justify-self-center font-serif text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl">
             {siteConfig.name}
           </Link>
           <div className="flex items-center gap-2 justify-self-end">
             <Sheet>
-              <SheetTrigger render={<Button className="lg:hidden" variant="outline" size="icon" aria-label="Open navigation" />}>
+              <SheetTrigger render={<Button className="border-white/25 bg-white/5 text-white hover:bg-white/10 lg:hidden" variant="outline" size="icon" aria-label="Open navigation" />}>
                 <Menu />
               </SheetTrigger>
-              <SheetContent className="w-[320px] rounded-none">
+              <SheetContent className="w-[320px] rounded-none bg-[var(--brand-newsprint)]">
                 <SheetHeader>
                   <SheetTitle>{siteConfig.title}</SheetTitle>
                 </SheetHeader>
@@ -55,10 +55,10 @@ export function SiteHeader() {
             </Sheet>
           </div>
         </div>
-        <div className="flex min-h-10 items-center justify-center">
-          <nav className="hidden items-center gap-6 text-sm font-bold uppercase tracking-[0.12em] text-muted-foreground lg:flex">
+        <div className="hidden min-h-9 items-center justify-center md:flex">
+          <nav className="flex items-center gap-5 text-xs font-black uppercase tracking-[0.14em] text-white/62 lg:gap-7">
             {navItems.map((item) => (
-              <Link className="hover:text-foreground" href={item.href} key={item.href}>
+              <Link className="hover:text-white" href={item.href} key={item.href}>
                 {item.label}
               </Link>
             ))}

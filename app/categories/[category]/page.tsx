@@ -39,46 +39,46 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
   return (
     <main>
-      <section className="border-b border-foreground/15 bg-[var(--brand-newsprint)]">
-        <div className="site-shell py-8">
-          <Link className={buttonVariants({ variant: "ghost", className: "mb-5 rounded-md px-0" })} href="/">
+      <section className="border-b border-white/10 bg-[var(--brand-ink)] text-white">
+        <div className="site-shell py-4 md:py-5">
+          <Link className={buttonVariants({ variant: "ghost", className: "mb-3 rounded-md px-0 text-white/70 hover:bg-white/5 hover:text-white" })} href="/">
             <ArrowLeft aria-hidden /> Front page
           </Link>
           <div className="flex flex-wrap items-center gap-2">
-            <Badge className="rounded-sm bg-teal-800 text-white">Section</Badge>
-            <Badge variant="outline" className="rounded-sm">
+            <Badge className="rounded-sm bg-[var(--brand-teal)] text-white">Section</Badge>
+            <Badge variant="outline" className="rounded-sm border-white/25 text-white">
               {articles.length} articles
             </Badge>
           </div>
-          <h1 className="mt-4 font-serif text-5xl font-bold leading-tight md:text-6xl">{label}</h1>
+          <h1 className="mt-3 font-serif text-4xl font-bold leading-tight md:text-5xl">{label}</h1>
         </div>
       </section>
 
       {lead ? (
-        <section className="site-shell py-8">
-          <article className="grid gap-5 border-b border-foreground/20 pb-8 lg:grid-cols-[minmax(0,1.15fr)_minmax(360px,0.85fr)]">
+        <section className="site-shell py-5 md:py-6">
+          <article className="grid gap-0 overflow-hidden border border-foreground/15 bg-[var(--brand-newsprint)] lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.85fr)]">
             <Link className="thumb-frame aspect-[16/9]" href={`/articles/${lead.slug}`} aria-label={lead.title}>
               <img className="h-full w-full object-cover transition-transform duration-300 hover:scale-[1.02]" src={lead.cover} alt="" />
             </Link>
-            <div className="flex flex-col">
+            <div className="flex flex-col p-4 lg:p-5">
               <div className="flex flex-wrap items-center gap-2">
                 <span className="section-chip">{lead.category}</span>
-                <span className="text-[11px] font-black uppercase tracking-[0.14em] text-muted-foreground">
+                <span className="text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground">
                   {formatDate(lead.date)}
                 </span>
               </div>
-              <h2 className="mt-4 font-serif text-4xl font-bold leading-tight md:text-5xl">
+              <h2 className="mt-3 font-serif text-3xl font-bold leading-tight md:text-4xl">
                 <Link href={`/articles/${lead.slug}`}>{lead.title}</Link>
               </h2>
-              <p className="mt-4 text-lg leading-8 text-muted-foreground">{lead.description}</p>
-              <Link className="mt-auto pt-6 text-sm font-black uppercase tracking-[0.14em] text-[var(--brand-vermilion)]" href={`/articles/${lead.slug}`}>
+              <p className="mt-3 line-clamp-3 text-base leading-7 text-muted-foreground">{lead.description}</p>
+              <Link className="mt-auto pt-5 text-xs font-black uppercase tracking-[0.14em] text-[var(--brand-vermilion)]" href={`/articles/${lead.slug}`}>
                 Read section lead <ArrowUpRight size={15} className="inline" aria-hidden />
               </Link>
             </div>
           </article>
 
           {rest.length > 0 ? (
-            <div className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-4 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
               {rest.map((article) => (
                 <ArticleCard article={article} key={article.slug} />
               ))}
