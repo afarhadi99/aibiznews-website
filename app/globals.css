@@ -5,16 +5,18 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --brand-ink: #101114;
-  --brand-paper: #f6f0e7;
+  --brand-ink: #171719;
+  --brand-paper: #f7f0e6;
   --brand-newsprint: #fffaf2;
   --brand-surface: #fffdf8;
-  --brand-teal: #008c80;
-  --brand-cobalt: #2447d8;
-  --brand-vermilion: #d7472e;
-  --brand-gold: #f3b33d;
-  --brand-rule: #c9bba8;
-  --background: oklch(0.965 0.018 82);
+  --brand-teal: #168878;
+  --brand-cobalt: #335ccf;
+  --brand-vermilion: #c5533d;
+  --brand-gold: #dca641;
+  --brand-blush: #f3ded2;
+  --brand-sage: #dbe9df;
+  --brand-rule: #d7c8b7;
+  --background: oklch(0.968 0.017 82);
   --foreground: oklch(0.13 0.012 74);
   --card: oklch(0.99 0.009 84);
   --card-foreground: oklch(0.13 0.012 74);
@@ -161,6 +163,49 @@
 
   .editorial-panel {
     @apply border border-foreground/15 bg-[var(--brand-surface)] shadow-[0_1px_0_rgba(16,19,24,0.06)] dark:border-white/10 dark:bg-white/5;
+  }
+
+  .briefing-hero {
+    background:
+      linear-gradient(135deg, rgba(243, 222, 210, 0.78), transparent 34%),
+      linear-gradient(315deg, rgba(219, 233, 223, 0.58), transparent 38%),
+      var(--brand-paper);
+  }
+
+  .dark .briefing-hero {
+    background:
+      linear-gradient(135deg, rgba(22, 136, 120, 0.14), transparent 34%),
+      linear-gradient(315deg, rgba(220, 166, 65, 0.09), transparent 38%),
+      var(--brand-ink);
+  }
+
+  .friendly-panel {
+    @apply rounded-md border border-foreground/10 bg-[var(--brand-surface)] shadow-[0_10px_32px_rgba(23,23,25,0.045)] dark:border-white/10 dark:bg-white/[0.055] dark:shadow-none;
+  }
+
+  .feature-story {
+    @apply overflow-hidden rounded-md border border-foreground/10 bg-[var(--brand-surface)] shadow-[0_16px_46px_rgba(23,23,25,0.07)] dark:border-white/10 dark:bg-white/[0.055] dark:shadow-none;
+  }
+
+  .briefing-card {
+    @apply rounded-md border border-foreground/10 bg-[var(--brand-sage)]/70 p-4 shadow-[0_10px_32px_rgba(23,23,25,0.04)] dark:border-white/10 dark:bg-white/[0.055] dark:shadow-none;
+  }
+
+  .latest-stack {
+    @apply rounded-md border border-foreground/10 bg-[var(--brand-surface)] p-4 shadow-[0_10px_32px_rgba(23,23,25,0.04)] dark:border-white/10 dark:bg-white/[0.055] dark:shadow-none;
+  }
+
+  .newsletter-panel {
+    @apply rounded-md border border-[var(--brand-ink)] bg-[var(--brand-ink)] p-4 text-white shadow-[0_14px_40px_rgba(23,23,25,0.12)] dark:border-white/10 dark:shadow-none;
+  }
+
+  .soft-label {
+    @apply inline-flex w-fit items-center rounded-full bg-[var(--brand-blush)] px-3 py-1 text-xs font-bold text-[var(--brand-vermilion)] dark:bg-white/10 dark:text-[var(--brand-gold)];
+  }
+
+  .friendly-headline {
+    @apply font-serif text-[1.8rem] font-bold leading-[1.08] text-foreground dark:text-white sm:text-[2.35rem] lg:text-[2.55rem];
+    text-wrap: balance;
   }
 
   .frontpage-bg {

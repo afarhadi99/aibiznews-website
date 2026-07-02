@@ -41,11 +41,10 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-foreground/15 bg-[var(--brand-newsprint)]/95 text-foreground shadow-[0_1px_0_rgba(16,17,20,0.08)] backdrop-blur dark:border-white/10 dark:bg-[var(--brand-ink)]/95 dark:text-white dark:shadow-[0_1px_0_rgba(255,255,255,0.08)]">
-      <div className="hidden border-b border-foreground/15 dark:border-white/10 md:block">
-        <div className="site-shell flex min-h-7 items-center justify-between gap-4 text-[10px] font-black uppercase tracking-[0.18em] text-muted-foreground dark:text-white/52">
-          <span>AI business intelligence desk</span>
-          <span className="text-[var(--brand-vermilion)] dark:text-[var(--brand-gold)]">Markets / Models / Money / Power</span>
-          <span>Source-linked reporting</span>
+      <div className="hidden border-b border-foreground/10 dark:border-white/10 md:block">
+        <div className="site-shell flex min-h-8 items-center justify-between gap-4 text-xs text-muted-foreground dark:text-white/55">
+          <span>AI business reporting for founders, operators, and market watchers</span>
+          <span className="font-semibold text-[var(--brand-teal)] dark:text-[var(--brand-gold)]">Markets / Infrastructure / Platforms / Policy</span>
         </div>
       </div>
       <div className="site-shell">
@@ -59,7 +58,7 @@ export function SiteHeader() {
               />
             </Link>
             <div className="hidden min-w-0 md:block">
-              <p className="text-[10px] font-black uppercase tracking-[0.16em] text-[var(--brand-teal)] dark:text-[var(--brand-gold)]">AI Biz News Network</p>
+              <p className="text-xs font-bold text-[var(--brand-teal)] dark:text-[var(--brand-gold)]">AI Biz News Network</p>
               <p className="mt-0.5 max-w-[15rem] truncate text-xs text-muted-foreground dark:text-white/55">{siteConfig.description}</p>
             </div>
           </div>
@@ -69,7 +68,7 @@ export function SiteHeader() {
           <div className="flex items-center gap-2 justify-self-end">
             <Button
               aria-label={!mounted ? "Toggle color theme" : theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-              className="rounded-md border-foreground/20 bg-transparent text-foreground hover:bg-muted dark:border-white/25 dark:bg-white/5 dark:text-white dark:hover:bg-white/10"
+              className="rounded-full border-foreground/15 bg-white/55 text-foreground hover:bg-white dark:border-white/15 dark:bg-white/5 dark:text-white dark:hover:bg-white/10"
               onClick={toggleTheme}
               size="icon"
               type="button"
@@ -78,7 +77,7 @@ export function SiteHeader() {
               {mounted && theme === "dark" ? <Sun aria-hidden /> : <Moon aria-hidden />}
             </Button>
             <Sheet>
-              <SheetTrigger render={<Button className="rounded-md border-foreground/20 bg-transparent text-foreground hover:bg-muted dark:border-white/25 dark:bg-white/5 dark:text-white dark:hover:bg-white/10 lg:hidden" variant="outline" size="icon" aria-label="Open navigation" />}>
+              <SheetTrigger render={<Button className="rounded-full border-foreground/15 bg-white/55 text-foreground hover:bg-white dark:border-white/15 dark:bg-white/5 dark:text-white dark:hover:bg-white/10 lg:hidden" variant="outline" size="icon" aria-label="Open navigation" />}>
                 <Menu />
               </SheetTrigger>
               <SheetContent className="w-[320px] rounded-none border-foreground/15 bg-[var(--brand-newsprint)] dark:border-white/10 dark:bg-[var(--brand-ink)]">
@@ -97,17 +96,17 @@ export function SiteHeader() {
           </div>
         </div>
         <div className="hidden min-h-9 items-center justify-center md:flex">
-          <nav className="flex items-center gap-5 text-xs font-black uppercase tracking-[0.14em] text-muted-foreground dark:text-white/62 lg:gap-7">
+          <nav className="flex items-center gap-2 text-sm font-semibold text-muted-foreground dark:text-white/62">
             {navItems.map((item) => (
-              <Link className="hover:text-foreground dark:hover:text-white" href={item.href} key={item.href}>
+              <Link className="rounded-full px-3 py-1.5 hover:bg-[var(--brand-blush)] hover:text-foreground dark:hover:bg-white/10 dark:hover:text-white" href={item.href} key={item.href}>
                 {item.label}
               </Link>
             ))}
           </nav>
         </div>
       </div>
-      <div className="h-[3px] bg-foreground/10 dark:bg-white/10">
-        <div className="h-full w-[32%] bg-[var(--brand-vermilion)] dark:bg-[var(--brand-gold)]" />
+      <div className="h-px bg-foreground/10 dark:bg-white/10">
+        <div className="h-full w-[22%] bg-[var(--brand-teal)] dark:bg-[var(--brand-gold)]" />
       </div>
     </header>
   );

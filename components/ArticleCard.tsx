@@ -38,7 +38,7 @@ export function ArticleCard({ article, compact = false }: ArticleCardProps) {
   }
 
   return (
-    <article className="group flex h-full flex-col border border-foreground/15 border-t-[3px] border-t-[var(--brand-ink)] bg-[var(--brand-newsprint)] shadow-[0_1px_0_rgba(16,19,24,0.04)] transition-colors hover:border-foreground/35 dark:border-white/10 dark:border-t-[var(--brand-teal)] dark:bg-white/5 dark:hover:border-white/25">
+    <article className="group flex h-full flex-col overflow-hidden rounded-md border border-foreground/10 bg-[var(--brand-surface)] shadow-[0_10px_32px_rgba(23,23,25,0.045)] transition-colors hover:border-foreground/25 dark:border-white/10 dark:bg-white/[0.055] dark:shadow-none dark:hover:border-white/25">
       <Link className="thumb-frame block aspect-[16/9]" href={`/articles/${article.slug}`} aria-label={article.title}>
         <img className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" src={article.cover} alt="" />
       </Link>
@@ -51,11 +51,11 @@ export function ArticleCard({ article, compact = false }: ArticleCardProps) {
             </Badge>
           ) : null}
         </div>
-        <h3 className="mt-2 line-clamp-3 font-serif text-xl font-bold leading-tight group-hover:underline sm:text-2xl">
+        <h3 className="mt-2 line-clamp-3 font-serif text-lg font-bold leading-tight group-hover:underline sm:text-xl">
           <Link href={`/articles/${article.slug}`}>{article.title}</Link>
         </h3>
         <p className="mt-2 line-clamp-3 text-sm leading-6 text-muted-foreground">{article.description}</p>
-        <div className="mt-auto flex items-center justify-between gap-3 border-t border-foreground/15 pt-2.5 text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground dark:border-white/10 dark:text-white/50">
+        <div className="mt-auto flex items-center justify-between gap-3 border-t border-foreground/10 pt-2.5 text-xs font-semibold text-muted-foreground dark:border-white/10 dark:text-white/50">
           <span>{formatDate(article.date)}</span>
           <span className="inline-flex items-center gap-1">
             {article.readingMinutes} min <ArrowUpRight size={13} aria-hidden />
