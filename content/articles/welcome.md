@@ -3,7 +3,7 @@ title: "AI Biz News Network Launch Brief"
 slug: "welcome"
 date: "2026-07-02"
 category: "AI Markets"
-description: "A launch note for the AI Biz News Network site and its cross-linked short-form video workflow."
+description: "A launch note for the AI Biz News Network site, its Markdown publishing model, and its cross-linked short-form video workflow."
 cover: "/images/covers/default.svg"
 tags: ["ai", "business", "news", "automation"]
 youtubeUrl: ""

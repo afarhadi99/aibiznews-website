@@ -3,7 +3,7 @@ title: "Meta Stock Rallies On Reported Plan For AI Cloud Business; CoreWeave Sli
 slug: "meta-stock-rallies-on-reported-plan-for-ai-cloud-business-coreweave-slides"
 date: "2026-07-02"
 category: "AI Infrastructure"
-description: "Meta Stock Rallies On Reported Plan For AI Cloud Business; CoreWeave Slides. Here is the business angle. Meta Stock Rallies On Reported Plan For AI Cloud Business; CoreWeave Sli..."
+description: "Meta's reported AI cloud plans move the market conversation around infrastructure, model demand, and cloud capacity."
 cover: "/images/covers/meta-stock-rallies-on-reported-plan-for-ai-cloud-business-coreweave-slides.jpg"
 tags: ["meta", "stock", "rallies", "reported", "plan", "cloud", "business", "coreweave"]
 youtubeUrl: ""

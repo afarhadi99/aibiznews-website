@@ -18,20 +18,27 @@ export type ArticleMeta = {
   tiktokUrl?: string;
   videoStatus?: string;
   sourceCount?: number;
+  readingMinutes: number;
 };
 
 export type Article = ArticleMeta & {
   contentHtml: string;
+  rawContent: string;
 };
 
-function slugify(value: string) {
+export function slugify(value: string) {
   return value
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
 }
 
-function normalizeMeta(data: Record<string, unknown>, fallbackSlug: string): ArticleMeta {
+function estimateReadingMinutes(content: string) {
+  const words = content.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(words / 220));
+}
+
+function normalizeMeta(data: Record<string, unknown>, fallbackSlug: string, content = ""): ArticleMeta {
   const title = String(data.title ?? fallbackSlug);
   const category = String(data.category ?? "AI Markets");
   return {
@@ -45,7 +52,8 @@ function normalizeMeta(data: Record<string, unknown>, fallbackSlug: string): Art
     youtubeUrl: data.youtubeUrl ? String(data.youtubeUrl) : "",
     tiktokUrl: data.tiktokUrl ? String(data.tiktokUrl) : "",
     videoStatus: data.videoStatus ? String(data.videoStatus) : "pending",
-    sourceCount: Number(data.sourceCount ?? 0)
+    sourceCount: Number(data.sourceCount ?? 0),
+    readingMinutes: estimateReadingMinutes(content)
   };
 }
 
@@ -59,8 +67,8 @@ export function getAllArticleMeta(): ArticleMeta[] {
     .map((file) => {
       const fullPath = path.join(articlesDirectory, file);
       const fileContents = fs.readFileSync(fullPath, "utf8");
-      const { data } = matter(fileContents);
-      return normalizeMeta(data, file.replace(/\.md$/, ""));
+      const { data, content } = matter(fileContents);
+      return normalizeMeta(data, file.replace(/\.md$/, ""), content);
     })
     .sort((a, b) => b.date.localeCompare(a.date));
 }
@@ -89,8 +97,9 @@ export async function getArticle(slug: string): Promise<Article | null> {
   const { data, content } = matter(fileContents);
   const processedContent = await remark().use(html).process(content);
   return {
-    ...normalizeMeta(data, slug),
-    contentHtml: processedContent.toString()
+    ...normalizeMeta(data, slug, content),
+    contentHtml: processedContent.toString(),
+    rawContent: content
   };
 }
 
@@ -98,4 +107,30 @@ export function getRelatedArticles(article: ArticleMeta, limit = 3) {
   return getAllArticleMeta()
     .filter((item) => item.slug !== article.slug && item.category === article.category)
     .slice(0, limit);
+}
+
+export function formatDate(value: string) {
+  return new Intl.DateTimeFormat("en", {
+    month: "short",
+    day: "numeric",
+    year: "numeric"
+  }).format(new Date(`${value}T12:00:00`));
+}
+
+export function siteUrl() {
+  return (process.env.NEXT_PUBLIC_SITE_URL || "https://aibiznews.com").replace(/\/$/, "");
+}
+
+export function articleUrl(slug: string) {
+  return `${siteUrl()}/articles/${slug}`;
+}
+
+export function absoluteImageUrl(cover: string) {
+  if (!cover) {
+    return `${siteUrl()}/images/covers/default.svg`;
+  }
+  if (/^https?:\/\//.test(cover)) {
+    return cover;
+  }
+  return `${siteUrl()}${cover.startsWith("/") ? cover : `/${cover}`}`;
 }

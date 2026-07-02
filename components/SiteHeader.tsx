@@ -1,0 +1,72 @@
+"use client";
+
+import Link from "next/link";
+import { Menu, Search } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger
+} from "@/components/ui/sheet";
+
+const navItems = [
+  { href: "/#latest", label: "Latest" },
+  { href: "/categories/ai-infrastructure", label: "Infrastructure" },
+  { href: "/categories/ai-platforms", label: "Platforms" },
+  { href: "/categories/ai-automation", label: "Automation" },
+  { href: "/categories/ai-markets", label: "Markets" }
+];
+
+export function SiteHeader() {
+  return (
+    <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur">
+      <div className="site-shell">
+        <div className="flex min-h-16 items-center justify-between gap-4 border-b border-foreground/10">
+          <Link href="/" className="flex items-center gap-3">
+            <span className="flex size-9 items-center justify-center rounded-md bg-primary text-sm font-black text-primary-foreground">
+              AI
+            </span>
+            <span className="font-serif text-xl font-bold leading-none md:text-2xl">
+              AI Biz News
+            </span>
+          </Link>
+          <nav className="hidden items-center gap-5 text-sm font-semibold text-muted-foreground lg:flex">
+            {navItems.map((item) => (
+              <Link className="hover:text-foreground" href={item.href} key={item.href}>
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+          <div className="flex items-center gap-2">
+            <Button variant="ghost" size="icon" aria-label="Search">
+              <Search />
+            </Button>
+            <Sheet>
+              <SheetTrigger render={<Button className="lg:hidden" variant="outline" size="icon" aria-label="Open navigation" />}>
+                <Menu />
+              </SheetTrigger>
+              <SheetContent className="w-[320px] rounded-none">
+                <SheetHeader>
+                  <SheetTitle>AI Biz News</SheetTitle>
+                </SheetHeader>
+                <nav className="grid gap-1 px-4 pb-6">
+                  {navItems.map((item) => (
+                    <Link className="rounded-md px-3 py-3 text-sm font-semibold hover:bg-muted" href={item.href} key={item.href}>
+                      {item.label}
+                    </Link>
+                  ))}
+                </nav>
+              </SheetContent>
+            </Sheet>
+          </div>
+        </div>
+        <div className="hidden items-center justify-between py-2 text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground md:flex">
+          <span>Business intelligence for the new AI economy</span>
+          <span>Video-linked articles every day</span>
+        </div>
+      </div>
+    </header>
+  );
+}
