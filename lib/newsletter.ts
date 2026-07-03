@@ -24,6 +24,18 @@ function useSsl(connectionString: string) {
   return process.env.POSTGRES_SSL === "true" || connectionString.includes("sslmode=require") || Boolean(process.env.VERCEL);
 }
 
+function getPgConnectionString(connectionString: string) {
+  try {
+    const url = new URL(connectionString);
+    if (url.searchParams.get("sslmode") === "require") {
+      url.searchParams.delete("sslmode");
+    }
+    return url.toString();
+  } catch {
+    return connectionString;
+  }
+}
+
 function getPool() {
   const connectionString = getDatabaseUrl();
   if (!connectionString) {
@@ -32,7 +44,7 @@ function getPool() {
 
   if (!globalThis.newsletterPool) {
     globalThis.newsletterPool = new Pool({
-      connectionString,
+      connectionString: getPgConnectionString(connectionString),
       max: 5,
       idleTimeoutMillis: 30_000,
       ssl: useSsl(connectionString) ? { rejectUnauthorized: false } : undefined
