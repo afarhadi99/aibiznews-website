@@ -1,0 +1,164 @@
+{
+  "model": {
+    "id": "pixio/nano-banana-2",
+    "name": "Nano-Banana 2",
+    "type": "text-to-image",
+    "credits": 7,
+    "providerId": "pixio"
+  },
+  "generated_at": "2026-07-03T00:26:58Z",
+  "covers": [
+    {
+      "slug": "openai-public-stake-governance",
+      "title": "OpenAI's Public Stake Proposal Turns AI Wealth Into A Governance Problem",
+      "path": "covers\\openai-public-stake-governance.jpg",
+      "prompt": "Photorealistic landscape editorial news cover, no text overlay. Show Sam Altman and OpenAI's logo context near Washington DC financial power symbols, U.S. Capitol/Treasury mood, AI wealth fund concept, serious governance stakes, premium business-news photography, accurate real-world likeness and brand context, cinematic but credible lighting, clean composition, no fake text, no fake logos, no watermark.",
+      "generation_id": "e23028a0-e62d-4c5b-8e12-6028548b6c83",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/e23028a0-e62d-4c5b-8e12-6028548b6c83/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T002721Z&X-Amz-Expires=604800&X-Amz-Signature=f616dd7004a411181e14f9a0814d0182c152c347770882b62950ddef7e17a73e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "anthropic-export-controls-model-access",
+      "title": "Anthropic's Export-Control Reversal Shows Frontier Models Are Becoming Strategic Goods",
+      "path": "covers\\anthropic-export-controls-model-access.jpg",
+      "prompt": "Photorealistic landscape editorial cover, no text overlay. Anthropic Claude branding context, U.S. Commerce Department/export-control atmosphere, cybersecurity operations room, global map and restricted-access model infrastructure, strategic AI goods theme, accurate real-world brand context, serious national-security news tone, no fake text, no watermark.",
+      "generation_id": "59c76b2b-376a-46ab-a993-646c7bd8cd73",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/59c76b2b-376a-46ab-a993-646c7bd8cd73/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T002743Z&X-Amz-Expires=604800&X-Amz-Signature=106cf4e90a52b2da7913e38f4b8850e0677c52e7a1586a83b2536ce33ac46e03&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "meta-watermelon-frontier-race",
+      "title": "Meta's Watermelon Claim Raises The Stakes In The Frontier Model Race",
+      "path": "covers\\meta-watermelon-frontier-race.jpg",
+      "prompt": "Photorealistic landscape business-news cover, no text overlay. Meta headquarters and AI data center context, Mark Zuckerberg and Alexandr Wang editorial likeness where natural, frontier model benchmark dashboards, Meta logo accurately represented, high-stakes AI model race, premium tech magazine lighting, no fake text, no watermark.",
+      "generation_id": "3152bba7-a95d-4375-ad31-de2d4dcf6bb9",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/3152bba7-a95d-4375-ad31-de2d4dcf6bb9/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T002805Z&X-Amz-Expires=604800&X-Amz-Signature=e15156bcb8275334597d915ad458fcc95b7c59357994ff167f828b54f9dba9b0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "google-gemini-spark-agent-platform",
+      "title": "Google's Gemini Spark Mac Launch Pushes AI Agents Onto The Desktop",
+      "path": "covers\\google-gemini-spark-agent-platform.jpg",
+      "prompt": "Photorealistic landscape editorial cover, no text overlay. Google Gemini assistant running across a Mac desktop, Gmail, Search, Tasks, and notes as realistic UI-like context without readable fake text, Sundar Pichai/Google product launch atmosphere where appropriate, accurate Google and Gemini brand context, friendly but serious product-news look, no watermark.",
+      "generation_id": "90355a41-c393-4db6-a97e-99a666cc7c13",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/90355a41-c393-4db6-a97e-99a666cc7c13/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T002828Z&X-Amz-Expires=604800&X-Amz-Signature=28f8d4cae307009bc6421aa98181a69e200ba861a3985d2b4cd2779e7c5d15cc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "nvidia-neocloud-revenue-sharing",
+      "title": "Nvidia's Neocloud Revenue-Share Plan Rewrites The AI Infrastructure Business",
+      "path": "covers\\nvidia-neocloud-revenue-sharing.jpg",
+      "prompt": "Photorealistic landscape AI infrastructure cover, no text overlay. Nvidia Grace Blackwell GB300 racks in a large AI cloud data center, Jensen Huang editorial likeness where natural, Sharon AI and Firmus neocloud business context, finance/revenue-share visual cues, accurate Nvidia branding, premium business-news composition, no fake text, no watermark.",
+      "generation_id": "c8e79679-6d9b-4e94-b192-2f703a447f8c",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/c8e79679-6d9b-4e94-b192-2f703a447f8c/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T002855Z&X-Amz-Expires=604800&X-Amz-Signature=89c510f4904bdb9b35d068a774cf08bf9a1fddecfdd716f69e9a44d2cc77fd3f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "ai-data-center-backlash",
+      "title": "The Data Center Backlash Is Becoming An AI Bottleneck",
+      "path": "covers\\ai-data-center-backlash.jpg",
+      "prompt": "Photorealistic landscape news cover, no text overlay. Rural American town hall meeting and large AI data center construction in the background, power lines, cooling infrastructure, residents concerned about electricity, water, noise and land use, serious local-news-meets-AI-infrastructure tone, realistic lighting, no fake protest signs, no readable fake text, no watermark.",
+      "generation_id": "1436c9ee-873e-4f34-86a6-7914af989c98",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/1436c9ee-873e-4f34-86a6-7914af989c98/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T002920Z&X-Amz-Expires=604800&X-Amz-Signature=0c148013b1d8844e70521add117ddecaafff99a198dfdc184e6cfbd9333f4827&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "home-robots-isaac-1",
+      "title": "Weave's Isaac 1 Shows Home Robots Are Moving From Demo To Price Tag",
+      "path": "covers\\home-robots-isaac-1.jpg",
+      "prompt": "Photorealistic landscape editorial cover, no text overlay. Weave Robotics Isaac 1 style home robot doing household chores in a modern living room, folding laundry or making a bed, family home context, accurate robotics product-news feel, warm realistic lighting, not a cartoon, no fake text, no watermark.",
+      "generation_id": "e71c9b73-4366-458d-a4e9-665d86f1911e",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/e71c9b73-4366-458d-a4e9-665d86f1911e/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T002942Z&X-Amz-Expires=604800&X-Amz-Signature=64965ba8b602a809118733367eab173a5f972d34c07eeff114a73e87c741e8b9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "administrative-work-ai-shift",
+      "title": "Administrative Workers Are Becoming The First Test Of AI Upskilling",
+      "path": "covers\\administrative-work-ai-shift.jpg",
+      "prompt": "Photorealistic landscape workplace-news cover, no text overlay. Administrative assistants in a modern office using AI tools like Copilot/ChatGPT-style assistants on screens, diverse professional workers, executive calendar and briefing workflow context, respectful human-centered labor story, realistic business photography, no fake text, no watermark.",
+      "generation_id": "a3e75e2e-9dfb-47e8-b389-0fdcfaa6846e",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/a3e75e2e-9dfb-47e8-b389-0fdcfaa6846e/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003005Z&X-Amz-Expires=604800&X-Amz-Signature=125a0f7e414154f3712ef5653621b6d6a991b576c5377ba894e3a61cf82651d6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "healthcare-ai-regulatory-stack",
+      "title": "Health AI Is Moving From Pilot Projects To Compliance Infrastructure",
+      "path": "covers\\healthcare-ai-regulatory-stack.jpg",
+      "prompt": "Photorealistic landscape healthcare AI news cover, no text overlay. Hospital radiology suite with clinicians reviewing FDA-regulated AI medical device dashboard, patient safety and compliance context, realistic medical environment, accurate regulatory and clinical tone, no fake readable UI text, no watermark.",
+      "generation_id": "476737c7-adaa-4439-b614-9650acd588c1",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/476737c7-adaa-4439-b614-9650acd588c1/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003028Z&X-Amz-Expires=604800&X-Amz-Signature=354f804446f8480947b3ad3b28645781cff2a3f91b6c3d46e4abddf4ac84e09e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    },
+    {
+      "slug": "ai-music-copyright-consent",
+      "title": "AI Music's Next Fight Is Consent, Not Novelty",
+      "path": "covers\\ai-music-copyright-consent.jpg",
+      "prompt": "Photorealistic landscape music industry news cover, no text overlay. Musicians and producers in a recording studio reviewing AI music licensing and copyright documents, streaming platform policy context, artist consent and royalties theme, professional editorial photography, real instruments and mixing console, no fake readable text, no watermark.",
+      "generation_id": "7a4ca463-89b2-4dd3-bbac-0b8e82a3bf10",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/7a4ca463-89b2-4dd3-bbac-0b8e82a3bf10/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003051Z&X-Amz-Expires=604800&X-Amz-Signature=73453c52388fc1f6151107525b03767d2a4257cf9af15c0463e79a68a86e8066&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded"
+    }
+  ],
+  "regenerated": [
+    {
+      "slug": "openai-public-stake-governance",
+      "title": "OpenAI's Public Stake Proposal Turns AI Wealth Into A Governance Problem",
+      "path": "covers\\openai-public-stake-governance.jpg",
+      "prompt": "Photorealistic landscape business-news cover with zero visible words, zero letters, zero numbers, zero signage, zero banners, zero UI screens, and zero readable documents. Show Sam Altman-like tech CEO figure in Washington DC near the Capitol/Treasury area, abstract AI wealth and public finance visual cues using coins, light trails, and government architecture. Serious governance mood, natural editorial photography, no text, no logos, no watermark.",
+      "generation_id": "8ead3884-3433-405a-88b7-381916755941",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/8ead3884-3433-405a-88b7-381916755941/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003327Z&X-Amz-Expires=604800&X-Amz-Signature=603f1fe45550683ea28d2954e7948cf462140af55ddb61f67bb3fc22c9b93c5a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded",
+      "reason": "regenerated to reduce fake readable text and signage"
+    },
+    {
+      "slug": "anthropic-export-controls-model-access",
+      "title": "Anthropic's Export-Control Reversal Shows Frontier Models Are Becoming Strategic Goods",
+      "path": "covers\\anthropic-export-controls-model-access.jpg",
+      "prompt": "Photorealistic landscape national-security news cover with zero visible words, zero letters, zero numbers, zero UI screens, zero signs, and zero readable documents. Show a secure government operations room with officials reviewing abstract world-map light trails and locked server infrastructure, representing AI model export controls and Anthropic-style frontier model access. Serious, realistic, cinematic, no text, no logos, no watermark.",
+      "generation_id": "785d7129-d347-4dcd-97d5-74c95dad9646",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/785d7129-d347-4dcd-97d5-74c95dad9646/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003350Z&X-Amz-Expires=604800&X-Amz-Signature=7b294014f5c3805b3de8105193488f2a3e19b81ea20f2ab072404a60882e4c33&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded",
+      "reason": "regenerated to reduce fake readable text and signage"
+    },
+    {
+      "slug": "meta-watermelon-frontier-race",
+      "title": "Meta's Watermelon Claim Raises The Stakes In The Frontier Model Race",
+      "path": "covers\\meta-watermelon-frontier-race.jpg",
+      "prompt": "Photorealistic landscape tech-business cover with zero visible words, zero letters, zero numbers, zero screens with readable UI, and zero signage. Show a Meta-like campus and large AI data center, Mark Zuckerberg-like founder figure and Alexandr Wang-like AI executive in discussion, abstract glowing model-performance visualization without text. Premium editorial photography, no written labels, no watermark.",
+      "generation_id": "ff828098-6cde-43d8-9fb8-8940cc30826b",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/ff828098-6cde-43d8-9fb8-8940cc30826b/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003416Z&X-Amz-Expires=604800&X-Amz-Signature=7b16e58f3f1c1b6a0e69868504ca43adc699c3026316d3fdec8e7bb70e314641&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded",
+      "reason": "regenerated to reduce fake readable text and signage"
+    },
+    {
+      "slug": "google-gemini-spark-agent-platform",
+      "title": "Google's Gemini Spark Mac Launch Pushes AI Agents Onto The Desktop",
+      "path": "covers\\google-gemini-spark-agent-platform.jpg",
+      "prompt": "Photorealistic landscape consumer-tech cover with zero visible words, zero letters, zero numbers, zero UI text, zero signage, and zero readable screens. Show a clean Mac desktop workspace with abstract floating assistant panels, Gmail/search/task concepts represented only by icons and shapes, a Google product launch atmosphere, a Sundar Pichai-like presenter in a modern office, friendly but serious product-news look, no text, no watermark.",
+      "generation_id": "d18e439f-d3ee-4324-898d-a27d1bfea5a6",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/d18e439f-d3ee-4324-898d-a27d1bfea5a6/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003438Z&X-Amz-Expires=604800&X-Amz-Signature=d4c9c413f3f022e721a9998672a316e222727c6449dac08c2e771e3c6c253781&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded",
+      "reason": "regenerated to reduce fake readable text and signage"
+    },
+    {
+      "slug": "nvidia-neocloud-revenue-sharing",
+      "title": "Nvidia's Neocloud Revenue-Share Plan Rewrites The AI Infrastructure Business",
+      "path": "covers\\nvidia-neocloud-revenue-sharing.jpg",
+      "prompt": "Photorealistic landscape AI infrastructure business-news cover with zero visible words, zero letters, zero numbers, zero dashboard text, zero wall signage, and zero readable screens. Show Jensen Huang-like Nvidia CEO figure in a large GPU data center, green-lit AI server racks, finance/revenue-share represented with abstract glowing flow lines and handshake composition. No written labels, no logos, no watermark.",
+      "generation_id": "1da6c8bc-eb80-44b8-a031-8c78277764c1",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/1da6c8bc-eb80-44b8-a031-8c78277764c1/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003500Z&X-Amz-Expires=604800&X-Amz-Signature=8d22c50c23ed69a6ac52debe44aeb1e458810a5bdd574b31d45eefbb78451b74&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded",
+      "reason": "regenerated to reduce fake readable text and signage"
+    },
+    {
+      "slug": "healthcare-ai-regulatory-stack",
+      "title": "Health AI Is Moving From Pilot Projects To Compliance Infrastructure",
+      "path": "covers\\healthcare-ai-regulatory-stack.jpg",
+      "prompt": "Photorealistic landscape healthcare AI news cover with zero visible words, zero letters, zero numbers, zero posters, zero labels, and zero readable screens. Show clinicians in a hospital radiology environment reviewing an abstract AI medical imaging system with charts represented only by shapes and colors, patient safety and compliance atmosphere, realistic clinical lighting, no text, no watermark.",
+      "generation_id": "1727e21c-371c-4506-a7be-7c79e30f3a34",
+      "output_url": "https://pixio-v2.nyc3.digitaloceanspaces.com/users/88affa7b-d939-4c93-a926-08652cfd21f9/generated-content/1727e21c-371c-4506-a7be-7c79e30f3a34/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO801TFQ7HG4LRDFD9JQ%2F20260703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260703T003522Z&X-Amz-Expires=604800&X-Amz-Signature=a346f152d71ed6f626b4450b07f657a68449f2dfeb6ac3ee753d8906792fa647&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": "succeeded",
+      "reason": "regenerated to reduce fake readable text and signage"
+    }
+  ]
+}
