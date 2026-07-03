@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Libre_Baskerville } from "next/font/google";
+import { PageAnalytics } from "@/components/PageAnalytics";
 import { SiteHeader } from "@/components/SiteHeader";
+import { VercelAnalytics } from "@/components/VercelAnalytics";
 import { siteConfig } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import "./globals.css";
@@ -54,6 +56,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <SiteHeader />
         {children}
+        <PageAnalytics />
+        <VercelAnalytics />
         <footer className="border-t border-foreground/15 bg-[var(--brand-ink)] text-white dark:border-white/10">
           <div className="site-shell grid gap-6 py-10 md:grid-cols-[1.2fr_0.8fr]">
             <div>

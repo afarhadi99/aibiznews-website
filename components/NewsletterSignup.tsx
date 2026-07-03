@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { track } from "@vercel/analytics";
 import { ArrowRight, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -39,6 +40,7 @@ export function NewsletterSignup({ source = "homepage-sidebar" }: NewsletterSign
       setEmail("");
       setState("success");
       setMessage("You are on the list.");
+      track("newsletter_signup", { source });
     } catch (error) {
       setState("error");
       setMessage(error instanceof Error ? error.message : "Newsletter signup failed.");

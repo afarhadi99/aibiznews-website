@@ -1,4 +1,4 @@
-import { Pool } from "pg";
+import { getPool } from "@/lib/database";
 
 type NewsletterSignup = {
   email: string;
@@ -6,53 +6,7 @@ type NewsletterSignup = {
   userAgent?: string | null;
 };
 
-declare global {
-  // eslint-disable-next-line no-var
-  var newsletterPool: Pool | undefined;
-}
-
 let tableReady: Promise<void> | null = null;
-
-function getDatabaseUrl() {
-  return process.env.DATABASE_URL || process.env.POSTGRES_URL || process.env.POSTGRES_PRISMA_URL;
-}
-
-function useSsl(connectionString: string) {
-  if (process.env.POSTGRES_SSL === "false") {
-    return false;
-  }
-  return process.env.POSTGRES_SSL === "true" || connectionString.includes("sslmode=require") || Boolean(process.env.VERCEL);
-}
-
-function getPgConnectionString(connectionString: string) {
-  try {
-    const url = new URL(connectionString);
-    if (url.searchParams.get("sslmode") === "require") {
-      url.searchParams.delete("sslmode");
-    }
-    return url.toString();
-  } catch {
-    return connectionString;
-  }
-}
-
-function getPool() {
-  const connectionString = getDatabaseUrl();
-  if (!connectionString) {
-    throw new Error("DATABASE_URL or POSTGRES_URL is not set");
-  }
-
-  if (!globalThis.newsletterPool) {
-    globalThis.newsletterPool = new Pool({
-      connectionString: getPgConnectionString(connectionString),
-      max: 5,
-      idleTimeoutMillis: 30_000,
-      ssl: useSsl(connectionString) ? { rejectUnauthorized: false } : undefined
-    });
-  }
-
-  return globalThis.newsletterPool;
-}
 
 async function ensureNewsletterTable() {
   if (!tableReady) {
@@ -105,4 +59,66 @@ export async function saveNewsletterSignup({ email, source = "site", userAgent =
   );
 
   return result.rows[0];
+}
+
+export type NewsletterSubscriber = {
+  id: string;
+  email: string;
+  source: string;
+  userAgent: string | null;
+  isActive: boolean;
+  subscribedAt: string;
+  updatedAt: string;
+};
+
+export async function getNewsletterDashboardData() {
+  await ensureNewsletterTable();
+
+  const [totals, recent] = await Promise.all([
+    getPool().query<{
+      total: string;
+      active: string;
+      last_24h: string;
+      last_7d: string;
+    }>(`
+      select
+        count(*)::text as total,
+        count(*) filter (where is_active)::text as active,
+        count(*) filter (where subscribed_at >= now() - interval '24 hours')::text as last_24h,
+        count(*) filter (where subscribed_at >= now() - interval '7 days')::text as last_7d
+      from newsletter_subscribers;
+    `),
+    getPool().query<{
+      id: string;
+      email: string;
+      source: string;
+      user_agent: string | null;
+      is_active: boolean;
+      subscribed_at: Date;
+      updated_at: Date;
+    }>(`
+      select id::text, email, source, user_agent, is_active, subscribed_at, updated_at
+      from newsletter_subscribers
+      order by subscribed_at desc
+      limit 100;
+    `)
+  ]);
+
+  const summary = totals.rows[0] ?? { total: "0", active: "0", last_24h: "0", last_7d: "0" };
+
+  return {
+    total: Number(summary.total),
+    active: Number(summary.active),
+    last24h: Number(summary.last_24h),
+    last7d: Number(summary.last_7d),
+    recent: recent.rows.map((subscriber) => ({
+      id: subscriber.id,
+      email: subscriber.email,
+      source: subscriber.source,
+      userAgent: subscriber.user_agent,
+      isActive: subscriber.is_active,
+      subscribedAt: subscriber.subscribed_at.toISOString(),
+      updatedAt: subscriber.updated_at.toISOString()
+    })) satisfies NewsletterSubscriber[]
+  };
 }
