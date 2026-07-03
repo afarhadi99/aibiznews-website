@@ -20,6 +20,7 @@ No secrets belong in this repo. Keep API keys in local `.env` files only.
 | Automation | `C:\Users\alish\Desktop\youtube-automation` | Research, article draft, Pixio images, Pixio TTS audio, video rendering, metadata, browser publishing |
 | Website | `C:\Users\alish\Documents\GitHub\aibiznews-website` | Public site, article markdown, cover images, audio, newsletter signup |
 | Story folders | `C:\Users\alish\Desktop\youtube-automation\videos\{number}-{slug}` | One folder per story package |
+| Story tracker | `C:\Users\alish\Desktop\youtube-automation\tracking\aibiz_story_tracker.xlsx` | Spreadsheet ledger with description, sources, assets, metadata, and publish status for every story |
 | Articles | `content\articles\*.md` | Public article source files |
 | Covers | `public\images\covers\*.jpg` | Article and social cover images |
 | Audio | `public\audio\*.wav` or `*.mp3` | Narrated article audio files |
@@ -71,6 +72,12 @@ Create ten packages:
 python daily_automation.py --count 10 --live --no-publish --website-repo "C:\Users\alish\Documents\GitHub\aibiznews-website"
 ```
 
+Rebuild the formatted story tracker after manual CSV edits:
+
+```powershell
+node tools\build_story_tracker_workbook.mjs
+```
+
 Deploy website:
 
 ```powershell
@@ -119,6 +126,7 @@ Live browser publishing requires logged-in YouTube Studio and TikTok Studio sess
 A story is done only when all of these exist:
 
 - Multiple credible sources.
+- Tracker row in `tracking\aibiz_story_tracker.csv` and `tracking\aibiz_story_tracker.xlsx`.
 - Website article with source links at the bottom.
 - Generated cover and vertical video images.
 - Pixio Gemini TTS voiceover.

@@ -6,6 +6,7 @@ Use this before approving any story package.
 
 - At least two credible sources for a normal news item.
 - Three or more sources for larger stories, disputed claims, market-moving stories, or anything involving public figures.
+- Source diversity means distinct publishers or primary documents, not multiple links from the same publisher.
 - Source dates are current and relevant.
 - Claims in the article can be traced back to source links.
 - No unsupported valuation, revenue, legal, safety, or capability claims.
@@ -58,6 +59,12 @@ Use this before approving any story package.
 - Tags and hashtags match the story.
 - Metadata does not overpromise or imply unsupported facts.
 - Platform metadata does not include source URLs.
+
+## Story Tracker
+
+- `tracking\aibiz_story_tracker.csv` has one row for the story.
+- `tracking\aibiz_story_tracker.xlsx` has been rebuilt after CSV changes.
+- The row includes description, category, entities, schedule time, source count, individual source publishers/titles/URLs, article URL, asset paths, platform metadata copy, and publish status.
 
 ## Website
 

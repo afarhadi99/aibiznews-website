@@ -5,14 +5,26 @@
 - Title:
 - Slug:
 - Category:
+- Description:
+- Entities:
 - Story folder:
 - Created date:
+- Scheduled time:
+
+## Tracker
+
+- Tracker CSV: `C:\Users\alish\Desktop\youtube-automation\tracking\aibiz_story_tracker.csv`
+- Tracker workbook: `C:\Users\alish\Desktop\youtube-automation\tracking\aibiz_story_tracker.xlsx`
+- Tracker row reviewed:
 
 ## Research
 
 - Research JSON:
 - Source review:
 - Source count:
+- Source 1 publisher/title/URL:
+- Source 2 publisher/title/URL:
+- Source 3 publisher/title/URL:
 
 ## Article
 

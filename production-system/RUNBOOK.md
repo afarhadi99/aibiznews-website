@@ -50,6 +50,7 @@ Research rules:
 - Cover technology business broadly, not AI-only.
 - Prefer specific current events with named actors.
 - Use multiple credible sources.
+- Use distinct publishers and primary documents when possible; repeated articles from one publisher do not count as source diversity.
 - Prefer primary filings/releases plus reputable business/tech press.
 - Save source title, publisher, URL, date, and supported claim.
 
@@ -204,7 +205,30 @@ Rules:
 - YouTube description includes context, one article link, brand line, 3-4 hashtags.
 - TikTok caption is concise and platform-native.
 
-## 7. Website Build And Deploy
+## 7. Story Tracker
+
+Entry point:
+
+```text
+src/story_tracker.py
+```
+
+Outputs:
+
+```text
+tracking/aibiz_story_tracker.csv
+tracking/aibiz_story_tracker.xlsx
+```
+
+Each story row must include description, category, entities, schedule time, source count, individual source publisher/title/URL fields, article URL, cover/audio/video paths, voice/model, YouTube and TikTok metadata, publish status, and notes.
+
+Rebuild the formatted workbook:
+
+```powershell
+node tools\build_story_tracker_workbook.mjs
+```
+
+## 8. Website Build And Deploy
 
 ```powershell
 cd C:\Users\alish\Documents\GitHub\aibiznews-website
@@ -222,7 +246,7 @@ Verify:
 - Cover returns 200.
 - Audio returns 200.
 
-## 8. Publishing
+## 9. Publishing
 
 YouTube:
 
@@ -249,7 +273,7 @@ videos/{number}-{slug}/metadata/run_record.json
 logs/last_daily_run.json
 ```
 
-## 9. Final Check
+## 10. Final Check
 
 A finished public story has:
 
@@ -257,5 +281,6 @@ A finished public story has:
 - Cover visible.
 - Audio playable.
 - Source links visible.
+- Story tracker row complete.
 - Final vertical video rendered.
 - YouTube/TikTok published, scheduled, or blocker recorded.
