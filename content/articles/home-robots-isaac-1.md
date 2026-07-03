@@ -10,9 +10,8 @@ sourceCount: 4
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/home-robots-isaac-1.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-04T08:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # Weave's Isaac 1 Shows Home Robots Are Moving From Demo To Price Tag

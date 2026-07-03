@@ -10,9 +10,8 @@ sourceCount: 5
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/bending-spoons-ipo-aol-vimeo-eventbrite.wav"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-03T14:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # Bending Spoons' IPO Puts AOL, Vimeo, And Eventbrite Back On Wall Street

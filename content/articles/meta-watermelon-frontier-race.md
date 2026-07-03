@@ -10,9 +10,8 @@ sourceCount: 4
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/meta-watermelon-frontier-race.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-04T06:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # Meta's Watermelon Claim Raises The Stakes In The Frontier Model Race

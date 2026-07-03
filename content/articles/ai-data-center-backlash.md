@@ -10,9 +10,8 @@ sourceCount: 5
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/ai-data-center-backlash.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-03T23:59:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # The Data Center Backlash Is Becoming An AI Bottleneck

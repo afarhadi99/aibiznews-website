@@ -10,9 +10,8 @@ sourceCount: 4
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/nvidia-neocloud-revenue-sharing.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-03T18:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # Nvidia's Neocloud Revenue-Share Plan Rewrites The AI Infrastructure Business

@@ -10,9 +10,8 @@ sourceCount: 4
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/anthropic-export-controls-model-access.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-03T20:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # Anthropic's Export-Control Reversal Shows Frontier Models Are Becoming Strategic Goods

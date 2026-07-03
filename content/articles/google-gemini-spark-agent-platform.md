@@ -10,9 +10,8 @@ sourceCount: 4
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/google-gemini-spark-agent-platform.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-04T12:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # Google's Gemini Spark Mac Launch Pushes AI Agents Onto The Desktop

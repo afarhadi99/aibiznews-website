@@ -10,9 +10,8 @@ sourceCount: 5
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/healthcare-ai-regulatory-stack.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-04T10:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # Health AI Is Moving From Pilot Projects To Compliance Infrastructure

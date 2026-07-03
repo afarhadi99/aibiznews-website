@@ -10,9 +10,8 @@ sourceCount: 5
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/ai-music-copyright-consent.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-03T22:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # AI Music's Next Fight Is Consent, Not Novelty

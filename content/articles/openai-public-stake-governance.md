@@ -10,9 +10,8 @@ sourceCount: 4
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/openai-public-stake-governance.mp3"
-videoStatus: "scheduled"
-scheduledAt: "2026-07-03T16:00:00-04:00"
-status: "scheduled"
+videoStatus: "pending_upload"
+status: "published"
 ---
 
 # OpenAI's Public Stake Proposal Turns AI Wealth Into A Governance Problem
