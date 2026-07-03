@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Health AI Is Moving From Pilot Projects To Compliance Infrastructure"
 slug: "healthcare-ai-regulatory-stack"
 date: "2026-07-02"
@@ -7,7 +7,12 @@ description: "The growth of FDA-authorized AI medical devices and state-level he
 cover: "/images/covers/healthcare-ai-regulatory-stack.jpg"
 tags: ["Health Tech", "Healthcare AI", "FDA", "Medical Devices", "Compliance"]
 sourceCount: 5
-status: "test-draft"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: "/audio/healthcare-ai-regulatory-stack.mp3"
+videoStatus: "scheduled"
+scheduledAt: "2026-07-04T10:00:00-04:00"
+status: "scheduled"
 ---
 
 # Health AI Is Moving From Pilot Projects To Compliance Infrastructure

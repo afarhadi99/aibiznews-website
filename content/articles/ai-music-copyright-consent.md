@@ -1,4 +1,4 @@
-﻿---
+---
 title: "AI Music's Next Fight Is Consent, Not Novelty"
 slug: "ai-music-copyright-consent"
 date: "2026-07-02"
@@ -7,7 +7,12 @@ description: "Streaming policies, artist letters, and training-data disputes sho
 cover: "/images/covers/ai-music-copyright-consent.jpg"
 tags: ["Media Tech", "AI Music", "Copyright", "Tidal", "Artists"]
 sourceCount: 5
-status: "test-draft"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: "/audio/ai-music-copyright-consent.mp3"
+videoStatus: "scheduled"
+scheduledAt: "2026-07-03T22:00:00-04:00"
+status: "scheduled"
 ---
 
 # AI Music's Next Fight Is Consent, Not Novelty

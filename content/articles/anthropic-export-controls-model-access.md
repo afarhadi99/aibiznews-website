@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Anthropic's Export-Control Reversal Shows Frontier Models Are Becoming Strategic Goods"
 slug: "anthropic-export-controls-model-access"
 date: "2026-07-02"
@@ -7,7 +7,12 @@ description: "The lifting of U.S. restrictions on Anthropic's Fable and Mythos m
 cover: "/images/covers/anthropic-export-controls-model-access.jpg"
 tags: ["Anthropic", "Claude", "Export Controls", "Policy", "National Security"]
 sourceCount: 4
-status: "test-draft"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: "/audio/anthropic-export-controls-model-access.mp3"
+videoStatus: "scheduled"
+scheduledAt: "2026-07-03T20:00:00-04:00"
+status: "scheduled"
 ---
 
 # Anthropic's Export-Control Reversal Shows Frontier Models Are Becoming Strategic Goods

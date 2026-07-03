@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Nvidia's Neocloud Revenue-Share Plan Rewrites The AI Infrastructure Business"
 slug: "nvidia-neocloud-revenue-sharing"
 date: "2026-07-02"
@@ -7,7 +7,12 @@ description: "Nvidia's revenue-sharing and credit-support model with AI cloud pa
 cover: "/images/covers/nvidia-neocloud-revenue-sharing.jpg"
 tags: ["Nvidia", "AI Chips", "Neoclouds", "Chips & Cloud", "Firmus"]
 sourceCount: 4
-status: "test-draft"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: "/audio/nvidia-neocloud-revenue-sharing.mp3"
+videoStatus: "scheduled"
+scheduledAt: "2026-07-03T18:00:00-04:00"
+status: "scheduled"
 ---
 
 # Nvidia's Neocloud Revenue-Share Plan Rewrites The AI Infrastructure Business

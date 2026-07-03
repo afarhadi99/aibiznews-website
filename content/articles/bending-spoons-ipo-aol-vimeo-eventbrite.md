@@ -6,11 +6,13 @@ category: "Startups & Markets"
 description: "Bending Spoons' Nasdaq debut turns a portfolio of familiar internet brands into a public-market bet on AI-assisted software roll-ups."
 cover: "/images/covers/bending-spoons-ipo-aol-vimeo-eventbrite.jpg"
 tags: ["Bending Spoons", "AOL", "Vimeo", "Eventbrite", "IPO", "Nasdaq", "Software"]
+sourceCount: 5
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: "/audio/bending-spoons-ipo-aol-vimeo-eventbrite.wav"
-sourceCount: 5
-status: "published"
+videoStatus: "scheduled"
+scheduledAt: "2026-07-03T14:00:00-04:00"
+status: "scheduled"
 ---
 
 # Bending Spoons' IPO Puts AOL, Vimeo, And Eventbrite Back On Wall Street

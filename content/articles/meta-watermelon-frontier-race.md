@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Meta's Watermelon Claim Raises The Stakes In The Frontier Model Race"
 slug: "meta-watermelon-frontier-race"
 date: "2026-07-02"
@@ -7,7 +7,12 @@ description: "Reported internal claims that Meta's upcoming Watermelon model has
 cover: "/images/covers/meta-watermelon-frontier-race.jpg"
 tags: ["Meta", "Alexandr Wang", "Frontier Models", "Open Source AI", "Platforms"]
 sourceCount: 4
-status: "test-draft"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: "/audio/meta-watermelon-frontier-race.mp3"
+videoStatus: "scheduled"
+scheduledAt: "2026-07-04T06:00:00-04:00"
+status: "scheduled"
 ---
 
 # Meta's Watermelon Claim Raises The Stakes In The Frontier Model Race

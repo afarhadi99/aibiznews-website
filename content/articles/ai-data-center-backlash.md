@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Data Center Backlash Is Becoming An AI Bottleneck"
 slug: "ai-data-center-backlash"
 date: "2026-07-02"
@@ -7,7 +7,12 @@ description: "Local resistance to AI data centers is turning power, water, noise
 cover: "/images/covers/ai-data-center-backlash.jpg"
 tags: ["Data Centers", "Energy", "Water", "Infrastructure", "Community Backlash"]
 sourceCount: 5
-status: "test-draft"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: "/audio/ai-data-center-backlash.mp3"
+videoStatus: "scheduled"
+scheduledAt: "2026-07-03T23:59:00-04:00"
+status: "scheduled"
 ---
 
 # The Data Center Backlash Is Becoming An AI Bottleneck
