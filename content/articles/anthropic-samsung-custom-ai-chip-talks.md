@@ -6,10 +6,10 @@ category: "Chips & Cloud"
 description: "Anthropic's reported Samsung talks show how frontier AI labs are trying to control more of the silicon and compute stack behind their models."
 cover: "/images/covers/anthropic-samsung-custom-ai-chip-talks.jpg"
 tags: ["Anthropic", "Samsung", "Claude", "AI chips", "custom silicon", "Nvidia", "Google TPU", "Amazon AWS"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/uHa71qkDRF0"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7658333886467935519"
 audioUrl: "/audio/anthropic-samsung-custom-ai-chip-talks.wav"
-videoStatus: "pending"
+videoStatus: "published"
 sourceCount: 6
 ---
 
