@@ -5,6 +5,7 @@ import { remark } from "remark";
 import html from "remark-html";
 
 const articlesDirectory = path.join(process.cwd(), "content", "articles");
+const publicArticleStartDate = "2026-01-01";
 
 export type ArticleMeta = {
   title: string;
@@ -57,7 +58,11 @@ function normalizeMeta(data: Record<string, unknown>, fallbackSlug: string, cont
   };
 }
 
-export function getAllArticleMeta(): ArticleMeta[] {
+function isPublicArticle(article: ArticleMeta) {
+  return article.date >= publicArticleStartDate;
+}
+
+function readAllArticleMeta(): ArticleMeta[] {
   if (!fs.existsSync(articlesDirectory)) {
     return [];
   }
@@ -71,6 +76,10 @@ export function getAllArticleMeta(): ArticleMeta[] {
       return normalizeMeta(data, file.replace(/\.md$/, ""), content);
     })
     .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+export function getAllArticleMeta(): ArticleMeta[] {
+  return readAllArticleMeta().filter(isPublicArticle);
 }
 
 export function getCategories() {
@@ -95,9 +104,13 @@ export async function getArticle(slug: string): Promise<Article | null> {
   }
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
+  const meta = normalizeMeta(data, slug, content);
+  if (!isPublicArticle(meta)) {
+    return null;
+  }
   const processedContent = await remark().use(html).process(content);
   return {
-    ...normalizeMeta(data, slug, content),
+    ...meta,
     contentHtml: processedContent.toString(),
     rawContent: content
   };
