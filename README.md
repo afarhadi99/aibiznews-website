@@ -8,7 +8,6 @@ Markdown-powered news site for technology business articles, audio narration, ne
 - Cover images live in `public/images/covers/`.
 - Each article uses frontmatter for category, tags, cover image, audio, and related channel links.
 - Pixio cover generation is available with `npm run covers:pixio` and targets Nano Banana 2 by default.
-- Full story packages are generated from `C:\Users\alish\Desktop\youtube-automation`.
 
 ## Development
 
@@ -39,20 +38,6 @@ https://aibiznews-website.vercel.app
 ```
 
 Use that URL for platform metadata until `https://aibiznews.com` is confirmed to serve this same Vercel deployment.
-
-## Production System
-
-The full research-to-publishing workflow is documented in `production-system/`.
-
-Start with:
-
-```text
-production-system/README.md
-production-system/RUNBOOK.md
-production-system/QUALITY-GATES.md
-```
-
-That folder explains how the automation at `C:\Users\alish\Desktop\youtube-automation` creates research, articles, Pixio images, Pixio Gemini TTS voiceovers, final videos, blog assets, and YouTube/TikTok publishing records.
 
 ## Newsletter
 
