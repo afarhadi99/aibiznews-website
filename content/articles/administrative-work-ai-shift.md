@@ -2,10 +2,11 @@
 title: "Administrative Workers Are Becoming The First Test Of AI Upskilling"
 slug: "administrative-work-ai-shift"
 date: "2026-07-02"
-category: "AI Labor"
+category: "Workplace Tech"
 description: "Administrative assistants show the real workplace AI story: not just job loss, but a fast rewrite of expectations, tools, and status."
 cover: "/images/covers/administrative-work-ai-shift.jpg"
-tags: ["AI Labor", "Administrative Assistants", "Workplace AI", "Upskilling", "Copilot"]
+tags: ["Workplace Tech", "Administrative Assistants", "AI", "Upskilling", "Copilot"]
+youtubeUrl: "https://youtube.com/shorts/eZzi6vUWg-U"
 sourceCount: 4
 status: "test-draft"
 ---

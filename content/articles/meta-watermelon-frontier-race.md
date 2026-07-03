@@ -2,10 +2,10 @@
 title: "Meta's Watermelon Claim Raises The Stakes In The Frontier Model Race"
 slug: "meta-watermelon-frontier-race"
 date: "2026-07-02"
-category: "AI Platforms"
+category: "Platforms"
 description: "Reported internal claims that Meta's upcoming Watermelon model has caught OpenAI's flagship model show how fast the frontier race is becoming a compute and distribution contest."
 cover: "/images/covers/meta-watermelon-frontier-race.jpg"
-tags: ["Meta", "Alexandr Wang", "Frontier Models", "Open Source AI", "AI Infrastructure"]
+tags: ["Meta", "Alexandr Wang", "Frontier Models", "Open Source AI", "Platforms"]
 sourceCount: 4
 status: "test-draft"
 ---

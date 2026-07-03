@@ -2,10 +2,10 @@
 title: "AI Music's Next Fight Is Consent, Not Novelty"
 slug: "ai-music-copyright-consent"
 date: "2026-07-02"
-category: "AI Media"
+category: "Media Tech"
 description: "Streaming policies, artist letters, and training-data disputes show that the AI music debate has moved from novelty to consent, royalties, and control."
 cover: "/images/covers/ai-music-copyright-consent.jpg"
-tags: ["AI Music", "Copyright", "Tidal", "Artists", "Generative AI"]
+tags: ["Media Tech", "AI Music", "Copyright", "Tidal", "Artists"]
 sourceCount: 5
 status: "test-draft"
 ---

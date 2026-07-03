@@ -2,10 +2,10 @@
 title: "OpenAI's Public Stake Proposal Turns AI Wealth Into A Governance Problem"
 slug: "openai-public-stake-governance"
 date: "2026-07-02"
-category: "AI Policy"
+category: "Markets & Policy"
 description: "A reported proposal to give the U.S. government a 5 percent OpenAI stake reframes AI upside as a public-finance and governance question."
 cover: "/images/covers/openai-public-stake-governance.jpg"
-tags: ["OpenAI", "Sam Altman", "AI Policy", "Public Markets", "AI Governance"]
+tags: ["OpenAI", "Sam Altman", "Markets & Policy", "Public Markets", "AI Governance"]
 sourceCount: 4
 status: "test-draft"
 ---

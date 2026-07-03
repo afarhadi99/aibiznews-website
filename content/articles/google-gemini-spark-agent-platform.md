@@ -2,10 +2,10 @@
 title: "Google's Gemini Spark Mac Launch Pushes AI Agents Onto The Desktop"
 slug: "google-gemini-spark-agent-platform"
 date: "2026-07-02"
-category: "AI Platforms"
+category: "Platforms"
 description: "Gemini Spark's move onto macOS points to the next platform battle: AI agents that live across files, email, notes, search, and real-time events."
 cover: "/images/covers/google-gemini-spark-agent-platform.jpg"
-tags: ["Google", "Gemini Spark", "AI Agents", "Search", "Productivity"]
+tags: ["Google", "Gemini Spark", "AI Agents", "Search", "Platforms"]
 sourceCount: 4
 status: "test-draft"
 ---

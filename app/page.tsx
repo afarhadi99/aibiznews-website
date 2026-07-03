@@ -88,7 +88,7 @@ export default function HomePage() {
                     <p className="text-sm font-bold">Why it matters</p>
                   </div>
                   <p className="mt-3 font-serif text-xl font-bold leading-tight sm:text-[1.45rem]">
-                    Follow the companies turning AI capability into revenue, distribution, and control over scarce compute.
+                    Follow the companies turning chips, software, data, devices, and AI capability into revenue, distribution, and market power.
                   </p>
                 </div>
                 <div className="latest-stack">
@@ -120,13 +120,13 @@ export default function HomePage() {
         <div className="site-shell grid gap-0 py-0 sm:grid-cols-2 lg:grid-cols-4">
           <Signal icon={<Cpu size={15} aria-hidden />} label="Infrastructure" value="Chips, cloud, data centers, power" />
           <Signal icon={<BarChart3 size={15} aria-hidden />} label="Markets" value="Earnings, funding, enterprise spend" />
-          <Signal icon={<Radio size={15} aria-hidden />} label="Platforms" value="Agents, models, media tools" />
-          <Signal icon={<Landmark size={15} aria-hidden />} label="Policy" value="Regulation, labor, copyright" />
+          <Signal icon={<Radio size={15} aria-hidden />} label="Platforms" value="Apps, agents, models, media tools" />
+          <Signal icon={<Landmark size={15} aria-hidden />} label="Policy" value="Regulation, labor, privacy, copyright" />
         </div>
       </section>
 
       <section className="site-shell py-7 md:py-10">
-        <SectionHeader eyebrow="Departments" title="Explore the AI business beat" actionHref="/#all-stories" actionLabel="Full index" />
+        <SectionHeader eyebrow="Departments" title="Explore the technology beat" actionHref="/#all-stories" actionLabel="Full index" />
         <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {departments.map((department) => (
             <DepartmentPanel
@@ -154,9 +154,9 @@ export default function HomePage() {
           <aside className="space-y-4 lg:sticky lg:top-28 lg:self-start">
             <div className="newsletter-panel">
               <p className="soft-label bg-white/16 text-white dark:bg-white/10">Newsletter</p>
-              <h3 className="mt-4 font-serif text-3xl font-bold leading-tight">A calmer way to track AI business.</h3>
+              <h3 className="mt-4 font-serif text-3xl font-bold leading-tight">A calmer way to track technology markets.</h3>
               <p className="mt-3 text-sm leading-6 text-white/72">
-                A concise briefing grouped by markets, infrastructure, products, and policy.
+                A concise briefing grouped by companies, chips, software, security, markets, and policy.
               </p>
               <NewsletterSignup />
             </div>

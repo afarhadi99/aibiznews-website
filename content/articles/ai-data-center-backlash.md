@@ -2,10 +2,10 @@
 title: "The Data Center Backlash Is Becoming An AI Bottleneck"
 slug: "ai-data-center-backlash"
 date: "2026-07-02"
-category: "AI Infrastructure"
+category: "Infrastructure"
 description: "Local resistance to AI data centers is turning power, water, noise, and land-use questions into strategic constraints for the AI boom."
 cover: "/images/covers/ai-data-center-backlash.jpg"
-tags: ["AI Data Centers", "Energy", "Water", "Infrastructure", "Community Backlash"]
+tags: ["Data Centers", "Energy", "Water", "Infrastructure", "Community Backlash"]
 sourceCount: 5
 status: "test-draft"
 ---

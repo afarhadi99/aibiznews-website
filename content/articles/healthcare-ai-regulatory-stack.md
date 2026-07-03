@@ -2,10 +2,10 @@
 title: "Health AI Is Moving From Pilot Projects To Compliance Infrastructure"
 slug: "healthcare-ai-regulatory-stack"
 date: "2026-07-02"
-category: "AI Healthcare"
+category: "Health Tech"
 description: "The growth of FDA-authorized AI medical devices and state-level health AI rules is pushing hospitals toward inventory, monitoring, and compliance systems."
 cover: "/images/covers/healthcare-ai-regulatory-stack.jpg"
-tags: ["Healthcare AI", "FDA", "Medical Devices", "Compliance", "Patient Safety"]
+tags: ["Health Tech", "Healthcare AI", "FDA", "Medical Devices", "Compliance"]
 sourceCount: 5
 status: "test-draft"
 ---

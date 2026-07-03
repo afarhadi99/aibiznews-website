@@ -41,7 +41,7 @@ function estimateReadingMinutes(content: string) {
 
 function normalizeMeta(data: Record<string, unknown>, fallbackSlug: string, content = ""): ArticleMeta {
   const title = String(data.title ?? fallbackSlug);
-  const category = String(data.category ?? "AI Markets");
+  const category = String(data.category ?? "Technology");
   return {
     title,
     slug: String(data.slug ?? fallbackSlug),

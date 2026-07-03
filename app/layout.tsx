@@ -63,14 +63,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div>
               <p className="font-serif text-2xl font-bold">{siteConfig.name}</p>
               <p className="mt-2 max-w-2xl text-sm text-white/70">
-                Articles and market context on the companies, infrastructure, products, and policies shaping AI business.
+                Articles and market context on the companies, infrastructure, products, security issues, and policies shaping technology.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4 text-sm text-white/70">
               <a href="/#latest">Latest</a>
-              <a href="/categories/ai-infrastructure">Infrastructure</a>
-              <a href="/categories/ai-platforms">Platforms</a>
-              <a href="/categories/ai-markets">Markets</a>
+              <a href="/categories/chips-cloud">Chips & Cloud</a>
+              <a href="/categories/platforms">Platforms</a>
+              <a href="/categories/markets-policy">Markets</a>
             </div>
           </div>
         </footer>

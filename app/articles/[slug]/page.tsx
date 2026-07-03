@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url: canonical,
       title: article.title,
       description: article.description,
-      siteName: "AI Biz News Network",
+      siteName: "AIBIZ.NEWS",
       publishedTime: article.date,
       section: article.category,
       tags: article.tags,
@@ -86,11 +86,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     mainEntityOfPage: canonical,
     author: {
       "@type": "Organization",
-      name: "AI Biz News Network"
+      name: "AIBIZ.NEWS"
     },
     publisher: {
       "@type": "Organization",
-      name: "AI Biz News Network"
+      name: "AIBIZ.NEWS"
     },
     articleSection: article.category,
     keywords: article.tags.join(", ")

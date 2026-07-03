@@ -15,10 +15,10 @@ import {
 
 const navItems = [
   { href: "/#latest", label: "Top Stories" },
-  { href: "/categories/ai-markets", label: "Markets" },
-  { href: "/categories/ai-infrastructure", label: "Infrastructure" },
-  { href: "/categories/ai-platforms", label: "Platforms" },
-  { href: "/categories/ai-policy", label: "Policy" }
+  { href: "/#all-stories", label: "Companies" },
+  { href: "/categories/chips-cloud", label: "Chips & Cloud" },
+  { href: "/categories/platforms", label: "Platforms" },
+  { href: "/categories/policy", label: "Policy" }
 ];
 
 export function SiteHeader() {
@@ -43,8 +43,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-foreground/15 bg-[var(--brand-newsprint)]/95 text-foreground shadow-[0_1px_0_rgba(16,17,20,0.08)] backdrop-blur dark:border-white/10 dark:bg-[var(--brand-ink)]/95 dark:text-white dark:shadow-[0_1px_0_rgba(255,255,255,0.08)]">
       <div className="hidden border-b border-foreground/10 dark:border-white/10 md:block">
         <div className="site-shell flex min-h-8 items-center justify-between gap-4 text-xs text-muted-foreground dark:text-white/55">
-          <span>AI business reporting for founders, operators, and market watchers</span>
-          <span className="font-semibold text-[var(--brand-teal)] dark:text-[var(--brand-gold)]">Markets / Infrastructure / Platforms / Policy</span>
+          <span>Technology reporting for founders, operators, investors, and market watchers</span>
+          <span className="font-semibold text-[var(--brand-teal)] dark:text-[var(--brand-gold)]">Companies / Chips / Software / Policy</span>
         </div>
       </div>
       <div className="site-shell">
@@ -58,7 +58,7 @@ export function SiteHeader() {
               />
             </Link>
             <div className="hidden min-w-0 md:block">
-              <p className="text-xs font-bold text-[var(--brand-teal)] dark:text-[var(--brand-gold)]">AI Biz News Network</p>
+              <p className="text-xs font-bold text-[var(--brand-teal)] dark:text-[var(--brand-gold)]">Tech business news</p>
               <p className="mt-0.5 max-w-[15rem] truncate text-xs text-muted-foreground dark:text-white/55">{siteConfig.description}</p>
             </div>
           </div>

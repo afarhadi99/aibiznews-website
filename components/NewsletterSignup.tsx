@@ -68,7 +68,7 @@ export function NewsletterSignup({ source = "homepage-sidebar" }: NewsletterSign
         aria-live="polite"
         className={state === "error" ? "text-sm text-[var(--brand-gold)]" : "text-sm text-white/62"}
       >
-        {message || "No spam. Just the AI business stories worth tracking."}
+        {message || "No spam. Just the technology stories worth tracking."}
       </p>
     </form>
   );

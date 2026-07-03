@@ -17,10 +17,10 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   const label = articles[0]?.category ?? category.replace(/-/g, " ");
   return {
     title: label,
-    description: `AI Biz News coverage for ${label}.`,
+    description: `AIBIZ.NEWS technology coverage for ${label}.`,
     openGraph: {
       title: `${label} | AIBIZ.NEWS`,
-      description: `AI Biz News coverage for ${label}.`,
+      description: `AIBIZ.NEWS technology coverage for ${label}.`,
       images: [articles[0]?.cover ?? "/images/covers/default.svg"]
     },
     twitter: {

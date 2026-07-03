@@ -2,10 +2,10 @@
 title: "Weave's Isaac 1 Shows Home Robots Are Moving From Demo To Price Tag"
 slug: "home-robots-isaac-1"
 date: "2026-07-02"
-category: "AI Robotics"
+category: "Robotics"
 description: "Weave Robotics' $7,999 Isaac 1 makes the home robot race more concrete, even if the market is still early and full of trust questions."
 cover: "/images/covers/home-robots-isaac-1.jpg"
-tags: ["Robotics", "Weave Robotics", "Isaac 1", "Humanoid Robots", "Physical AI"]
+tags: ["Robotics", "Weave Robotics", "Isaac 1", "Consumer Tech", "Physical AI"]
 sourceCount: 4
 status: "test-draft"
 ---
