@@ -1,6 +1,6 @@
-# AI Biz News Network
+# AIBIZ.NEWS
 
-Markdown-powered news site for AI business articles, audio narration, newsletter signups, and related channel links.
+Markdown-powered news site for technology business articles, audio narration, newsletter signups, and related channel links.
 
 ## Content
 
@@ -8,6 +8,7 @@ Markdown-powered news site for AI business articles, audio narration, newsletter
 - Cover images live in `public/images/covers/`.
 - Each article uses frontmatter for category, tags, cover image, audio, and related channel links.
 - Pixio cover generation is available with `npm run covers:pixio` and targets Nano Banana 2 by default.
+- Full story packages are generated from `C:\Users\alish\Desktop\youtube-automation`.
 
 ## Development
 
@@ -31,6 +32,14 @@ Import this repository in Vercel and use the default Next.js settings:
 
 Articles, cover images, and audio live in this repo with the site code.
 
+Current verified production URL:
+
+```text
+https://aibiznews-website.vercel.app
+```
+
+Use that URL for platform metadata until `https://aibiznews.com` is confirmed to serve this same Vercel deployment.
+
 ## Production System
 
 The full research-to-publishing workflow is documented in `production-system/`.
@@ -43,7 +52,7 @@ production-system/RUNBOOK.md
 production-system/QUALITY-GATES.md
 ```
 
-That folder explains how the old automation at `C:\Users\alish\Desktop\youtube-automation` creates research, articles, Pixio images, ElevenLabs voiceovers, final videos, blog assets, and YouTube/TikTok publishing records.
+That folder explains how the automation at `C:\Users\alish\Desktop\youtube-automation` creates research, articles, Pixio images, Pixio Gemini TTS voiceovers, final videos, blog assets, and YouTube/TikTok publishing records.
 
 ## Newsletter
 

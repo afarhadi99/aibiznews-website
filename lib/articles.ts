@@ -140,7 +140,7 @@ export function formatDate(value: string) {
 }
 
 export function siteUrl() {
-  return (process.env.NEXT_PUBLIC_SITE_URL || "https://aibiznews.com").replace(/\/$/, "");
+  return (process.env.NEXT_PUBLIC_SITE_URL || "https://aibiznews-website.vercel.app").replace(/\/$/, "");
 }
 
 export function articleUrl(slug: string) {

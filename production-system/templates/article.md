@@ -2,20 +2,20 @@
 title: ""
 slug: ""
 date: "YYYY-MM-DD"
-category: "AI Infrastructure"
+category: "Startups & Markets"
 description: ""
 cover: "/images/covers/story-slug.jpg"
-tags: ["AI", "Business"]
+tags: ["Technology", "Business"]
 youtubeUrl: ""
 tiktokUrl: ""
-audioUrl: "/audio/story-slug.mp3"
+audioUrl: "/audio/story-slug.wav"
 videoStatus: "pending"
 sourceCount: 3
 ---
 
 # Article Title
 
-Opening paragraph: what happened, who is involved, and why it matters for AI business.
+Opening paragraph: what happened, who is involved, and why it matters for technology business.
 
 ## What Happened
 

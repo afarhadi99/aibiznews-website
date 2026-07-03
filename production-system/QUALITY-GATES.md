@@ -53,10 +53,11 @@ Use this before approving any story package.
 ## Metadata
 
 - YouTube title is readable and under limits.
-- YouTube description includes website article link when available.
+- YouTube description includes exactly one live AIBIZ article link.
 - TikTok caption is concise and platform-native.
 - Tags and hashtags match the story.
 - Metadata does not overpromise or imply unsupported facts.
+- Platform metadata does not include source URLs.
 
 ## Website
 
@@ -73,3 +74,4 @@ Use this before approving any story package.
 - YouTube status is logged.
 - TikTok status is logged.
 - Any browser upload error screenshot is reviewed before retrying.
+- Chrome/Codex uploads have file URL access enabled before local MP4 upload is attempted.

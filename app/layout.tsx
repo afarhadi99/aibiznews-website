@@ -14,7 +14,7 @@ const libre = Libre_Baskerville({
   weight: ["400", "700"]
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aibiznews.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aibiznews-website.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

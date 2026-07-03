@@ -35,7 +35,9 @@
 ## Voiceover
 
 - Script:
-- Voiceover MP3:
+- Voiceover audio:
+- Pixio TTS voice:
+- Pixio TTS model:
 - Website audio:
 - Duration:
 
