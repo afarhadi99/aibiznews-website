@@ -6,10 +6,10 @@ category: "Consumer Tech"
 description: "Reports that Apple is preparing up to 10 million foldable iPhone Ultra units at a roughly $2,500 price point turn the foldable market into a premium adoption test for Apple, Samsung, and the smartphone supply chain."
 cover: "/images/covers/apple-foldable-iphone-ultra-10-million.jpg"
 tags: ["Apple", "foldable iPhone", "iPhone Ultra", "consumer tech", "smartphones", "supply chain"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/1Te4qF26OZQ"
 tiktokUrl: ""
 audioUrl: "/audio/apple-foldable-iphone-ultra-10-million.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

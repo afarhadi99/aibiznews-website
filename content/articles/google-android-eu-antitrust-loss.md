@@ -6,10 +6,10 @@ category: "Policy"
 description: "A top EU court upheld Google's multibillion-dollar Android antitrust penalty, keeping mobile app distribution, search defaults, and platform tying at the center of tech regulation."
 cover: "/images/covers/google-android-eu-antitrust-loss.jpg"
 tags: ["Google", "Android", "EU antitrust", "app stores", "search defaults", "regulation"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/8A_Wcp7-eA0"
 tiktokUrl: ""
 audioUrl: "/audio/google-android-eu-antitrust-loss.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

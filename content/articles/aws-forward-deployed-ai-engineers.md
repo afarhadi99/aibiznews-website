@@ -6,10 +6,10 @@ category: "Cloud"
 description: "AWS is investing $1 billion in forward-deployed AI engineers, a move that makes enterprise AI cloud sales look more like hands-on implementation than traditional infrastructure procurement."
 cover: "/images/covers/aws-forward-deployed-ai-engineers.jpg"
 tags: ["AWS", "Amazon", "cloud", "enterprise AI", "agents", "forward deployed engineering"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/myGg_0a3tyI"
 tiktokUrl: ""
 audioUrl: "/audio/aws-forward-deployed-ai-engineers.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

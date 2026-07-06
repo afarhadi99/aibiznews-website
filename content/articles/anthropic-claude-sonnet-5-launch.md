@@ -6,10 +6,10 @@ category: "AI Platforms"
 description: "Anthropic launched Claude Sonnet 5 with coding and safety upgrades as attention returned to model access and export-control questions around its Fable and Mythos systems."
 cover: "/images/covers/anthropic-claude-sonnet-5-launch.jpg"
 tags: ["Anthropic", "Claude", "Claude Sonnet 5", "coding agents", "AI safety", "enterprise AI"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/LbLzxS_rGqY"
 tiktokUrl: ""
 audioUrl: "/audio/anthropic-claude-sonnet-5-launch.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

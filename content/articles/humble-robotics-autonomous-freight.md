@@ -6,10 +6,10 @@ category: "Robotics"
 description: "Humble Robotics' cabless electric freight push shows autonomous trucking is trying to re-enter the market through narrower hardware and logistics use cases after the first hype cycle cooled."
 cover: "/images/covers/humble-robotics-autonomous-freight.jpg"
 tags: ["Humble Robotics", "autonomous trucks", "robotics", "freight", "electric vehicles", "logistics"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/bgz4VKcRTTk"
 tiktokUrl: ""
 audioUrl: "/audio/humble-robotics-autonomous-freight.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

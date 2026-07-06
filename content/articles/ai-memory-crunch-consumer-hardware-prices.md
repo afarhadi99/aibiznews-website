@@ -6,10 +6,10 @@ category: "Chips & Cloud"
 description: "AI demand for high-end memory is spilling into broader DRAM and storage markets, with reports tying memory scarcity to higher device and console prices."
 cover: "/images/covers/ai-memory-crunch-consumer-hardware-prices.jpg"
 tags: ["Micron", "DRAM", "memory shortage", "AI infrastructure", "Apple", "Xbox", "semiconductors"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/TpRI4eM3e1U"
 tiktokUrl: ""
 audioUrl: "/audio/ai-memory-crunch-consumer-hardware-prices.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

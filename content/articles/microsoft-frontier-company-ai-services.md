@@ -6,10 +6,10 @@ category: "AI Platforms"
 description: "Microsoft committed $2.5 billion and 6,000 employees to a new Frontier Company unit, turning enterprise AI adoption into a direct deployment battle with OpenAI, Anthropic, Amazon, and consulting firms."
 cover: "/images/covers/microsoft-frontier-company-ai-services.jpg"
 tags: ["Microsoft", "Frontier Company", "AI services", "enterprise AI", "Copilot", "OpenAI", "AWS"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/pseAOkP06SY"
 tiktokUrl: ""
 audioUrl: "/audio/microsoft-frontier-company-ai-services.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

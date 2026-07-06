@@ -6,10 +6,10 @@ category: "Startups & Markets"
 description: "IQM's plan to become a public quantum computing company through a SPAC deal at a reported $1.9 billion valuation gives investors a clearer test of how much patience the market has for quantum hardware."
 cover: "/images/covers/iqm-nasdaq-quantum-spac.jpg"
 tags: ["IQM", "quantum computing", "Nasdaq", "SPAC", "deep tech", "European startups"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/tHwWXl_JDmk"
 tiktokUrl: ""
 audioUrl: "/audio/iqm-nasdaq-quantum-spac.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

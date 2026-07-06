@@ -6,10 +6,10 @@ category: "Consumer Tech"
 description: "Reports that SpaceX showed investors an AI device prototype, followed by Elon Musk's denial, reveal how much investor attention has shifted toward the question of whether AI can create a serious post-phone hardware pl..."
 cover: "/images/covers/spacex-ai-device-prototype-denial.jpg"
 tags: ["SpaceX", "Elon Musk", "AI device", "consumer hardware", "xAI", "Apple"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/gWzS1hIln5A"
 tiktokUrl: ""
 audioUrl: "/audio/spacex-ai-device-prototype-denial.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

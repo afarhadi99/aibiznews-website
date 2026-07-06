@@ -6,10 +6,10 @@ category: "Cybersecurity"
 description: "Tata Electronics confirmed a cyberattack after hackers claimed to leak large amounts of data, showing how supplier breaches can expose Apple, Tesla, and other major customers to operational and intellectual-property r..."
 cover: "/images/covers/tata-electronics-breach-apple-tesla-files.jpg"
 tags: ["Tata Electronics", "Apple", "Tesla", "cybersecurity", "supply chain", "ransomware"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/X4xKFxahKWY"
 tiktokUrl: ""
 audioUrl: "/audio/tata-electronics-breach-apple-tesla-files.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
