@@ -6,10 +6,10 @@ category: "Chips & Cloud"
 description: "Nvidia's proposed cloud revenue-sharing model would move parts of the AI infrastructure business from hardware sales toward participation in customer economics."
 cover: "/images/covers/nvidia-says-it-will-take-a-cut-of-some-customers-cloud-revenues.jpg"
 tags: ["nvidia", "says", "take", "cut", "some", "customers", "cloud", "revenues"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/22IjEvvSd1g"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588109297913118"
 audioUrl: "/audio/nvidia-says-it-will-take-a-cut-of-some-customers-cloud-revenues.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

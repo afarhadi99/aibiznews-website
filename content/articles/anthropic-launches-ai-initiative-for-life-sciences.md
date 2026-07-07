@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Anthropic's life-sciences AI initiative shows frontier model companies moving deeper into specialized, regulated workflows where accuracy and trust carry higher stakes."
 cover: "/images/covers/anthropic-launches-ai-initiative-for-life-sciences.jpg"
 tags: ["anthropic", "launches", "initiative", "life", "sciences", "platforms", "ainews", "technews"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/xLeyHvFpJ_c"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588359563644191"
 audioUrl: "/audio/anthropic-launches-ai-initiative-for-life-sciences.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

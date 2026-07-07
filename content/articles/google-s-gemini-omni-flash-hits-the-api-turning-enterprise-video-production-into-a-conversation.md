@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Google's Gemini Omni Flash API release points toward AI video production systems that can respond through conversation instead of traditional editing workflows."
 cover: "/images/covers/google-s-gemini-omni-flash-hits-the-api-turning-enterprise-video-production-into-a-conversation.jpg"
 tags: ["google", "gemini", "omni", "flash", "hits", "api", "turning", "enterprise"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/WgNLa5x2gFE"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588211055938847"
 audioUrl: "/audio/google-s-gemini-omni-flash-hits-the-api-turning-enterprise-video-production-into-a-conversation.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

@@ -6,10 +6,10 @@ category: "Chips & Cloud"
 description: "Nvidia's reported Kyber NVL144 rack delay pushes attention back to AI data-center timing, supply-chain readiness, and the cost of next-generation systems."
 cover: "/images/covers/nvidia-delays-kyber-nvl144-rack-system-to-2028.jpg"
 tags: ["nvidia", "delays", "kyber", "nvl144", "rack", "system", "chips", "cloud"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/5sYZ7aTv2PY"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588255087660318"
 audioUrl: "/audio/nvidia-delays-kyber-nvl144-rack-system-to-2028.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

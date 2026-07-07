@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Dell and Microsoft's hybrid-cloud AI positioning reflects a practical enterprise demand: running AI across cloud and on-prem systems without losing control."
 cover: "/images/covers/hybrid-cloud-how-dell-and-microsoft-support-enterprise-ai.jpg"
 tags: ["hybrid", "cloud", "how", "dell", "microsoft", "support", "enterprise", "platforms"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/k3CdrhUJ-kk"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588380656749854"
 audioUrl: "/audio/hybrid-cloud-how-dell-and-microsoft-support-enterprise-ai.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

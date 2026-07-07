@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Anthropic's Claude Sonnet 5 launch puts coding performance, model safety, and export-control exposure back at the center of the enterprise AI race."
 cover: "/images/covers/anthropic-launches-claude-sonnet-5-ai-model-with-coding-safety-upgrades-as-fable-and-mythos-controls-lifted.jpg"
 tags: ["anthropic", "launches", "claude", "sonnet", "model", "coding", "safety", "upgrades"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/_3IeK4pgur0"
 tiktokUrl: ""
 audioUrl: "/audio/anthropic-launches-claude-sonnet-5-ai-model-with-coding-safety-upgrades-as-fable-and-mythos-controls-lifted.wav"
-videoStatus: "pending"
+videoStatus: "retry_needed"
 sourceCount: 4
 ---
 

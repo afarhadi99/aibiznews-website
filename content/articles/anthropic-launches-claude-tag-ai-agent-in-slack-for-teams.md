@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Anthropic's Claude Tag agent in Slack turns team messaging into another battleground for enterprise AI distribution and workflow ownership."
 cover: "/images/covers/anthropic-launches-claude-tag-ai-agent-in-slack-for-teams.jpg"
 tags: ["anthropic", "launches", "claude", "tag", "agent", "slack", "teams", "platforms"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/xozfdkWRpiw"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588323165424926"
 audioUrl: "/audio/anthropic-launches-claude-tag-ai-agent-in-slack-for-teams.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

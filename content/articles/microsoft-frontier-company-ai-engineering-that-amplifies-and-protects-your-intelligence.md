@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Microsoft's Frontier Company effort puts money and engineering resources behind enterprise AI adoption at a moment when customers want measurable productivity gains."
 cover: "/images/covers/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence.jpg"
 tags: ["microsoft", "frontier", "company", "engineering", "amplifies", "protects", "your", "intelligence"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/0Ph6iMPoluA"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588206077201694"
 audioUrl: "/audio/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Microsoft's internal push to overhaul AI apps shows the company trying to make Copilot and related tools prove durable value inside daily enterprise workflows."
 cover: "/images/covers/microsoft-memo-details-ai-app-overhaul-to-earn-the-right-to-exist.jpg"
 tags: ["microsoft", "memo", "details", "app", "overhaul", "earn", "right", "exist"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/DCK0x_JPyHM"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588054738390303"
 audioUrl: "/audio/microsoft-memo-details-ai-app-overhaul-to-earn-the-right-to-exist.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

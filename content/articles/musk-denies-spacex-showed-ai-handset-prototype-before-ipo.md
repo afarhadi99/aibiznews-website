@@ -6,10 +6,10 @@ category: "Consumer Tech"
 description: "Elon Musk's denial of a SpaceX AI handset report matters because even rumors around devices, Starlink, and a possible IPO can move investor expectations."
 cover: "/images/covers/musk-denies-spacex-showed-ai-handset-prototype-before-ipo.jpg"
 tags: ["musk", "denies", "spacex", "showed", "handset", "prototype", "before", "ipo"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/8WzB1m2CIZE"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7659588166629739807"
 audioUrl: "/audio/musk-denies-spacex-showed-ai-handset-prototype-before-ipo.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
