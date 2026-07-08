@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Exabeam expands AI agent security tools with Claude is a current technology business story involving Anthropic, Exabeam, Claude Exabeam, Anthropic Claude. Cover the named companies, affected customers, product or infr..."
 cover: "/images/covers/exabeam-expands-ai-agent-security-tools-with-claude.jpg"
 tags: ["Exabeam", "Claude", "Anthropic", "AI security", "SIEM", "agent security"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/R0f_4A3yJZc"
 tiktokUrl: ""
 audioUrl: "/audio/exabeam-expands-ai-agent-security-tools-with-claude.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

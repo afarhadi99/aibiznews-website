@@ -6,10 +6,10 @@ category: "Chips & Cloud"
 description: "Samsung and SK Hynix Announce Massive Southwestern Chip Buildout is a current technology business story involving Samsung, Korea, SK Hynix, HotHardware Samsung. Cover the named companies, affected customers, product o..."
 cover: "/images/covers/samsung-and-sk-hynix-announce-massive-southwestern-chip-buildout.jpg"
 tags: ["Samsung", "SK Hynix", "semiconductors", "AI chips", "memory chips", "chip manufacturing"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/qUAuMOAwTls"
 tiktokUrl: ""
 audioUrl: "/audio/samsung-and-sk-hynix-announce-massive-southwestern-chip-buildout.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

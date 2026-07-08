@@ -6,10 +6,10 @@ category: "Consumer Tech"
 description: "Discord launches Meta Quest app is a current technology business story involving Meta, Discord, Meta Quest, In-Game. Cover the named companies, affected customers, product or infrastructure details, timing, security o..."
 cover: "/images/covers/discord-launches-meta-quest-app.jpg"
 tags: ["Discord", "Meta Quest", "VR apps", "consumer tech", "social apps", "Meta"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/K6SroPx5-yA"
 tiktokUrl: ""
 audioUrl: "/audio/discord-launches-meta-quest-app.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

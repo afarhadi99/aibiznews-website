@@ -6,10 +6,10 @@ category: "AI & Platforms"
 description: "Anthropic brings Claude Cowork to mobile and web as usage data shows most users aren\u2019t coding is a current technology story involving Anthropic, Claude Cowork, How, Claude Code. Cover the specific companies, products,..."
 cover: "/images/covers/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-aren-t-coding.jpg"
 tags: ["Anthropic", "Claude Cowork", "Claude", "AI agents", "mobile AI", "enterprise AI"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/DLup2MMUKfw"
 tiktokUrl: ""
 audioUrl: "/audio/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-aren-t-coding.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

@@ -6,10 +6,10 @@ category: "Chips & Cloud"
 description: "Qualcomm to design China-specific data center chip in line with US export curbs is a current technology business story involving Qualcomm, China-specific, US, ByteDance. Cover the named companies, affected customers,..."
 cover: "/images/covers/qualcomm-to-design-china-specific-data-center-chip-in-line-with-us-export-curbs.jpg"
 tags: ["Qualcomm", "China AI chip", "data center chip", "export controls", "ByteDance", "AI hardware"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/jiIqRfnB9vA"
 tiktokUrl: ""
 audioUrl: "/audio/qualcomm-to-design-china-specific-data-center-chip-in-line-with-us-export-curbs.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

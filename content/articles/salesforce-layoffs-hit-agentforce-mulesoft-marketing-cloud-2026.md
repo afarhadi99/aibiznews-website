@@ -6,10 +6,10 @@ category: "Software/SaaS"
 description: "Salesforce layoffs hit Agentforce, MuleSoft, Marketing Cloud 2026 is a current technology business story involving Salesforce, Agentforce, MuleSoft, Marketing Cloud. Cover the named companies, affected customers, prod..."
 cover: "/images/covers/salesforce-layoffs-hit-agentforce-mulesoft-marketing-cloud-2026.jpg"
 tags: ["Salesforce", "Agentforce", "MuleSoft", "Marketing Cloud", "layoffs", "enterprise software"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/RCD03MnAS1c"
 tiktokUrl: ""
 audioUrl: "/audio/salesforce-layoffs-hit-agentforce-mulesoft-marketing-cloud-2026.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

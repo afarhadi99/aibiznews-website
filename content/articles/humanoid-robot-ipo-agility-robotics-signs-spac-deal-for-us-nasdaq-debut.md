@@ -6,10 +6,10 @@ category: "Startups & Markets"
 description: "Humanoid Robot IPO: Agility Robotics Signs SPAC Deal for US Nasdaq Debut is a current technology business story involving Deal, Agility, Maker, Humanlike Robots. Cover the named companies, product details, customer or..."
 cover: "/images/covers/humanoid-robot-ipo-agility-robotics-signs-spac-deal-for-us-nasdaq-debut.jpg"
 tags: ["Agility Robotics", "humanoid robots", "SPAC", "Nasdaq", "robotics", "automation"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/Yxu-iPmFb9Q"
 tiktokUrl: ""
 audioUrl: "/audio/humanoid-robot-ipo-agility-robotics-signs-spac-deal-for-us-nasdaq-debut.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

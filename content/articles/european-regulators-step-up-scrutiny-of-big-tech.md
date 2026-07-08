@@ -6,10 +6,10 @@ category: "Policy & Regulation"
 description: "European regulators step up scrutiny of Big Tech is a current technology business story involving Google, Meta, EU, European. Cover the named companies, affected customers, product or infrastructure details, timing, s..."
 cover: "/images/covers/european-regulators-step-up-scrutiny-of-big-tech.jpg"
 tags: ["EU regulation", "Big Tech", "Google", "Meta", "antitrust", "digital policy"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/DVhakPE4yjA"
 tiktokUrl: ""
 audioUrl: "/audio/european-regulators-step-up-scrutiny-of-big-tech.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

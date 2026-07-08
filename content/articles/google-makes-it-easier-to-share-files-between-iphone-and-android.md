@@ -6,10 +6,10 @@ category: "Consumer Tech"
 description: "Google makes it easier to share files between iPhone and Android is a current technology business story involving Google, Android Android, MacRumors I, AirDrop. Cover the named companies, product details, customer or..."
 cover: "/images/covers/google-makes-it-easier-to-share-files-between-iphone-and-android.jpg"
 tags: ["Google", "Android", "iPhone", "file sharing", "Quick Share", "consumer tech"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/jbblf-sk-MU"
 tiktokUrl: ""
 audioUrl: "/audio/google-makes-it-easier-to-share-files-between-iphone-and-android.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

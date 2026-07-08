@@ -6,10 +6,10 @@ category: "Startups & Markets"
 description: "Together AI raises $800M to grow its AI-optimized public cloud is a current technology business story involving Together AI, AI-optimized, Let, Here. Cover the named companies, affected customers, product or infrastru..."
 cover: "/images/covers/together-ai-raises-800m-to-grow-its-ai-optimized-public-cloud.jpg"
 tags: ["Together AI", "AI funding", "open models", "AI cloud", "startup funding", "AI infrastructure"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/WeuNdF-xImg"
 tiktokUrl: ""
 audioUrl: "/audio/together-ai-raises-800m-to-grow-its-ai-optimized-public-cloud.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
