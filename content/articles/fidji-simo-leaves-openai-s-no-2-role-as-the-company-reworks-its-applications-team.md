@@ -6,10 +6,10 @@ category: "AI Companies and Leadership"
 description: "Fidji Simo is stepping down from her full-time leadership role at OpenAI and moving into a part-time advisory position after an extended medical leave."
 cover: "/images/covers/fidji-simo-leaves-openai-s-no-2-role-as-the-company-reworks-its-applications-team.jpg"
 tags: ["fidji", "simo", "leaves", "openai", "role", "company", "reworks", "its"]
-youtubeUrl: ""
+youtubeUrl: "https://youtu.be/aIP_-P3xacs"
 tiktokUrl: ""
 audioUrl: "/audio/fidji-simo-leaves-openai-s-no-2-role-as-the-company-reworks-its-applications-team.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

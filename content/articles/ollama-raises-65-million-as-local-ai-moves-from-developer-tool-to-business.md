@@ -6,10 +6,10 @@ category: "Open Source and Developer Tools"
 description: "Ollama has raised a $65 million Series B, bringing total funding to $88 million as the open-source tool says it is used by nearly 9 million developers each month."
 cover: "/images/covers/ollama-raises-65-million-as-local-ai-moves-from-developer-tool-to-business.jpg"
 tags: ["ollama", "raises", "million", "local", "moves", "developer", "tool", "business"]
-youtubeUrl: ""
+youtubeUrl: "https://youtu.be/Z1OTlLnS_fk"
 tiktokUrl: ""
 audioUrl: "/audio/ollama-raises-65-million-as-local-ai-moves-from-developer-tool-to-business.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

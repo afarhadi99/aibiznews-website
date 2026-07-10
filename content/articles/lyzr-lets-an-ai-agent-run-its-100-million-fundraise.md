@@ -6,10 +6,10 @@ category: "Startups and Venture Capital"
 description: "Jersey City startup Lyzr used its own SivaClaw AI agent to handle investor questions, draft memos, and track engagement during a reported $100 million Series B at about a $500 million valuation."
 cover: "/images/covers/lyzr-lets-an-ai-agent-run-its-100-million-fundraise.jpg"
 tags: ["lyzr", "lets", "agent", "run", "its", "million", "fundraise", "startups"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/_ghJZbd61Bc"
 tiktokUrl: ""
 audioUrl: "/audio/lyzr-lets-an-ai-agent-run-its-100-million-fundraise.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

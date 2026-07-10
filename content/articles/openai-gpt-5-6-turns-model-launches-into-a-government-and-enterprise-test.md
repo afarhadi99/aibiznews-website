@@ -6,10 +6,10 @@ category: "AI and Platforms"
 description: "OpenAI has released the GPT-5.6 family across ChatGPT, Codex, and its API, with Sol, Terra, and Luna tiers aimed at coding, enterprise work, science, and defensive cybersecurity."
 cover: "/images/covers/openai-gpt-5-6-turns-model-launches-into-a-government-and-enterprise-test.jpg"
 tags: ["openai", "gpt", "turns", "model", "launches", "government", "enterprise", "test"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/Ig4o86ARfM4"
 tiktokUrl: ""
 audioUrl: "/audio/openai-gpt-5-6-turns-model-launches-into-a-government-and-enterprise-test.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

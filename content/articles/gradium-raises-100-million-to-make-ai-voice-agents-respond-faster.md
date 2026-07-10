@@ -6,10 +6,10 @@ category: "AI Voice and Startups"
 description: "Paris-based voice AI startup Gradium has extended its seed round to $100 million, added Nvidia as an investor, and is opening a Bay Area office to compete for talent and customers."
 cover: "/images/covers/gradium-raises-100-million-to-make-ai-voice-agents-respond-faster.jpg"
 tags: ["gradium", "raises", "million", "make", "voice", "agents", "respond", "faster"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/tHAHCBc6eF4"
 tiktokUrl: ""
 audioUrl: "/audio/gradium-raises-100-million-to-make-ai-voice-agents-respond-faster.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

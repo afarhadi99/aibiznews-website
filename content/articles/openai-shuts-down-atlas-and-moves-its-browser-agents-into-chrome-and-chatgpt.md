@@ -6,10 +6,10 @@ category: "AI and Platforms"
 description: "OpenAI is sunsetting its Atlas AI browser while moving agentic browsing features into ChatGPT's desktop app and a Chrome extension."
 cover: "/images/covers/openai-shuts-down-atlas-and-moves-its-browser-agents-into-chrome-and-chatgpt.jpg"
 tags: ["openai", "shuts", "down", "atlas", "moves", "its", "browser", "agents"]
-youtubeUrl: ""
+youtubeUrl: "https://youtu.be/FtRbyXaUsIk"
 tiktokUrl: ""
 audioUrl: "/audio/openai-shuts-down-atlas-and-moves-its-browser-agents-into-chrome-and-chatgpt.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

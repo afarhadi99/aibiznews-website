@@ -6,10 +6,10 @@ category: "Advertising and Consumer Tech"
 description: "Google is adding a My Ad Center explanation that tells people when an ad was created or edited with AI, while requiring advertisers to identify AI use outside Google's own tools."
 cover: "/images/covers/google-adds-ai-made-ad-disclosures-to-search-youtube-and-discover.jpg"
 tags: ["google", "adds", "made", "disclosures", "search", "youtube", "discover", "advertising"]
-youtubeUrl: ""
+youtubeUrl: "https://youtu.be/DB-uN38Iug0"
 tiktokUrl: ""
 audioUrl: "/audio/google-adds-ai-made-ad-disclosures-to-search-youtube-and-discover.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

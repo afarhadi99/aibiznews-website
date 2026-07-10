@@ -6,10 +6,10 @@ category: "Fintech and Regulation"
 description: "Block has agreed to pay $45 million to resolve claims from 46 states that Cash App failed to protect users from fraud and misled them about bank-like protections."
 cover: "/images/covers/block-pays-45-million-to-settle-46-state-cash-app-fraud-probe.jpg"
 tags: ["block", "pays", "million", "settle", "state", "cash", "app", "fraud"]
-youtubeUrl: ""
+youtubeUrl: "https://youtu.be/Pv13mjOD6c4"
 tiktokUrl: ""
 audioUrl: "/audio/block-pays-45-million-to-settle-46-state-cash-app-fraud-probe.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

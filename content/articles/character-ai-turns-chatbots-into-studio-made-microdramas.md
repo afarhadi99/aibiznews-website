@@ -6,10 +6,10 @@ category: "AI Entertainment"
 description: "Character.AI is launching studio-made vertical microdramas whose characters can continue the story through interactive chat."
 cover: "/images/covers/character-ai-turns-chatbots-into-studio-made-microdramas.jpg"
 tags: ["character", "turns", "chatbots", "studio", "made", "microdramas", "entertainment", "ainews"]
-youtubeUrl: ""
+youtubeUrl: "https://youtu.be/qC28A7gS_TU"
 tiktokUrl: ""
 audioUrl: "/audio/character-ai-turns-chatbots-into-studio-made-microdramas.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

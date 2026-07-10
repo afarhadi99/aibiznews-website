@@ -6,10 +6,10 @@ category: "AI Infrastructure"
 description: "Meta is moving from buying AI infrastructure to designing more of it: Reuters reports that an internal memo puts the company's custom Iris chip into production in September, while Meta's Alberta project adds a planned..."
 cover: "/images/covers/meta-s-iris-ai-chip-push-turns-power-and-compute-into-its-next-competitive-moat.jpg"
 tags: ["meta", "iris", "chip", "push", "turns", "power", "compute", "its"]
-youtubeUrl: ""
+youtubeUrl: "https://youtu.be/f-I6dnscZyw"
 tiktokUrl: ""
 audioUrl: "/audio/meta-s-iris-ai-chip-push-turns-power-and-compute-into-its-next-competitive-moat.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
