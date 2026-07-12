@@ -6,10 +6,10 @@ category: "Open Source AI"
 description: "Hugging Face CEO Clem Delangue argues that companies often start with frontier model APIs but move toward open models as costs, control, and deployment requirements become more important."
 cover: "/images/covers/hugging-face-says-companies-are-moving-from-renting-ai-to-owning-models.jpg"
 tags: ["hugging", "face", "says", "companies", "are", "moving", "renting", "owning"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/P7w68qNRkOM"
 tiktokUrl: ""
 audioUrl: "/audio/hugging-face-says-companies-are-moving-from-renting-ai-to-owning-models.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

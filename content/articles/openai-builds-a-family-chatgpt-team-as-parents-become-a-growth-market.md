@@ -6,10 +6,10 @@ category: "AI Products and Society"
 description: "OpenAI is hiring for a product leader focused on families, caregivers, and older adults, signaling that household use and safety controls are becoming a strategic growth market for ChatGPT."
 cover: "/images/covers/openai-builds-a-family-chatgpt-team-as-parents-become-a-growth-market.jpg"
 tags: ["openai", "builds", "family", "chatgpt", "team", "parents", "become", "growth"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/-do1UJ9CVfs"
 tiktokUrl: ""
 audioUrl: "/audio/openai-builds-a-family-chatgpt-team-as-parents-become-a-growth-market.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

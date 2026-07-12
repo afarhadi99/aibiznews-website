@@ -6,10 +6,10 @@ category: "Hardware and Supply Chains"
 description: "India has approved a 51/49 manufacturing joint venture between Vivo and Dixon Technologies, extending the country's effort to turn smartphone assembly into a broader export and supply-chain platform."
 cover: "/images/covers/vivo-dixon-jv-pushes-india-s-smartphone-factory-strategy-into-its-next-phase.jpg"
 tags: ["vivo", "dixon", "pushes", "india", "smartphone", "factory", "strategy", "its"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/mMiYLG15JzY"
 tiktokUrl: ""
 audioUrl: "/audio/vivo-dixon-jv-pushes-india-s-smartphone-factory-strategy-into-its-next-phase.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

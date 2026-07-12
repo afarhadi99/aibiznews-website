@@ -6,10 +6,10 @@ category: "Apps and the Open Web"
 description: "A new iOS app called HyperTexting is trying to make websites feel as easy to follow as social accounts, combining a scrollable feed with tools for publishing to a personal domain."
 cover: "/images/covers/hypertexting-turns-the-open-web-into-a-social-feed.jpg"
 tags: ["hypertexting", "turns", "open", "web", "social", "feed", "apps", "technews"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/131HRpxs66Y"
 tiktokUrl: ""
 audioUrl: "/audio/hypertexting-turns-the-open-web-into-a-social-feed.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

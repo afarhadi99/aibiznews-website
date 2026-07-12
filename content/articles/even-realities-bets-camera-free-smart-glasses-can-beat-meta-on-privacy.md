@@ -6,10 +6,10 @@ category: "Wearables and Privacy"
 description: "Even Realities is pushing its G2 smart glasses as a camera-free alternative to Meta's recording-capable eyewear, putting privacy and productivity at the center of the product pitch."
 cover: "/images/covers/even-realities-bets-camera-free-smart-glasses-can-beat-meta-on-privacy.jpg"
 tags: ["even", "realities", "bets", "camera", "free", "smart", "glasses", "can"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/QKm50ueH7bs"
 tiktokUrl: ""
 audioUrl: "/audio/even-realities-bets-camera-free-smart-glasses-can-beat-meta-on-privacy.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

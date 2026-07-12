@@ -6,10 +6,10 @@ category: "Space and Infrastructure"
 description: "China has demonstrated a controlled recovery of a Long March booster at sea, moving its reusable-rocket program closer to the launch economics that helped SpaceX dominate orbital access."
 cover: "/images/covers/china-recovers-a-long-march-booster-and-challenges-spacex.jpg"
 tags: ["china", "recovers", "long", "march", "booster", "challenges", "spacex", "space"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/VkrNF17IJY0"
 tiktokUrl: ""
 audioUrl: "/audio/china-recovers-a-long-march-booster-and-challenges-spacex.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

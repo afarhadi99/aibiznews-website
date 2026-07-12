@@ -6,10 +6,10 @@ category: "Technology Regulation"
 description: "The European Commission has preliminarily found that Meta's infinite scroll, autoplay, push notifications, and recommendation systems breach the Digital Services Act's addictive-design requirements."
 cover: "/images/covers/eu-orders-meta-to-rethink-infinite-scroll-and-autoplay.jpg"
 tags: ["orders", "meta", "rethink", "infinite", "scroll", "autoplay", "technology", "regulation"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/wNT4xtOROjE"
 tiktokUrl: ""
 audioUrl: "/audio/eu-orders-meta-to-rethink-infinite-scroll-and-autoplay.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

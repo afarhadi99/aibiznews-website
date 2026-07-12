@@ -6,10 +6,10 @@ category: "Social Platforms"
 description: "Bluesky has removed the interim label from Toni Schneider's title, giving the decentralized social network a permanent CEO as it tries to turn early momentum into durable communities and growth."
 cover: "/images/covers/bluesky-makes-toni-schneider-its-ceo-as-the-network-enters-its-next-phase.jpg"
 tags: ["bluesky", "makes", "toni", "schneider", "its", "ceo", "network", "enters"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/3qnC82XjirM"
 tiktokUrl: ""
 audioUrl: "/audio/bluesky-makes-toni-schneider-its-ceo-as-the-network-enters-its-next-phase.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

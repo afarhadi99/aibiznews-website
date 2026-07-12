@@ -6,10 +6,10 @@ category: "Commerce and Cybersecurity"
 description: "Shopping startup Phia is facing allegations that its browser extension could claim affiliate credit for purchases it did not generate, putting attribution and trust at the center of its growth model."
 cover: "/images/covers/phia-faces-cookie-stuffing-allegations-that-test-affiliate-trust.jpg"
 tags: ["phia", "faces", "cookie", "stuffing", "allegations", "test", "affiliate", "trust"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/TtLhDBKtz6E"
 tiktokUrl: ""
 audioUrl: "/audio/phia-faces-cookie-stuffing-allegations-that-test-affiliate-trust.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

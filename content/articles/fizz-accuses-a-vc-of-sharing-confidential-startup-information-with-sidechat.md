@@ -6,10 +6,10 @@ category: "Startups and Venture Capital"
 description: "A new court filing in the long-running Fizz and Sidechat dispute accuses investor Jerry Lu of passing confidential startup information to the rival college social app, raising questions about trust in venture diligence."
 cover: "/images/covers/fizz-accuses-a-vc-of-sharing-confidential-startup-information-with-sidechat.jpg"
 tags: ["fizz", "accuses", "sharing", "confidential", "startup", "information", "sidechat", "startups"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/-bYoKGB4lOo"
 tiktokUrl: ""
 audioUrl: "/audio/fizz-accuses-a-vc-of-sharing-confidential-startup-information-with-sidechat.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
