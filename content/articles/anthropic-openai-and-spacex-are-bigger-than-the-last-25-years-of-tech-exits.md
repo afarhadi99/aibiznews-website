@@ -1,15 +1,15 @@
 ---
 title: "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits"
 slug: "anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "Startups & Markets"
 description: "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits is a current technology story involving OpenAI, Anthropic, SpaceX, TechCrunch Anthropic. Cover the specific companies, products, executives..."
 cover: "/images/covers/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits.jpg"
 tags: ["anthropic", "openai", "spacex", "are", "bigger", "than", "last", "years"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/TDH2XnUBDyw"
 tiktokUrl: ""
 audioUrl: "/audio/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

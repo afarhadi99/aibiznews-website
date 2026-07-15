@@ -1,15 +1,15 @@
 ---
 title: "Wall Street feasts on fees from SpaceX IPO and mega-mergers"
 slug: "wall-street-feasts-on-fees-from-spacex-ipo-and-mega-mergers"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "Startups & Markets"
 description: "Wall Street feasts on fees from SpaceX IPO and mega-mergers is a current technology story involving SpaceX, Wall Street, SpaceX IPO, AFR Folge. Cover the specific companies, products, executives, regulators, locations..."
 cover: "/images/covers/wall-street-feasts-on-fees-from-spacex-ipo-and-mega-mergers.jpg"
 tags: ["wall", "street", "feasts", "fees", "spacex", "ipo", "mega", "mergers"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/buW4j-HD410"
 tiktokUrl: ""
 audioUrl: "/audio/wall-street-feasts-on-fees-from-spacex-ipo-and-mega-mergers.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

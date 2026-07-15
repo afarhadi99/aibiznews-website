@@ -1,15 +1,15 @@
 ---
 title: "SpaceX stock closes below debut price at $148 in two-day slide after Nasdaq-100 inclusion"
 slug: "spacex-stock-closes-below-debut-price-at-148-in-two-day-slide-after-nasdaq-100-inclusion"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "Startups & Markets"
 description: "SpaceX stock closes below debut price at $148 in two-day slide after Nasdaq-100 inclusion is a current technology story involving SpaceX, Nasdaq-100, CNBC SpaceX, Nasdaq. Cover the specific companies, products, execut..."
 cover: "/images/covers/spacex-stock-closes-below-debut-price-at-148-in-two-day-slide-after-nasdaq-100-inclusion.jpg"
 tags: ["spacex", "stock", "closes", "below", "debut", "price", "two", "day"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/5DDaN7_r354"
 tiktokUrl: ""
 audioUrl: "/audio/spacex-stock-closes-below-debut-price-at-148-in-two-day-slide-after-nasdaq-100-inclusion.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

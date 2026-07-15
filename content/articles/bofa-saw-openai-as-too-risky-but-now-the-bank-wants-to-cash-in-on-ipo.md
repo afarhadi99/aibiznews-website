@@ -1,15 +1,15 @@
 ---
 title: "BofA Saw OpenAI as Too Risky, But Now The Bank Wants to Cash In on IPO"
 slug: "bofa-saw-openai-as-too-risky-but-now-the-bank-wants-to-cash-in-on-ipo"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "Startups & Markets"
 description: "BofA Saw OpenAI as Too Risky, But Now The Bank Wants to Cash In on IPO is a current technology story involving OpenAI, Apple, xAI, Too Risky. Cover the specific companies, products, executives, regulators, locations,..."
 cover: "/images/covers/bofa-saw-openai-as-too-risky-but-now-the-bank-wants-to-cash-in-on-ipo.jpg"
 tags: ["bofa", "saw", "openai", "too", "risky", "but", "now", "bank"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/4k_vI4d32AQ"
 tiktokUrl: ""
 audioUrl: "/audio/bofa-saw-openai-as-too-risky-but-now-the-bank-wants-to-cash-in-on-ipo.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

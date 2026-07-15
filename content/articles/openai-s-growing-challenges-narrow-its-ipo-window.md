@@ -1,15 +1,15 @@
 ---
 title: "OpenAI\u2019s Growing Challenges Narrow Its IPO Window"
 slug: "openai-s-growing-challenges-narrow-its-ipo-window"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "Startups & Markets"
 description: "OpenAI\u2019s Growing Challenges Narrow Its IPO Window is a current technology story involving OpenAI, Anthropic, OpenAI. Here, IPOs. Cover the specific companies, products, executives, regulators, locations, deal terms, t..."
 cover: "/images/covers/openai-s-growing-challenges-narrow-its-ipo-window.jpg"
 tags: ["openai", "growing", "challenges", "narrow", "its", "ipo", "window", "startups"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/sAY9znRcUV4"
 tiktokUrl: ""
 audioUrl: "/audio/openai-s-growing-challenges-narrow-its-ipo-window.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

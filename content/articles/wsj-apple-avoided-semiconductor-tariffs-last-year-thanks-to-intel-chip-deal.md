@@ -1,15 +1,15 @@
 ---
 title: "WSJ: Apple avoided semiconductor tariffs last year thanks to Intel chip deal"
 slug: "wsj-apple-avoided-semiconductor-tariffs-last-year-thanks-to-intel-chip-deal"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "Chips & Cloud"
 description: "WSJ: Apple avoided semiconductor tariffs last year thanks to Intel chip deal is a current technology story involving Intel, Apple, WSJ, Apple Dodged. Cover the specific companies, products, executives, regulators, loc..."
 cover: "/images/covers/wsj-apple-avoided-semiconductor-tariffs-last-year-thanks-to-intel-chip-deal.jpg"
 tags: ["wsj", "apple", "avoided", "semiconductor", "tariffs", "last", "year", "thanks"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/WuCij6s-rrw"
 tiktokUrl: ""
 audioUrl: "/audio/wsj-apple-avoided-semiconductor-tariffs-last-year-thanks-to-intel-chip-deal.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

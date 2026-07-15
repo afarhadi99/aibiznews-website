@@ -1,15 +1,15 @@
 ---
 title: "OpenAI's newest AI model is 54% more token efficient on agentic coding, Altman tells CNBC"
 slug: "openai-s-newest-ai-model-is-54-more-token-efficient-on-agentic-coding-altman-tells-cnbc"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "AI & Platforms"
 description: "OpenAI's newest AI model is 54% more token efficient on agentic coding, Altman tells CNBC is a current technology story involving OpenAI, Palo Alto Networks, Sam Altman, Altman. Cover the specific companies, products,..."
 cover: "/images/covers/openai-s-newest-ai-model-is-54-more-token-efficient-on-agentic-coding-altman-tells-cnbc.jpg"
 tags: ["openai", "newest", "model", "more", "token", "efficient", "agentic", "coding"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/TO472QUaxGc"
 tiktokUrl: ""
 audioUrl: "/audio/openai-s-newest-ai-model-is-54-more-token-efficient-on-agentic-coding-altman-tells-cnbc.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

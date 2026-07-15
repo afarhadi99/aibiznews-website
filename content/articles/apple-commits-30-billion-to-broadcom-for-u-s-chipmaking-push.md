@@ -1,15 +1,15 @@
 ---
 title: "Apple commits $30 billion to Broadcom for U.S. chipmaking push"
 slug: "apple-commits-30-billion-to-broadcom-for-u-s-chipmaking-push"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "Chips & Cloud"
 description: "Apple commits $30 billion to Broadcom for U.S. chipmaking push is a current technology story involving Apple, Broadcom, U.S, CNBC Apple. Cover the specific companies, products, executives, regulators, locations, deal..."
 cover: "/images/covers/apple-commits-30-billion-to-broadcom-for-u-s-chipmaking-push.jpg"
 tags: ["apple", "commits", "billion", "broadcom", "chipmaking", "push", "chips", "cloud"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/8Oc9XqKUWM0"
 tiktokUrl: ""
 audioUrl: "/audio/apple-commits-30-billion-to-broadcom-for-u-s-chipmaking-push.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 

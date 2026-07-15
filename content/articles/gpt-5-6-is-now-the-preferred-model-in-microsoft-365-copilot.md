@@ -1,15 +1,15 @@
 ---
 title: "GPT-5.6 is now the preferred model in Microsoft 365 Copilot"
 slug: "gpt-5-6-is-now-the-preferred-model-in-microsoft-365-copilot"
-date: "2026-07-14"
+date: "2026-07-15"
 category: "AI & Platforms"
 description: "GPT-5.6 is now the preferred model in Microsoft 365 Copilot is a current technology story involving OpenAI, Microsoft, GPT-5.6, Copilot GPT-5.6. Cover the specific companies, products, executives, regulators, location..."
 cover: "/images/covers/gpt-5-6-is-now-the-preferred-model-in-microsoft-365-copilot.jpg"
 tags: ["gpt", "now", "preferred", "model", "microsoft", "copilot", "platforms", "ainews"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/we8A6ljunz4"
 tiktokUrl: ""
 audioUrl: "/audio/gpt-5-6-is-now-the-preferred-model-in-microsoft-365-copilot.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
