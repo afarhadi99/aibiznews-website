@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "The Lead"
 cover: "/images/covers/google-epic-abandon-play-store-settlement-android-app-stores-july-22.jpg"
 tags: ["policy", "regulation", "google", "epic", "games", "play", "store", "android"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/HE_NkTjJko4"
 tiktokUrl: ""
 audioUrl: "/audio/google-epic-abandon-play-store-settlement-android-app-stores-july-22.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 14
 ---
 

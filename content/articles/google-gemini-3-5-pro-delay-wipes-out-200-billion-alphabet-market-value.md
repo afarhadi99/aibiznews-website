@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "Google's Gemini 3.5 Pro Delay Wipes Out ~$200 Billion in Alphabet Market Value"
 cover: "/images/covers/google-gemini-3-5-pro-delay-wipes-out-200-billion-alphabet-market-value.jpg"
 tags: ["platforms", "gemini", "pro", "google", "alphabet", "deepmind", "sergey", "brin"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/5b7ShF-PfSw"
 tiktokUrl: ""
 audioUrl: "/audio/google-gemini-3-5-pro-delay-wipes-out-200-billion-alphabet-market-value.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 7
 ---
 

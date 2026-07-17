@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "The Lead"
 cover: "/images/covers/hackers-hijack-github-release-pipeline-backdoor-npm-packages.jpg"
 tags: ["cybersecurity", "asyncapi", "npm", "supply", "chain", "attack", "github", "actions"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/iZdH5xlwrpQ"
 tiktokUrl: ""
 audioUrl: "/audio/hackers-hijack-github-release-pipeline-backdoor-npm-packages.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 10
 ---
 

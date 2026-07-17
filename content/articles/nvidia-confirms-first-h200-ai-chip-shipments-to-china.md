@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "Nvidia Confirms First H200 AI Chip Shipments to China Since Export Curbs"
 cover: "/images/covers/nvidia-confirms-first-h200-ai-chip-shipments-to-china.jpg"
 tags: ["chips", "cloud", "nvidia", "h200", "china", "export", "controls", "jeffrey"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/dKx6v6-c_HY"
 tiktokUrl: ""
 audioUrl: "/audio/nvidia-confirms-first-h200-ai-chip-shipments-to-china.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 9
 ---
 

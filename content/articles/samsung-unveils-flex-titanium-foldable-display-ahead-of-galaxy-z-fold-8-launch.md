@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "The Lead"
 cover: "/images/covers/samsung-unveils-flex-titanium-foldable-display-ahead-of-galaxy-z-fold-8-launch.jpg"
 tags: ["consumer", "tech", "samsung", "galaxy", "fold", "flex", "titanium", "foldable"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/7ZNQOqQNFeQ"
 tiktokUrl: ""
 audioUrl: "/audio/samsung-unveils-flex-titanium-foldable-display-ahead-of-galaxy-z-fold-8-launch.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 3
 ---
 

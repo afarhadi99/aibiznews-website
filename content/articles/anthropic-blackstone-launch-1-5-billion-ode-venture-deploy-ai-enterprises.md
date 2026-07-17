@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "The Lead"
 cover: "/images/covers/anthropic-blackstone-launch-1-5-billion-ode-venture-deploy-ai-enterprises.jpg"
 tags: ["platforms", "anthropic", "blackstone", "ode", "fractional", "hellman", "friedman", "goldman"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/g6G8LF7EcrE"
 tiktokUrl: ""
 audioUrl: "/audio/anthropic-blackstone-launch-1-5-billion-ode-venture-deploy-ai-enterprises.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 5
 ---
 

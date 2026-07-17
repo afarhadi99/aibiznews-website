@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "The Lead"
 cover: "/images/covers/26-meta-workers-sue-ai-layoffs-disabled-on-leave-employees.jpg"
 tags: ["platforms", "meta", "metamate", "layoffs", "algorithmic", "discrimination", "ada", "fmla"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/Yitm_hKIdfQ"
 tiktokUrl: ""
 audioUrl: "/audio/26-meta-workers-sue-ai-layoffs-disabled-on-leave-employees.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 15
 ---
 

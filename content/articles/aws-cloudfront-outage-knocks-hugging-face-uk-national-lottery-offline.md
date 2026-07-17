@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "AWS CloudFront Outage Knocks Hugging Face, UK National Lottery Offline for Hours"
 cover: "/images/covers/aws-cloudfront-outage-knocks-hugging-face-uk-national-lottery-offline.jpg"
 tags: ["chips", "cloud", "aws", "cloudfront", "hugging", "face", "national", "lottery"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/81BXvwvQzL8"
 tiktokUrl: ""
 audioUrl: "/audio/aws-cloudfront-outage-knocks-hugging-face-uk-national-lottery-offline.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 6
 ---
 

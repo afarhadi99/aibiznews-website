@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "The Lead"
 cover: "/images/covers/chai-discovery-triples-valuation-3-8b-400m-series-c.jpg"
 tags: ["startups", "markets", "chai", "discovery", "drug", "series", "index", "ventures"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/oQ2NkjAmb3Y"
 tiktokUrl: ""
 audioUrl: "/audio/chai-discovery-triples-valuation-3-8b-400m-series-c.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 9
 ---
 

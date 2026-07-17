@@ -6,10 +6,10 @@ category: "Science & Technology"
 description: "Toyota-Backed Walden Robotics Launches From Stealth As Instant $1.1 Billion Unicorn"
 cover: "/images/covers/toyota-backed-walden-robotics-launches-stealth-1-1-billion-unicorn.jpg"
 tags: ["robotics", "automation", "walden", "toyota", "humanoid", "robots", "large", "behavior"]
-youtubeUrl: ""
+youtubeUrl: "https://youtube.com/shorts/Ld4cgACz7y8"
 tiktokUrl: ""
 audioUrl: "/audio/toyota-backed-walden-robotics-launches-stealth-1-1-billion-unicorn.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 6
 ---
 
