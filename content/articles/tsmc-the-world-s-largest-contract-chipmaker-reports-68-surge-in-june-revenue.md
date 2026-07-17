@@ -1,21 +1,21 @@
 ---
 title: "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue"
 slug: "tsmc-the-world-s-largest-contract-chipmaker-reports-68-surge-in-june-revenue"
-date: "2026-07-16"
-category: "Chips & Cloud"
-description: "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue. The story centers on TSMC. CNBC first reported the details, with eciks.org among the outlets confirming them."
+date: "2026-07-17"
+category: "Science & Technology"
+description: "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue"
 cover: "/images/covers/tsmc-the-world-s-largest-contract-chipmaker-reports-68-surge-in-june-revenue.jpg"
 tags: ["tsmc", "world", "largest", "contract", "chipmaker", "reports", "surge", "june"]
-youtubeUrl: ""
+youtubeUrl: "https://www.youtube.com/shorts/BUrTSwNhK34"
 tiktokUrl: ""
 audioUrl: "/audio/tsmc-the-world-s-largest-contract-chipmaker-reports-68-surge-in-june-revenue.wav"
-videoStatus: "pending"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
 # TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue
 
-**Date:** July 16, 2026
+**Date:** July 17, 2026
 **Category:** Chips & Cloud
 
 ## The Lead

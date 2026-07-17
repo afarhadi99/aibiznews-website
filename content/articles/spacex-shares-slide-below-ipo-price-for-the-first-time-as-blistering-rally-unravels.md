@@ -1,34 +1,34 @@
 ---
 title: "SpaceX shares slide below IPO price for the first time as blistering rally unravels"
 slug: "spacex-shares-slide-below-ipo-price-for-the-first-time-as-blistering-rally-unravels"
-date: "2026-07-16"
-category: "Startups & Markets"
-description: "SpaceX shares slide below IPO price for the first time as blistering rally unravels. The story centers on SpaceX. Reuters first reported the details, with MSN among the outlets confirming them."
+date: "2026-07-17"
+category: "Science & Technology"
+description: "SpaceX shares slide below IPO price for the first time as blistering rally unravels"
 cover: "/images/covers/spacex-shares-slide-below-ipo-price-for-the-first-time-as-blistering-rally-unravels.jpg"
 tags: ["spacex", "shares", "slide", "below", "ipo", "price", "first", "time"]
-youtubeUrl: "https://youtube.com/shorts/5sjr_JIpIqU"
-tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663265716895747358"
+youtubeUrl: "https://www.youtube.com/shorts/bCgAQ8K1Vys"
+tiktokUrl: ""
 audioUrl: "/audio/spacex-shares-slide-below-ipo-price-for-the-first-time-as-blistering-rally-unravels.wav"
-videoStatus: "published"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
 # SpaceX shares slide below IPO price for the first time as blistering rally unravels
 
-**Date:** July 16, 2026
+**Date:** July 17, 2026
 **Category:** Startups & Markets
 
 ## The Lead
 
-SpaceX shares slide below IPO price for the first time as blistering rally unravels. The story centers on SpaceX. Reuters first reported the details, with MSN among the outlets confirming them.
+SpaceX shares slide below IPO price for the first time as blistering rally unravels. The story centers on SpaceX. Reuters first reported the details, with WDEZ among the outlets confirming them.
 
-The better read is through the specific actors involved: SpaceX, IPO, Reuters, MSN, WDEZ, Y100 WNCY. The important question is not whether this fits a broad technology trend. It is what changed for these companies, products, customers, investors, or regulators, and whether the change is material enough to alter roadmaps, budgets, distribution, or risk.
+The better read is through the specific actors involved: SpaceX, IPO, Reuters, WDEZ, Y100 WNCY, Yahoo Finance. The important question is not whether this fits a broad technology trend. It is what changed for these companies, products, customers, investors, or regulators, and whether the change is material enough to alter roadmaps, budgets, distribution, or risk.
 
 The reason this deserves more than a headline scan is that the consequences are not evenly distributed. A technology story becomes a business story when it changes who pays, who controls distribution, who owns the customer relationship, who absorbs regulatory risk, or who gets to set the next standard. That is the frame for this piece.
 
 ## The Nut Graf
 
-The immediate news is straightforward: SpaceX shares slide below IPO price for the first time as blistering rally unravels. The story centers on SpaceX. Reuters first reported the details, with MSN among the outlets confirming them. The harder question is what follows from it. For SpaceX, IPO, Reuters, MSN, the consequences may show up in pricing, procurement, product roadmaps, infrastructure demand, compliance exposure, or competitive positioning.
+The immediate news is straightforward: SpaceX shares slide below IPO price for the first time as blistering rally unravels. The story centers on SpaceX. Reuters first reported the details, with WDEZ among the outlets confirming them. The harder question is what follows from it. For SpaceX, IPO, Reuters, WDEZ, the consequences may show up in pricing, procurement, product roadmaps, infrastructure demand, compliance exposure, or competitive positioning.
 
 For readers trying to separate signal from noise, the useful test is whether this story changes incentives. If customers have a new reason to switch vendors, if a supplier can charge more, if a platform can lock in distribution, if regulators gain a clearer target, or if a competitor has to answer publicly, then the event has a longer half-life than a normal announcement cycle.
 
@@ -54,17 +54,17 @@ That is why the same headline can mean different things to different audiences. 
 
 ## The Evidence
 
-Current coverage from Reuters, MSN, WDEZ, Y100 WNCY points to a story that needs concrete verification, not generic hype. Track named partners, launch dates, customer availability, pricing, benchmarks, filings, executive statements, and competitor responses. If those details do not appear, the story is probably weaker than the headline suggests.
+Current coverage from Reuters, WDEZ, Y100 WNCY, Yahoo Finance points to a story that needs concrete verification, not generic hype. Track named partners, launch dates, customer availability, pricing, benchmarks, filings, executive statements, and competitor responses. If those details do not appear, the story is probably weaker than the headline suggests.
 
 The evidence has to be read in layers. If a primary source says one thing and a news outlet adds context, those are different types of proof. If multiple credible outlets disagree, the uncertainty matters. If a number matters, the denominator, time period, and business meaning matter too.
 
 Reuters framed one piece of the story around "SpaceX shares slide below IPO price for the first time as blistering rally unravels - Reuters." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
-MSN framed one piece of the story around "SpaceX falls below IPO price as post-listing rally fades - MSN." That matters because it gives the article a specific claim to test instead of a loose trend line.
-
 WDEZ framed one piece of the story around "SpaceX shares slide below IPO price for the first time as blistering rally unravels - WDEZ." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
 Y100 WNCY framed one piece of the story around "SpaceX shares slide below IPO price for the first time as blistering rally unravels - Y100 WNCY." That matters because it gives the article a specific claim to test instead of a loose trend line.
+
+Yahoo Finance framed one piece of the story around "SpaceX Shares Fall Below $135 IPO Price For The First Time - Yahoo Finance." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
 The source mix matters because technology markets are full of incentives. Companies promote the part of the story that helps them. Competitors emphasize risk. Investors look for signs of pricing power. Regulators look for concentration, consumer harm, safety problems, or systemic exposure. A useful article does not pretend those incentives are neutral; it uses them to decide what still needs proof.
 
@@ -103,6 +103,6 @@ For now, the story is worth tracking because it has the ingredients that matter 
 ## Sources
 
 - [SpaceX shares slide below IPO price for the first time as blistering rally unravels - Reuters](https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU09LQThnekZZWDRlZGhSeXBkNDJaR09ybVZHbFRwSE5GQmtPeGY1Qk5xNzRIRUc4SEt3ZktkbFNKVHN4bGlOWHd6MkRfcUFTT3dQdWFNTDFIM2VXR1k0UzgzWDJUX3JGLVNQNTNzSHF6cDhaazlZc3hUMmdUMXlGUXFBazRUS0Z2cXE2Zk9ZNEs1LWtRTFhDT1JvS1hmZ1BUcVRFTUJVc3diQkpYS1pxRlJCOWVWMG53?oc=5) - Reuters
-- [SpaceX falls below IPO price as post-listing rally fades - MSN](https://news.google.com/rss/articles/CBMi7wFBVV95cUxOVjNldm9DU1dsV1Bmc3h6NjFCTjZrU0hJUUxnMVlfekpXOFM5aW9LMER6NEZVaENpdTJtSmY1Z1JMUDg4RHpGbGlhdVdZaWhja3ZROGN1dkVydlZlZmdtYWRJSW1LaGZ2MjhkY1VPRlFFd3dFRlFzLXk0U3QyWWpBMl9LWWxRZ0ZrYzFHLVEwSTk2RENvb09JbkRtdlNGOHBtVk9JT2NHclVDbjk5WWhabVVHdHJabVdPam5kRDV0ZzVHTmFqaHIxNzdITk0zbTJhc2FOS1BvYjRPeVRJM2NCRE5mNXY1bllPNXRBcks4aw?oc=5) - MSN
 - [SpaceX shares slide below IPO price for the first time as blistering rally unravels - WDEZ](https://news.google.com/rss/articles/CBMimAFBVV95cUxNMzRzYURDZXRMcDdkZlIydWl2T1IxbmliYkhvb0NLNl85VzFwbjJPOWtlT18tYzVlVGdvWktrOGV6Z210MlpxTGZBV2tZUWxpd2VCcEpIeHk1VkI5RXZzWG9EMXoyNFdmRy1ZemI1d3VtRHhYVjFMOWpWaFlmd0l0RmhjMVhUZ0gtT0RxcVlpeG5KMFNiaDJ5bg?oc=5) - WDEZ
 - [SpaceX shares slide below IPO price for the first time as blistering rally unravels - Y100 WNCY](https://news.google.com/rss/articles/CBMimAFBVV95cUxPMHJWREc0Wkt0X3diSTh5czFjZzFvSzdjRFBLQ3BQd3g5LWpXanhrbGY4RFpHcGFURVVnVVo5ZWM1bFJOV2trV0Z6RC10WHc2V3JySXBySzJUUk90elFCcVdBNGNMNEx4anFuYUdvamhGbmxUbTJLVzN6c0N6RWJJMjdhTGZWQ1V4NGwwRmVKQUNPUHFXaHl4VQ?oc=5) - Y100 WNCY
+- [SpaceX Shares Fall Below $135 IPO Price For The First Time - Yahoo Finance](https://news.google.com/rss/articles/CBMimAFBVV95cUxPeE9HNVhzekMxQ3hwNWIyZ1pUd1ptRWpoaXFsTXdUR0c2dGFLTk9fM3F2eWx2eEhocTY2cUhpWW4wYTFqSnRRVnY0VWtGcGtBYjNkM19yZHhCempRckRBMEJuTmZHRlpCTVlZaE02VVpkYkcyWVduMkJjVXdoVzU5dG1KbFJIVEx6ejM1QlFOV0h6dTdfYlhsSg?oc=5) - Yahoo Finance

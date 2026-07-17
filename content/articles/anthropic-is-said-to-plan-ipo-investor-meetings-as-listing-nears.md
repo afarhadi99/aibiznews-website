@@ -1,21 +1,21 @@
 ---
 title: "Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears"
 slug: "anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears"
-date: "2026-07-16"
-category: "Startups & Markets"
-description: "Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears. The story centers on Anthropic. Bloomberg.com first reported the details, with Daily Breeze among the outlets confirming them."
+date: "2026-07-17"
+category: "Science & Technology"
+description: "Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears"
 cover: "/images/covers/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears.jpg"
 tags: ["anthropic", "said", "plan", "ipo", "investor", "meetings", "listing", "nears"]
-youtubeUrl: "https://youtube.com/shorts/4Bqv3Jbtx40"
-tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663264387901263135"
+youtubeUrl: "https://www.youtube.com/shorts/CwM92cX7pXQ"
+tiktokUrl: ""
 audioUrl: "/audio/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears.wav"
-videoStatus: "published"
+videoStatus: "scheduled"
 sourceCount: 4
 ---
 
 # Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears
 
-**Date:** July 16, 2026
+**Date:** July 17, 2026
 **Category:** Startups & Markets
 
 ## The Lead
@@ -64,7 +64,7 @@ Daily Breeze framed one piece of the story around "Anthropic is said to plan IPO
 
 NDTV Profit framed one piece of the story around "Anthropic Plans IPO Investor Meetings As Mega-Listing Nears - NDTV Profit." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
-Orange County Register framed one piece of the story around "An empty middle seat is the latest perk United Airlines will offer on some flights - Orange County Register." That matters because it gives the article a specific claim to test instead of a loose trend line.
+Orange County Register framed one piece of the story around "Economists say ‘we must act now’ on AI’s economic impact - Orange County Register." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
 The source mix matters because technology markets are full of incentives. Companies promote the part of the story that helps them. Competitors emphasize risk. Investors look for signs of pricing power. Regulators look for concentration, consumer harm, safety problems, or systemic exposure. A useful article does not pretend those incentives are neutral; it uses them to decide what still needs proof.
 
@@ -105,4 +105,4 @@ For now, the story is worth tracking because it has the ingredients that matter 
 - [Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears - Bloomberg.com](https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmoxVDhqZ1NBaXFHcUJtX3plQ0t6dDl4dGk2SXZjVk42RVJGR1BVbWJCei0zMWtVUzI3WTRxSGJYRk1jSTAyY0hRSjJBSGJIcG1BMlZkbmRVcFl5UVNFYXB6RW1vZlNJOV96YkhTVXl6SWlVZUhUVzBUVXFsQ1dwQmFzUGRqcWl3T0hoblpDR2ZiWmpHWkV3Z1RVVWQyWl9yQ280UDNaYm1rTzhGUDhBQ3Q1dHNDdw?oc=5) - Bloomberg.com
 - [Anthropic is said to plan IPO investor meetings as listing nears - Daily Breeze](https://news.google.com/rss/articles/CBMipwFBVV95cUxObVVtajBIeVZ5N19EVXI2cUlsaDBRblJMVWU3aUozdnFNQUhQdXRTckUwYkRoRVNhOVRjcWFkSGp6cVYxeThiT1F2RXl2SnhkYUlPQUEtcWJ5R1gxX2Z0aEJ4dEstdy1ycGVONENyQjVSeVEyV2tObm44OWdCcmlrRU93alRhUGt0bGhkdHdteEdBRVdiczN4OHhtamFIZEtuRDVDcGlvbw?oc=5) - Daily Breeze
 - [Anthropic Plans IPO Investor Meetings As Mega-Listing Nears - NDTV Profit](https://news.google.com/rss/articles/CBMipgFBVV95cUxNbV9jVk1FTUpJWnZuZklaeWRJaDk5UG11V0FxSXhuZVVSTUNJMWxaMUR5X1VLR0ZoN3hUd0hNUC1lZEZFaEdNaWRfOGF3OEtmSldqRm9maDVWN1d4aWRmMFFqVERsMEtDVnpPd2tVcGtueFNXc3RCX2FuVUJtdjBlcjhvWldlMllBVVNBQXlqLVc5Vi1saU85VlcyX29qU1RyeHdrVUF30gGuAUFVX3lxTE11NHN3TE5WZjRyRlIwOXpTSnRfYS1rbXAzbFJhT05seTZadzducTZiTkFwUGdVclY0eDRYc2pWN3U2eHZvOHl0a3V3aVJkaVRNWFYzcXhiQ2k4eUtmVVBvcWtiU2RVSTd4U043MEVVOW9pSHlmOUN3RU0xLUR5b0xhamZSb0t4RG16TDFER0o1S3FZUkxnY0NmZTV0N2lBRXFscTlGZ3dEbnJtaUg0Zw?oc=5) - NDTV Profit
-- [An empty middle seat is the latest perk United Airlines will offer on some flights - Orange County Register](https://news.google.com/rss/articles/CBMidEFVX3lxTE5RUU5FUXRPSHEwdUplNlB2c0kzVi1BaFgtYUs1WG03UF9ZQzhTdnRodmpzSzE5UWo0VGZmeEJkOFMzazdVMkVLbmFvcDVPa1VXbktucERqWXI1QjJCV3pRb1Awd3RwMHRSQktZQ2dNa3JaRTZF?oc=5) - Orange County Register
+- [Economists say ‘we must act now’ on AI’s economic impact - Orange County Register](https://news.google.com/rss/articles/CBMiywFBVV95cUxNYWhxbGdNMWd5bkRIOGgtbXYtLVpaLU83VkZGMzV2UXp4NlBiSVk4bF8yZDIxZEdDZW42V0dpTGVqUi12WUE2Tkp6OWxDLTg1dmpHNzdZNUEwaHJSWkgtTWxDRnc5WW9yakdjSlJLdW5sUEVWaEdBT2F6U01IdmNod0tYOEtDTGtoaHdIdmpRSDM1ZVZRYmZtZWN1cnJkYzJsSEFFVHhrUjdkaXVieFdVN2pnY3VrSFd6OC1MZldEbXN1X1BwRVJ6dmVjMA?oc=5) - Orange County Register
