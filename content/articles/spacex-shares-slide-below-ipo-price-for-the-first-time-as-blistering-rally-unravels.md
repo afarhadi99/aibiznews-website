@@ -6,10 +6,10 @@ category: "Startups & Markets"
 description: "SpaceX shares slide below IPO price for the first time as blistering rally unravels is a current technology story involving SpaceX, IPO, Reuters SpaceX, MSN SpaceX. Cover the specific companies, products, executives,..."
 cover: "/images/covers/spacex-shares-slide-below-ipo-price-for-the-first-time-as-blistering-rally-unravels.jpg"
 tags: ["spacex", "shares", "slide", "below", "ipo", "price", "first", "time"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/5sjr_JIpIqU"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663265716895747358"
 audioUrl: "/audio/spacex-shares-slide-below-ipo-price-for-the-first-time-as-blistering-rally-unravels.wav"
-videoStatus: "pending"
+videoStatus: "published"
 sourceCount: 4
 ---
 

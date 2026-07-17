@@ -6,10 +6,10 @@ category: "Startups & Markets"
 description: "Uber nears \u20ac12.5bn deal to acquire Delivery Hero, FT reports is a current technology story involving EU, Uber, Delivery Hero, FT. Cover the specific companies, products, executives, regulators, locations, deal terms,..."
 cover: "/images/covers/uber-nears-12-5bn-deal-to-acquire-delivery-hero-ft-reports.jpg"
 tags: ["uber", "nears", "deal", "acquire", "delivery", "hero", "reports", "startups"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/H7_tbkbTkHE"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663260435742756126"
 audioUrl: "/audio/uber-nears-12-5bn-deal-to-acquire-delivery-hero-ft-reports.wav"
-videoStatus: "pending"
+videoStatus: "published"
 sourceCount: 4
 ---
 

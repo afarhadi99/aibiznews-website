@@ -6,10 +6,10 @@ category: "Chips & Cloud"
 description: "TSMC to Invest a Further $100 Billion in U.S. After AI Fuels Surge in Earnings is a current technology story involving TSMC, Invest, Further, Billion. Cover the specific companies, products, executives, regulators, lo..."
 cover: "/images/covers/tsmc-to-invest-a-further-100-billion-in-u-s-after-ai-fuels-surge-in-earnings.jpg"
 tags: ["tsmc", "invest", "further", "billion", "fuels", "surge", "earnings", "chips"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/g0Tr-ArvW9I"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663259160561175838"
 audioUrl: "/audio/tsmc-to-invest-a-further-100-billion-in-u-s-after-ai-fuels-surge-in-earnings.wav"
-videoStatus: "pending"
+videoStatus: "published"
 sourceCount: 4
 ---
 

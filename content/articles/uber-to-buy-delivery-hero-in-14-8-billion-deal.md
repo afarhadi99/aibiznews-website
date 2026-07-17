@@ -6,10 +6,10 @@ category: "Startups & Markets"
 description: "Uber to Buy Delivery Hero in $14.8 Billion Deal is a current technology story involving Uber, Bloomberg.com Uber, Delivery Hero, Reuters Uber. Cover the specific companies, products, executives, regulators, locations,..."
 cover: "/images/covers/uber-to-buy-delivery-hero-in-14-8-billion-deal.jpg"
 tags: ["uber", "buy", "delivery", "hero", "billion", "deal", "startups", "markets"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/63Ef7sYmh9Q"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663266830219365663"
 audioUrl: "/audio/uber-to-buy-delivery-hero-in-14-8-billion-deal.wav"
-videoStatus: "pending"
+videoStatus: "published"
 sourceCount: 4
 ---
 

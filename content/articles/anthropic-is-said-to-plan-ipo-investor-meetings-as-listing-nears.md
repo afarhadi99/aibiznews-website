@@ -6,10 +6,10 @@ category: "Startups & Markets"
 description: "Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears is a current technology story involving Anthropic, Said, Listing Nears, Bloomberg.com Anthropic. Cover the specific companies, products, executives, reg..."
 cover: "/images/covers/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears.jpg"
 tags: ["anthropic", "said", "plan", "ipo", "investor", "meetings", "listing", "nears"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/4Bqv3Jbtx40"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663264387901263135"
 audioUrl: "/audio/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears.wav"
-videoStatus: "pending"
+videoStatus: "published"
 sourceCount: 4
 ---
 

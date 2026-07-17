@@ -6,10 +6,10 @@ category: "Startups & Markets"
 description: "Anthropic moves closer to mega-IPO as bankers line up investor meetings is a current technology story involving Anthropic, SpaceX, IPO, Toward. Cover the specific companies, products, executives, regulators, locations..."
 cover: "/images/covers/anthropic-moves-closer-to-mega-ipo-as-bankers-line-up-investor-meetings.jpg"
 tags: ["anthropic", "moves", "closer", "mega", "ipo", "bankers", "line", "investor"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/bEF8wE8-NBM"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663263113390738719"
 audioUrl: "/audio/anthropic-moves-closer-to-mega-ipo-as-bankers-line-up-investor-meetings.wav"
-videoStatus: "pending"
+videoStatus: "published"
 sourceCount: 4
 ---
 

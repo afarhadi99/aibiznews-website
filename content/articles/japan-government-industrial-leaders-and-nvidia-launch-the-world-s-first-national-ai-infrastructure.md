@@ -6,10 +6,10 @@ category: "Chips & Cloud"
 description: "Japan Government, Industrial Leaders and NVIDIA Launch the World\u2019s First National AI Infrastructure is a current technology story involving Nvidia, Japan Government, Industrial Leaders, NVIDIA Launch. Cover the specif..."
 cover: "/images/covers/japan-government-industrial-leaders-and-nvidia-launch-the-world-s-first-national-ai-infrastructure.jpg"
 tags: ["japan", "government", "industrial", "leaders", "nvidia", "launch", "world", "first"]
-youtubeUrl: ""
-tiktokUrl: ""
+youtubeUrl: "https://youtube.com/shorts/e503-ABxnnA"
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7663260254011952415"
 audioUrl: "/audio/japan-government-industrial-leaders-and-nvidia-launch-the-world-s-first-national-ai-infrastructure.wav"
-videoStatus: "pending"
+videoStatus: "published"
 sourceCount: 4
 ---
 
