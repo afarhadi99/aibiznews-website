@@ -7,7 +7,7 @@ description: "xAI can\u2019t deny Grok makes CSAM anymore. So it\u2019s suing us
 cover: "/images/covers/xai-can-t-deny-grok-makes-csam-anymore-so-it-s-suing-users.jpg"
 tags: ["xai", "can", "deny", "grok", "makes", "csam", "anymore", "suing"]
 youtubeUrl: "https://www.youtube.com/shorts/JNKr44__1qI"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664262297182932255"
 audioUrl: "/audio/xai-can-t-deny-grok-makes-csam-anymore-so-it-s-suing-users.wav"
 videoStatus: "scheduled"
 sourceCount: 4

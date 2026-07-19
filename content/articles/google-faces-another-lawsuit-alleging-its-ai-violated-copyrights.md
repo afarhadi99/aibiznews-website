@@ -7,7 +7,7 @@ description: "Google Faces Another Lawsuit Alleging Its AI Violated Copyrights"
 cover: "/images/covers/google-faces-another-lawsuit-alleging-its-ai-violated-copyrights.jpg"
 tags: ["google", "faces", "another", "lawsuit", "alleging", "its", "violated", "copyrights"]
 youtubeUrl: "https://www.youtube.com/shorts/R2XHV7zYu58"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664262274202324254"
 audioUrl: "/audio/google-faces-another-lawsuit-alleging-its-ai-violated-copyrights.wav"
 videoStatus: "scheduled"
 sourceCount: 4

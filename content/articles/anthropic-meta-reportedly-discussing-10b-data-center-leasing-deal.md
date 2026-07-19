@@ -7,7 +7,7 @@ description: "Anthropic, Meta reportedly discussing $10B data center leasing dea
 cover: "/images/covers/anthropic-meta-reportedly-discussing-10b-data-center-leasing-deal.jpg"
 tags: ["anthropic", "meta", "reportedly", "discussing", "data", "center", "leasing", "deal"]
 youtubeUrl: "https://www.youtube.com/shorts/rU6VM8cmjUo"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664252015689731358"
 audioUrl: "/audio/anthropic-meta-reportedly-discussing-10b-data-center-leasing-deal.wav"
 videoStatus: "published"
 sourceCount: 4

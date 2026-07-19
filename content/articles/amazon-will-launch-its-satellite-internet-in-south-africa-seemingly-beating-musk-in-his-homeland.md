@@ -7,7 +7,7 @@ description: "Amazon will launch its satellite internet in South Africa, seeming
 cover: "/images/covers/amazon-will-launch-its-satellite-internet-in-south-africa-seemingly-beating-musk-in-his-homeland.jpg"
 tags: ["amazon", "launch", "its", "satellite", "internet", "south", "africa", "seemingly"]
 youtubeUrl: "https://www.youtube.com/shorts/Y3MBoERHRjg"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664262078294707486"
 audioUrl: "/audio/amazon-will-launch-its-satellite-internet-in-south-africa-seemingly-beating-musk-in-his-homeland.wav"
 videoStatus: "scheduled"
 sourceCount: 4

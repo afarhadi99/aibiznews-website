@@ -7,7 +7,7 @@ description: "NotebookLM is now Gemini Notebook"
 cover: "/images/covers/notebooklm-is-now-gemini-notebook.jpg"
 tags: ["notebooklm", "now", "gemini", "notebook", "consumer", "tech", "technews", "technology"]
 youtubeUrl: "https://www.youtube.com/shorts/5hYo94G4kUQ"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664262442121235742"
 audioUrl: "/audio/notebooklm-is-now-gemini-notebook.wav"
 videoStatus: "scheduled"
 sourceCount: 4

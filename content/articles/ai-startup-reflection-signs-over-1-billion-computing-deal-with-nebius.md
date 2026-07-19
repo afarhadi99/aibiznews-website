@@ -7,7 +7,7 @@ description: "AI startup Reflection signs over $1 billion computing deal with Ne
 cover: "/images/covers/ai-startup-reflection-signs-over-1-billion-computing-deal-with-nebius.jpg"
 tags: ["startup", "reflection", "signs", "over", "billion", "computing", "deal", "nebius"]
 youtubeUrl: "https://www.youtube.com/shorts/qEyFmS1vpmI"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664262409644690718"
 audioUrl: "/audio/ai-startup-reflection-signs-over-1-billion-computing-deal-with-nebius.wav"
 videoStatus: "scheduled"
 sourceCount: 4

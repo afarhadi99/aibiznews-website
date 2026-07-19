@@ -7,7 +7,7 @@ description: "Uber Agrees to Buy Delivery Hero in $14.8 Billion Deal"
 cover: "/images/covers/uber-agrees-to-buy-delivery-hero-in-14-8-billion-deal.jpg"
 tags: ["uber", "agrees", "buy", "delivery", "hero", "billion", "deal", "startups"]
 youtubeUrl: "https://www.youtube.com/shorts/BdQj7hP4RyE"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664262357564083486"
 audioUrl: "/audio/uber-agrees-to-buy-delivery-hero-in-14-8-billion-deal.wav"
 videoStatus: "scheduled"
 sourceCount: 4

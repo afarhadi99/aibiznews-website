@@ -7,7 +7,7 @@ description: "Agility Robotics plants its flag in Tesla\u2019s backyard"
 cover: "/images/covers/agility-robotics-plants-its-flag-in-tesla-s-backyard.jpg"
 tags: ["agility", "robotics", "plants", "its", "flag", "tesla", "backyard", "automation"]
 youtubeUrl: "https://www.youtube.com/shorts/ijAtnlnDSJk"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664262502989057311"
 audioUrl: "/audio/agility-robotics-plants-its-flag-in-tesla-s-backyard.wav"
 videoStatus: "scheduled"
 sourceCount: 4

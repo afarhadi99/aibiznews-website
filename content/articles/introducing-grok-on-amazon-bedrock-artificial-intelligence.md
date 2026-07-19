@@ -7,7 +7,7 @@ description: "Introducing Grok on Amazon Bedrock | Artificial Intelligence"
 cover: "/images/covers/introducing-grok-on-amazon-bedrock-artificial-intelligence.jpg"
 tags: ["introducing", "grok", "amazon", "bedrock", "artificial", "intelligence", "platforms", "ainews"]
 youtubeUrl: "https://www.youtube.com/shorts/hd7hbRa1bgY"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664261961496022302"
 audioUrl: "/audio/introducing-grok-on-amazon-bedrock-artificial-intelligence.wav"
 videoStatus: "scheduled"
 sourceCount: 4

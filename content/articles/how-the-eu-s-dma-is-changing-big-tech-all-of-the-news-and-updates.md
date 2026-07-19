@@ -7,7 +7,7 @@ description: "How the EU\u2019s DMA is changing Big Tech: all of the news and up
 cover: "/images/covers/how-the-eu-s-dma-is-changing-big-tech-all-of-the-news-and-updates.jpg"
 tags: ["how", "dma", "changing", "big", "tech", "all", "news", "updates"]
 youtubeUrl: "https://www.youtube.com/shorts/mi0ZcnYiUS4"
-tiktokUrl: ""
+tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664262538284043550"
 audioUrl: "/audio/how-the-eu-s-dma-is-changing-big-tech-all-of-the-news-and-updates.wav"
 videoStatus: "scheduled"
 sourceCount: 4
