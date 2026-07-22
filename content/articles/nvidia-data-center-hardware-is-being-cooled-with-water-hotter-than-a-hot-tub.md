@@ -1,11 +1,11 @@
 ---
-title: "This fake Apple app can unlock your Mac\u2019s password vault"
-slug: "this-fake-apple-app-can-unlock-your-mac-s-password-vault"
-date: "2026-07-20"
-category: "Consumer Tech"
-description: "This fake Apple app can unlock your Mac\u2019s password vault **Date:** July 19, 2026 **Category:** Consumer Tech The Lead This fake Apple app can unlock your Mac\u2019s password vault. The story centers on Apple. 9to5Mac first..."
-cover: "/images/covers/this-fake-apple-app-can-unlock-your-mac-s-password-vault.jpg"
-tags: ["fake", "apple", "app", "can", "unlock", "your", "mac", "password"]
+title: "NVIDIA Data Center Hardware Is Being Cooled With Water 'Hotter Than A Hot Tub'"
+slug: "nvidia-data-center-hardware-is-being-cooled-with-water-hotter-than-a-hot-tub"
+date: "2026-07-21"
+category: "Chips & Cloud"
+description: "NVIDIA Data Center Hardware Is Being Cooled With Water 'Hotter Than A Hot Tub'. The story centers on Nvidia. Engadget first reported the details, with NVIDIA Blog among the outlets confirming them."
+cover: "/images/covers/nvidia-data-center-hardware-is-being-cooled-with-water-hotter-than-a-hot-tub.jpg"
+tags: ["nvidia", "data", "center", "hardware", "being", "cooled", "water", "hotter"]
 youtubeUrl: ""
 tiktokUrl: ""
 audioUrl: ""
@@ -13,22 +13,22 @@ videoStatus: "pending"
 sourceCount: 4
 ---
 
-# This fake Apple app can unlock your Mac’s password vault
+# NVIDIA Data Center Hardware Is Being Cooled With Water 'Hotter Than A Hot Tub'
 
-**Date:** July 19, 2026
-**Category:** Consumer Tech
+**Date:** July 21, 2026
+**Category:** Chips & Cloud
 
 ## The Lead
 
-This fake Apple app can unlock your Mac’s password vault. The story centers on Apple. 9to5Mac first reported the details, with Cult of Mac among the outlets confirming them.
+NVIDIA Data Center Hardware Is Being Cooled With Water 'Hotter Than A Hot Tub'. The story centers on Nvidia. Engadget first reported the details, with NVIDIA Blog among the outlets confirming them.
 
-The better read is through the specific actors involved: Apple, Mac, Work, ClickFix, CrashStealer, Cult. The important question is not whether this fits a broad technology trend. It is what changed for these companies, products, customers, investors, or regulators, and whether the change is material enough to alter roadmaps, budgets, distribution, or risk.
+The better read is through the specific actors involved: Nvidia, Water, Tub, Engadget, Hotter Than, Hot Tub. The important question is not whether this fits a broad technology trend. It is what changed for these companies, products, customers, investors, or regulators, and whether the change is material enough to alter roadmaps, budgets, distribution, or risk.
 
 The reason this deserves more than a headline scan is that the consequences are not evenly distributed. A technology story becomes a business story when it changes who pays, who controls distribution, who owns the customer relationship, who absorbs regulatory risk, or who gets to set the next standard. That is the frame for this piece.
 
 ## The Nut Graf
 
-The immediate news is straightforward: This fake Apple app can unlock your Mac’s password vault. The story centers on Apple. 9to5Mac first reported the details, with Cult of Mac among the outlets confirming them. The harder question is what follows from it. For Apple, Mac, Work, ClickFix, the consequences may show up in pricing, procurement, product roadmaps, infrastructure demand, compliance exposure, or competitive positioning.
+The immediate news is straightforward: NVIDIA Data Center Hardware Is Being Cooled With Water 'Hotter Than A Hot Tub'. The story centers on Nvidia. Engadget first reported the details, with NVIDIA Blog among the outlets confirming them. The harder question is what follows from it. For Nvidia, Water, Tub, Engadget, the consequences may show up in pricing, procurement, product roadmaps, infrastructure demand, compliance exposure, or competitive positioning.
 
 For readers trying to separate signal from noise, the useful test is whether this story changes incentives. If customers have a new reason to switch vendors, if a supplier can charge more, if a platform can lock in distribution, if regulators gain a clearer target, or if a competitor has to answer publicly, then the event has a longer half-life than a normal announcement cycle.
 
@@ -54,17 +54,17 @@ That is why the same headline can mean different things to different audiences. 
 
 ## The Evidence
 
-Current coverage from 9to5Mac, Cult of Mac, Malwarebytes, TechRepublic points to a story that needs concrete verification, not generic hype. Track named partners, launch dates, customer availability, pricing, benchmarks, filings, executive statements, and competitor responses. If those details do not appear, the story is probably weaker than the headline suggests.
+Current coverage from Engadget, NVIDIA Blog, Tom's Hardware, Fast Company points to a story that needs concrete verification, not generic hype. Track named partners, launch dates, customer availability, pricing, benchmarks, filings, executive statements, and competitor responses. If those details do not appear, the story is probably weaker than the headline suggests.
 
 The evidence has to be read in layers. If a primary source says one thing and a news outlet adds context, those are different types of proof. If multiple credible outlets disagree, the uncertainty matters. If a number matters, the denominator, time period, and business meaning matter too.
 
-9to5Mac framed one piece of the story around "Apple @ Work: New macOS ClickFix malware brings a new potential backdoor to your enterprise fleet - 9to5Mac." That matters because it gives the article a specific claim to test instead of a loose trend line.
+Engadget framed one piece of the story around "NVIDIA Data Center Hardware Is Being Cooled With Water 'Hotter Than A Hot Tub' - Engadget." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
-Cult of Mac framed one piece of the story around "CrashStealer malware masquerades as Apple’s crash report tool to raid your Mac - Cult of Mac." That matters because it gives the article a specific claim to test instead of a loose trend line.
+NVIDIA Blog framed one piece of the story around "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines - NVIDIA Blog." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
-Malwarebytes framed one piece of the story around "This fake Apple app can unlock your Mac’s password vault - Malwarebytes." That matters because it gives the article a specific claim to test instead of a loose trend line.
+Tom's Hardware framed one piece of the story around "Nvidia announces liquid cooling system that runs ‘hotter than a hot tub’ — promises to reduce electricity consumption and cut water use by up to 100%, but sustainability challenges remain - Tom's Hardware." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
-TechRepublic framed one piece of the story around "ClickLock Mac Malware Can Disable Apps for Three Days - TechRepublic." That matters because it gives the article a specific claim to test instead of a loose trend line.
+Fast Company framed one piece of the story around "Nvidia says it can cut data center water use. The AI boom has a bigger problem - Fast Company." That matters because it gives the article a specific claim to test instead of a loose trend line.
 
 The source mix matters because technology markets are full of incentives. Companies promote the part of the story that helps them. Competitors emphasize risk. Investors look for signs of pricing power. Regulators look for concentration, consumer harm, safety problems, or systemic exposure. A useful article does not pretend those incentives are neutral; it uses them to decide what still needs proof.
 
@@ -102,7 +102,7 @@ For now, the story is worth tracking because it has the ingredients that matter 
 
 ## Sources
 
-- [Apple @ Work: New macOS ClickFix malware brings a new potential backdoor to your enterprise fleet - 9to5Mac](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KQXI4ZjM4NkZMMDdQbGwzNkNGeFhmVFRmcDU1UGFWRjdsNEFSRW9fNVlWbDdENGlFSXZaM2xFb0gzYklFOFZRSmx6SVVBZzlHZmh0aHE0dFh1S2hTazVUUVhVSTBadw?oc=5) - 9to5Mac
-- [CrashStealer malware masquerades as Apple’s crash report tool to raid your Mac - Cult of Mac](https://news.google.com/rss/articles/CBMigwFBVV95cUxQTlFyN2NNS1oyWFNyV1lKZkVUcEkzbHVCajd2X3RTNUZKNGVLUmw1VjRQSEcxUGNNNzVRZk85QkczNTJpSktIdlF2RmF3bFZCLTFCQlJ5RFBadVljektDRWpOaUFRLUpvN2Q4LXE0Z1hKVEVwQ2N6dVZ4QktLcTVRZ3hDbw?oc=5) - Cult of Mac
-- [This fake Apple app can unlock your Mac’s password vault - Malwarebytes](https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjJEX2J6VDlFTld2TzdYcEJ3TTFYNU1IMXF0R1lNYlR0YVRRT0xHX1dxWFVTSjJqVXgxdlFjWUVCeWE1NzZCZFY2TWhTV0NyUThub2k3ekxHOUVmVnJKdkMyUUpsUXBGTFQ3dnJBV3FPNnBRdUVTazk4ejlZbEIwTzZHM3RaWFdnQnVTRjRjOHhWU2xfMzBQRnFDdnZvV2ZaM056dDFJR3F4NVdjNmxF?oc=5) - Malwarebytes
-- [ClickLock Mac Malware Can Disable Apps for Three Days - TechRepublic](https://news.google.com/rss/articles/CBMifkFVX3lxTE1KUDgwYkhoZm5RZld0bmVaME13emhaYng4UGNNclo4OEFtaUx1YjU0Qlh5a2plbVBSZ0dPQkFzckxsQ2VMT1RBZVo0TFJsNnhIOVZJLTRlRXBiaGIwSk9LeWh0QXhWeUxRendnUXhUNjRueXlLbmVTZjY0b3Q3UQ?oc=5) - TechRepublic
+- [NVIDIA Data Center Hardware Is Being Cooled With Water 'Hotter Than A Hot Tub' - Engadget](https://news.google.com/rss/articles/CBMijAFBVV95cUxOTW5XLThLUnR5NGI4OXUtcWJfYVNaamR5cGVsZDltM3QwMS1mY0ExeFE3V3h4b0N3X2tLU090OU56Ty0zNk4wX0VEUGVKc2pIVnVmVm5HOXY2Q2hmMTROUGR0LWJnRTMwMGVsWXhNbHZQTEZBZVI1MTRUNnBHRGZpUFg5MmZpNEMxb21vUQ?oc=5) - Engadget
+- [Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines - NVIDIA Blog](https://news.google.com/rss/articles/CBMiakFVX3lxTFBSN3d6OG5pZ2hJSkZ5cHhhWUxONkEyRzV0V3FwaGpNbERTSmpiU1ZkVzc4d0Vkc0Vic3J2Z3FMVkdza1M1aEE5TDJBb1NsekFGaWtVUjVEQ3VSSXFtbC1vRi1nVHdZb2pJN0E?oc=5) - NVIDIA Blog
+- [Nvidia announces liquid cooling system that runs ‘hotter than a hot tub’ — promises to reduce electricity consumption and cut water use by up to 100%, but sustainability challenges remain - Tom's Hardware](https://news.google.com/rss/articles/CBMi4wJBVV95cUxNSlVxNnNYcHlXR2NoNWR2MkY5S2VSMk5CWGFrQ2lKTmtTN1d6WFg2NXNrM0JiVF9wUW5uR0xrQmNrYy04R1I2VmJRSUR2eEJYc0xNZEpCd0ZVWTVlZ3hQT1JqTFI1eS1FcnNQVlNsQ0tabEJpQW5GdDdCZkhvYWV1R2pqbU1JVVpXTUFOWmVTaEtJQXNHdGU5MHlNRVNZUHVRcjVlZl9DS0ZjZDhWc0lIQzFHUWItQTVSTWxNYjdVblZmY1NpeG12eWNWQl9DWDdUMWVMYXFKQ3pLdnhKTnFaa0RsSDZhaThqOENDUlEzcGpjSkhxMENsWWQ2cHgwbHVVb3JXalVsajRMYy1RUnprRnpyc2VpbE5PUXBtaXVkTm1NREdjZ1NrZXZoR1RPR18zZW95UmxRR1lqc19SQzRrZE1hV0Y1WUxIRVZ6X2t3TEExUGt3V09hTWpubVVUMnlBMWlB?oc=5) - Tom's Hardware
+- [Nvidia says it can cut data center water use. The AI boom has a bigger problem - Fast Company](https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUdHTVZycWNmSTUwdHY5REMwVUJ4YmFDMXFxOTVEcE9TQlZfd083MUZDSXpEMkhaVzRNRzdfM0wyV2ZuTW4yWnhLUXdGVC1wMXBIT1BSYnpfNXJBbU9OYjAwYVpIZ1ZSMWxEYlBHT2hiZDc5N1JRaXdJWmNtTW1JOVRwUTZDTUlTRFBsWXNOczM1bTFGaHRNaUdDRXhvM0dtU1M3eW1pV1lvU1laeDhpUVZxT2M?oc=5) - Fast Company

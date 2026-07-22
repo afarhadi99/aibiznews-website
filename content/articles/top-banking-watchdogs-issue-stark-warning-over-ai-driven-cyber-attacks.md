@@ -1,15 +1,15 @@
 ---
 title: "Top banking watchdogs issue stark warning over AI-driven cyber attacks"
 slug: "top-banking-watchdogs-issue-stark-warning-over-ai-driven-cyber-attacks"
-date: "2026-07-19"
-category: "Science & Technology"
-description: "Top banking watchdogs issue stark warning over AI-driven cyber attacks"
+date: "2026-07-20"
+category: "Policy & Regulation"
+description: "Top banking watchdogs issue stark warning over AI-driven cyber attacks **Date:** July 19, 2026 **Category:** Policy & Regulation The Lead Top banking watchdogs issue stark warning over AI-driven cyber attacks. The sto..."
 cover: "/images/covers/top-banking-watchdogs-issue-stark-warning-over-ai-driven-cyber-attacks.jpg"
 tags: ["top", "banking", "watchdogs", "issue", "stark", "warning", "over", "driven"]
-youtubeUrl: "https://www.youtube.com/shorts/n7NTs7Y0rkI"
-tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664298967458499870"
-audioUrl: "/audio/top-banking-watchdogs-issue-stark-warning-over-ai-driven-cyber-attacks.wav"
-videoStatus: "scheduled"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: ""
+videoStatus: "pending"
 sourceCount: 4
 ---
 

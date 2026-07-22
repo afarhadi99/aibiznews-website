@@ -1,15 +1,15 @@
 ---
 title: "Hyundai plans full ownership of US robotics firm Boston Dynamics"
 slug: "hyundai-plans-full-ownership-of-us-robotics-firm-boston-dynamics"
-date: "2026-07-19"
-category: "Science & Technology"
-description: "Hyundai plans full ownership of US robotics firm Boston Dynamics"
+date: "2026-07-20"
+category: "Robotics & Automation"
+description: "Hyundai plans full ownership of US robotics firm Boston Dynamics **Date:** July 19, 2026 **Category:** Robotics & Automation The Lead Hyundai plans full ownership of US robotics firm Boston Dynamics. The story centers..."
 cover: "/images/covers/hyundai-plans-full-ownership-of-us-robotics-firm-boston-dynamics.jpg"
 tags: ["hyundai", "plans", "full", "ownership", "robotics", "firm", "boston", "dynamics"]
-youtubeUrl: "https://www.youtube.com/shorts/tpXTmZXHDME"
-tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664298672078818591"
-audioUrl: "/audio/hyundai-plans-full-ownership-of-us-robotics-firm-boston-dynamics.wav"
-videoStatus: "scheduled"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: ""
+videoStatus: "pending"
 sourceCount: 4
 ---
 

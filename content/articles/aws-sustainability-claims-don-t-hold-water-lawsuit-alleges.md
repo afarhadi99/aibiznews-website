@@ -1,15 +1,15 @@
 ---
 title: "AWS sustainability claims don't hold water, lawsuit alleges"
 slug: "aws-sustainability-claims-don-t-hold-water-lawsuit-alleges"
-date: "2026-07-19"
-category: "Science & Technology"
-description: "AWS sustainability claims don't hold water, lawsuit alleges"
+date: "2026-07-20"
+category: "AI & Platforms"
+description: "AWS sustainability claims don't hold water, lawsuit alleges **Date:** July 19, 2026 **Category:** AI & Platforms The Lead AWS sustainability claims don't hold water, lawsuit alleges. The story centers on AWS, Amazon...."
 cover: "/images/covers/aws-sustainability-claims-don-t-hold-water-lawsuit-alleges.jpg"
 tags: ["aws", "sustainability", "claims", "don", "hold", "water", "lawsuit", "alleges"]
-youtubeUrl: "https://www.youtube.com/shorts/03V3ZFyhm_A"
-tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664298720074239263"
-audioUrl: "/audio/aws-sustainability-claims-don-t-hold-water-lawsuit-alleges.wav"
-videoStatus: "scheduled"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: ""
+videoStatus: "pending"
 sourceCount: 3
 ---
 

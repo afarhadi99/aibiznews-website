@@ -1,15 +1,15 @@
 ---
 title: "Chinese AI has leveled up, and brought renewed focus on the open weight model shift"
 slug: "chinese-ai-has-leveled-up-and-brought-renewed-focus-on-the-open-weight-model-shift"
-date: "2026-07-19"
-category: "Science & Technology"
-description: "Chinese AI has leveled up, and brought renewed focus on the open weight model shift"
+date: "2026-07-20"
+category: "AI & Platforms"
+description: "Chinese AI has leveled up, and brought renewed focus on the open weight model shift **Date:** July 19, 2026 **Category:** AI & Platforms The Lead Chinese AI has leveled up, and brought renewed focus on the open weight..."
 cover: "/images/covers/chinese-ai-has-leveled-up-and-brought-renewed-focus-on-the-open-weight-model-shift.jpg"
 tags: ["chinese", "has", "leveled", "brought", "renewed", "focus", "open", "weight"]
-youtubeUrl: "https://www.youtube.com/shorts/D5H2FOKbI7A"
-tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664298842644286751"
-audioUrl: "/audio/chinese-ai-has-leveled-up-and-brought-renewed-focus-on-the-open-weight-model-shift.wav"
-videoStatus: "scheduled"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: ""
+videoStatus: "pending"
 sourceCount: 4
 ---
 

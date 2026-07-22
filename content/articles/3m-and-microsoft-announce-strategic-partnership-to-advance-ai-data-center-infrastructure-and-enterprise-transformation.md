@@ -1,15 +1,15 @@
 ---
 title: "3M and Microsoft announce strategic partnership to advance AI data center infrastructure and enterprise transformation"
 slug: "3m-and-microsoft-announce-strategic-partnership-to-advance-ai-data-center-infrastructure-and-enterprise-transformation"
-date: "2026-07-19"
-category: "Science & Technology"
-description: "3M and Microsoft announce strategic partnership to advance AI data center infrastructure and enterprise transformation"
+date: "2026-07-20"
+category: "AI & Platforms"
+description: "3M and Microsoft announce strategic partnership to advance AI data center infrastructure and enterprise transformation **Date:** July 19, 2026 **Category:** AI & Platforms The Lead 3M and Microsoft announce strategic..."
 cover: "/images/covers/3m-and-microsoft-announce-strategic-partnership-to-advance-ai-data-center-infrastructure-and-enterprise-transformation.jpg"
-tags: ["microsoft", "announce", "strategic", "partnership", "advance", "data", "center", "infrastructure"]
-youtubeUrl: "https://www.youtube.com/shorts/RyW1IbmCfCc"
-tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664298596199583007"
-audioUrl: "/audio/3m-and-microsoft-announce-strategic-partnership-to-advance-ai-data-center-infrastructure-and-enterprise-transformation.wav"
-videoStatus: "scheduled"
+tags: ["Shorts", "Microsoft", "3M", "Datacenters", "EnterpriseAI", "announce", "strategic", "partnership"]
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: ""
+videoStatus: "pending"
 sourceCount: 4
 ---
 

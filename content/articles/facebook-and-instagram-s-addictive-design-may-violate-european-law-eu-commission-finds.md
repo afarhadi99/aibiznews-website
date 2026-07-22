@@ -1,15 +1,15 @@
 ---
 title: "Facebook and Instagram\u2019s \u2018addictive design\u2019 may violate European law, EU Commission finds"
 slug: "facebook-and-instagram-s-addictive-design-may-violate-european-law-eu-commission-finds"
-date: "2026-07-19"
-category: "Science & Technology"
-description: "Facebook and Instagram\u2019s \u2018addictive design\u2019 may violate European law, EU Commission finds"
+date: "2026-07-20"
+category: "Policy & Regulation"
+description: "Facebook and Instagram\u2019s \u2018addictive design\u2019 may violate European law, EU Commission finds **Date:** July 19, 2026 **Category:** Policy & Regulation The Lead Facebook and Instagram\u2019s \u2018addictive design\u2019 may violate Euro..."
 cover: "/images/covers/facebook-and-instagram-s-addictive-design-may-violate-european-law-eu-commission-finds.jpg"
 tags: ["facebook", "instagram", "addictive", "design", "may", "violate", "european", "law"]
-youtubeUrl: "https://www.youtube.com/shorts/e5DBSe_ShiA"
-tiktokUrl: "https://www.tiktok.com/@aibiz.news/video/7664298768568749342"
-audioUrl: "/audio/facebook-and-instagram-s-addictive-design-may-violate-european-law-eu-commission-finds.wav"
-videoStatus: "scheduled"
+youtubeUrl: ""
+tiktokUrl: ""
+audioUrl: ""
+videoStatus: "pending"
 sourceCount: 4
 ---
 
